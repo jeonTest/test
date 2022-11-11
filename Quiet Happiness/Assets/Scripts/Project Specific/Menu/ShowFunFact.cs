@@ -13,10 +13,10 @@ public class ShowFunFact : MonoBehaviour
         GetComponentInParent<Menu>().OnActiveChanged += SetText;
     }
 
-    private void OnDestroy()
+    /*private void OnDestroy()
     {
         GetComponentInParent<Menu>().OnActiveChanged -= SetText;
-    }
+    }*/
 
     private void SetText(bool isActive)
     {
