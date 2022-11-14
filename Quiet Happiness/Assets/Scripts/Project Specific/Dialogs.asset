@@ -47,7 +47,27 @@ MonoBehaviour:
     outputPortIdentifier: 
   groups: []
   stackNodes: []
-  pinnedElements: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 150
+      height: 200
+    opened: 1
+    editorType:
+      serializedType: ConditionalProcessorView, Assembly-CSharp-Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   exposedParameters: []
   serializedParameterList: []
   stickyNotes: []
@@ -75,6 +95,7 @@ MonoBehaviour:
         Title: Marta
         Description: "Hey, du musst der neue Nachbar sein! Ich freue mich dich kennenzulernen
           mein Name ist Marta, ich wohne direkt gegen\xFCber."
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: 
         Options: []
@@ -97,6 +118,7 @@ MonoBehaviour:
         nodeLock: 0
         Title: Marta
         Description: "Hmmm\u2026 bei dir sieht es ja noch sehr leer aus\u2026"
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: 
         Options: []
@@ -120,6 +142,7 @@ MonoBehaviour:
         Title: Marta
         Description: "Da habe ich doch direkt das passende Einzugsgeschenk f\xFCr
           dich."
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: 
         Options: []
@@ -143,6 +166,7 @@ MonoBehaviour:
         Title: Marta
         Description: "Stell es doch einmal in deinen Raum und schaue ob es dir gef\xE4llt.
           Ich habe es dir in deinen Umzugskarton gelegt."
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: TutorialGiveItems
         Options: []
@@ -166,6 +190,7 @@ MonoBehaviour:
         Title: Marta
         Description: Super! Das sieht doch schon viel wohnlicher aus! - Besuche uns
           doch mal in der Nachbarschaft und spiele ein paar Spiele mit uns! Bis bald!
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: TutorialItemPlacedDialogg
         Options: []
@@ -190,6 +215,7 @@ MonoBehaviour:
         Description: "Hezrlichen Gl\xFCckwunsch! Du hast das Level sehr positiv absolviert!
           Als Dankesch\xF6n m\xF6chte ich dir noch ein M\xF6belst\xFCck geben, schau
           doch mal in dein Inventar."
+        SpriteToShow: {fileID: 0}
         SoundToPlay: 
         CompletionToSet: 
         Options: []

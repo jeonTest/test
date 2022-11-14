@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 31943c390487d18469fa2be83696b1eb
+guid: 9e8dd2a9fe948b341816d35e7e0983ce
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -11,7 +11,7 @@ TrueTypeFontImporter:
   fontNames:
   - GLYPHICONS Halflings
   fallbackFontReferences:
-  - {fileID: 12800000, guid: f025e46fb9ed95e49a99ebb9ee3ea23a, type: 3}
+  - {fileID: 12800000, guid: 8df092f558824db4bb8972f211037eab, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
