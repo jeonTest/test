@@ -7,6 +7,7 @@ public class ButtonScript : MonoBehaviour
 {
     public PlayerInput Input;
     public GameObject Door;
+    public GameObject Door02;
     public bool nearPlayer;
     public bool doorOpen;
 
@@ -31,11 +32,13 @@ public class ButtonScript : MonoBehaviour
             if (doorOpen == false)
             {
                 Door.SetActive(false);
+                Door02.SetActive(true);
                 doorOpen = true;
             }
             else if(doorOpen == true)
             {
                 Door.SetActive(true);
+                Door02.SetActive(false);
                 doorOpen = false;
             }
         }
