@@ -44,6 +44,15 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Light"",
+                    ""type"": ""Button"",
+                    ""id"": ""446bd3da-16aa-4b01-b5b7-8989864de25d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -112,6 +121,17 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
                     ""action"": ""ButtonPress"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""cd10a44d-23ef-43e9-958e-a1723e551d55"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Light"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -122,6 +142,7 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
         m_Character = asset.FindActionMap("Character", throwIfNotFound: true);
         m_Character_Movement = m_Character.FindAction("Movement", throwIfNotFound: true);
         m_Character_ButtonPress = m_Character.FindAction("ButtonPress", throwIfNotFound: true);
+        m_Character_Light = m_Character.FindAction("Light", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -183,12 +204,14 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
     private ICharacterActions m_CharacterActionsCallbackInterface;
     private readonly InputAction m_Character_Movement;
     private readonly InputAction m_Character_ButtonPress;
+    private readonly InputAction m_Character_Light;
     public struct CharacterActions
     {
         private @PlayerLabyrinth m_Wrapper;
         public CharacterActions(@PlayerLabyrinth wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Character_Movement;
         public InputAction @ButtonPress => m_Wrapper.m_Character_ButtonPress;
+        public InputAction @Light => m_Wrapper.m_Character_Light;
         public InputActionMap Get() { return m_Wrapper.m_Character; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -204,6 +227,9 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
                 @ButtonPress.started -= m_Wrapper.m_CharacterActionsCallbackInterface.OnButtonPress;
                 @ButtonPress.performed -= m_Wrapper.m_CharacterActionsCallbackInterface.OnButtonPress;
                 @ButtonPress.canceled -= m_Wrapper.m_CharacterActionsCallbackInterface.OnButtonPress;
+                @Light.started -= m_Wrapper.m_CharacterActionsCallbackInterface.OnLight;
+                @Light.performed -= m_Wrapper.m_CharacterActionsCallbackInterface.OnLight;
+                @Light.canceled -= m_Wrapper.m_CharacterActionsCallbackInterface.OnLight;
             }
             m_Wrapper.m_CharacterActionsCallbackInterface = instance;
             if (instance != null)
@@ -214,6 +240,9 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
                 @ButtonPress.started += instance.OnButtonPress;
                 @ButtonPress.performed += instance.OnButtonPress;
                 @ButtonPress.canceled += instance.OnButtonPress;
+                @Light.started += instance.OnLight;
+                @Light.performed += instance.OnLight;
+                @Light.canceled += instance.OnLight;
             }
         }
     }
@@ -222,5 +251,6 @@ public partial class @PlayerLabyrinth : IInputActionCollection2, IDisposable
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnButtonPress(InputAction.CallbackContext context);
+        void OnLight(InputAction.CallbackContext context);
     }
 }

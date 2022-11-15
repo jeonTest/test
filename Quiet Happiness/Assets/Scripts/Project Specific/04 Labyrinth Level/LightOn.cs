@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ButtonScript : MonoBehaviour
+public class LightOn : MonoBehaviour
 {
     public PlayerInput Input;
-    public GameObject Door;
     public bool nearPlayer;
-    public bool doorOpen;
-
+    public Light torch;
+    public bool lightOn;
+    public float lightIntensity = 0.5f;
 
     public void Awake()
     {
@@ -19,28 +19,28 @@ public class ButtonScript : MonoBehaviour
     void Start()
     {
         nearPlayer = false;
-        doorOpen = false;
-    }
+        lightOn = false;
+}
 
-    private void OnButtonPress()
+    private void OnLight()
     {
         if (nearPlayer == true)
         {
-            Debug.Log("Button pressed!");
-
-            if (doorOpen == false)
+            if (lightOn == false)
             {
-                Door.SetActive(false);
-                doorOpen = true;
+                Debug.Log("Light On!");
+                torch.intensity = lightIntensity;
+                lightOn = true;
             }
-            else if(doorOpen == true)
+            else if(lightOn == true)
             {
-                Door.SetActive(true);
-                doorOpen = false;
+                Debug.Log("Light Off!");
+                torch.intensity = 0f;
+                lightOn = false;
             }
         }
 
-        if(nearPlayer == false)
+        if (nearPlayer == false)
         {
             Debug.Log("Too far away!");
         }
@@ -48,7 +48,7 @@ public class ButtonScript : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             nearPlayer = true;
         }
@@ -56,7 +56,7 @@ public class ButtonScript : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             nearPlayer = false;
         }

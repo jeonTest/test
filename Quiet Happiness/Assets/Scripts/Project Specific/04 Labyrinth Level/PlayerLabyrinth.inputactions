@@ -1,5 +1,5 @@
 {
-    "name": "PlayerMovement3D",
+    "name": "PlayerLabyrinth",
     "maps": [
         {
             "name": "Character",
@@ -18,6 +18,15 @@
                     "name": "ButtonPress",
                     "type": "Button",
                     "id": "3e79cfd3-7c9e-4124-8c54-8201e79d7600",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Light",
+                    "type": "Button",
+                    "id": "446bd3da-16aa-4b01-b5b7-8989864de25d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -88,6 +97,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ButtonPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd10a44d-23ef-43e9-958e-a1723e551d55",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Light",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
