@@ -14,5 +14,8 @@ public partial class PlayerStateManager
     public float PlayerRotateSpeed;
 
     private Vector3 _gravityVector;
+
+    public bool rotation3D = false;
+    public bool rotation2D = false;
     
 }

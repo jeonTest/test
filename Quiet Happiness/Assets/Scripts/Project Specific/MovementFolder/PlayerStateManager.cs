@@ -21,7 +21,10 @@ public partial class PlayerStateManager : MonoBehaviour
     void Update()
     {
         Move();
-        Rotate();
+        if (rotation3D == true)
+        {
+            Rotate3D();
+        }
         ApplyGravity();
     }
 
@@ -37,16 +40,8 @@ public partial class PlayerStateManager : MonoBehaviour
         Controller.Move(PlayerSpeed * MoveVector * Time.deltaTime);
     }
 
-    public void RotateTowardsVector()
-    {
-        var xzDirection = new Vector3(MoveVector.x, 0, MoveVector.z);
-        if (xzDirection.magnitude == 0) return;
 
-        var rotation = Quaternion.LookRotation(xzDirection);
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, PlayerRotateSpeed);
-    }
-
-    public void Rotate()
+    public void Rotate3D()
     {
         var xzDirection = new Vector3(MoveVector.x, 0, MoveVector.z);
         if (xzDirection.magnitude != 0)
@@ -54,6 +49,11 @@ public partial class PlayerStateManager : MonoBehaviour
             Quaternion rotation = Quaternion.LookRotation(xzDirection);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, PlayerRotateSpeed * Time.deltaTime);
         }
+    }
+
+    public void Rotate2D()
+    {
+
     }
 
     #endregion
