@@ -14,7 +14,11 @@ public partial class PlayerStateManager : MonoBehaviour
 
     void Start()
     {
-        
+        if(rotation3D == true && rotation2D == true)
+        {
+            rotation2D = false;
+            Debug.Log("Nur eine Rotation auswählen!");
+        }
     }
 
     
@@ -24,6 +28,10 @@ public partial class PlayerStateManager : MonoBehaviour
         if (rotation3D == true)
         {
             Rotate3D();
+        }
+        else if (rotation2D == true)
+        {
+            Rotate2D();
         }
         ApplyGravity();
     }
@@ -53,7 +61,20 @@ public partial class PlayerStateManager : MonoBehaviour
 
     public void Rotate2D()
     {
+        if (MoveVector.x < 0 && facingRight)
+        {
+            Flip();
+        }
+        if (MoveVector.x > 0 && !facingRight)
+        {
+            Flip();
+        }
+    }
 
+    void Flip()
+    {
+        facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 
     #endregion

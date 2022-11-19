@@ -17,5 +17,7 @@ public partial class PlayerStateManager
 
     public bool rotation3D = false;
     public bool rotation2D = false;
+
+    public bool facingRight = true;
     
 }
