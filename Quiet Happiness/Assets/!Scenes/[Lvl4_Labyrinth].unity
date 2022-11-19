@@ -1695,9 +1695,10 @@ MonoBehaviour:
   MoveVector: {x: 0, y: 0, z: 0}
   InputVector: {x: 0, y: 0}
   PlayerSpeed: 8
-  PlayerRotateSpeed: 250
+  PlayerRotateSpeed: 3
   rotation3D: 1
   rotation2D: 0
+  facingRight: 1
 --- !u!1 &803734268
 GameObject:
   m_ObjectHideFlags: 3
