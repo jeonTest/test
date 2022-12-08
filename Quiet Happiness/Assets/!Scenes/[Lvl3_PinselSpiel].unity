@@ -150,10 +150,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52602161}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &52602163
@@ -1750,7 +1750,6 @@ MonoBehaviour:
   - "wei\xDFt du er liebt angeln aber kein Fisch bei\xDFt an."
   - "Denkst du, du k\xF6nntest nachsehen, was das Problem ist?"
   dialogueNumber: 0
-  boxHeight: 2
   playerNear: 0
 --- !u!1 &946281992
 GameObject:
