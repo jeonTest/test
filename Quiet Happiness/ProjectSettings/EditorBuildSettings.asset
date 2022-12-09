@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/!Scenes/[Lvl2_Atemuebung].unity
     guid: 63a230e75ec7da04cb1fa43845088c1a
+  - enabled: 1
+    path: Assets/!Scenes/[Lvl3_PinselSpiel].unity
+    guid: 1e38ae208d5de7e46af880937ca7a23c
+  - enabled: 1
+    path: Assets/!Scenes/[Lvl4_Labyrinth].unity
+    guid: 3ef653451b0f2a24cb7f2284d820d2e7
   m_configObjects: {}
