@@ -1,12 +1,36 @@
 fileFormatVersion: 2
-guid: 011c4b1deaa12c04c9d2c0531c1c5fad
+guid: 6ceea74281f9180479bbcef25e623596
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -5838760108836953976
-    second: Tree.002|TreeAction
-  externalObjects: {}
+      74: -8117921540029045694
+    second: Root 1.002|Root 1Action.001
+  - first:
+      74: -1274935738795697091
+    second: Root 1.002|Root 1Action.002
+  - first:
+      74: -1442311688127082075
+    second: Root 1.002|Root 1Action.003
+  - first:
+      74: 2212208321661504374
+    second: Root 1.002|TreeAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Breech
+    second: {fileID: 2100000, guid: e0ef9bbfacc9ae44f90e82d6cb48e0b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 992338a76879dcd4fa1a2f46aba55d92, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
