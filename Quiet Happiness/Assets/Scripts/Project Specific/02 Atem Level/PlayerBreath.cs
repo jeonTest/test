@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Unity.UI;
+//using Unity.UI;
 
 public class PlayerBreath : MonoBehaviour
 {
-    public PlayerInput _input;
+    /*public PlayerInput _input;
     public string _EinatmenActionName;
     public string _AnhaltenActionName;
     public string _AusatmenActionName;
@@ -29,7 +29,7 @@ public class PlayerBreath : MonoBehaviour
     public void Update()
     {
 
-    }
+    }*/
 
 
 }
