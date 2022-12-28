@@ -2,63 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Colour { Red, Orange, Yellow, Green, LightBlue, DarkBlue, Purple };
-
-public class Brush
-{
-    public Colour Colour { get; set; }
-    public Colour activeBrush;
-
-    public Brush(Colour colour)
-    {
-        Colour = colour;
-    }
-
-}
 public class ActiveColor : MonoBehaviour
 {
-    public Brush activeBrush;
+    public string[] Brush = { "Red", "Orange", "Yellow", "Green", "LightBlue", "DarkBlue", "Purple" };
+    public string colourActive;
   
     public void Red()
     {
-        Brush activeBrush = new Brush(Colour.Red);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[0];
     }
 
     public void Orange()
     {
-        Brush activeBrush = new Brush(Colour.Orange);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[1];
     }
 
     public void Yellow()
     {
-        Brush activeBrush = new Brush(Colour.Yellow);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[2];
     }
 
     public void Green()
     {
-        Brush activeBrush = new Brush(Colour.Green);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[3];
     }
 
     public void LightBlue()
     {
-        Brush activeBrush = new Brush(Colour.LightBlue);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[4];
     }
 
     public void DarkBlue()
     {
-        Brush activeBrush = new Brush(Colour.DarkBlue);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[5];
     }
 
     public void Purple()
     {
-        Brush activeBrush = new Brush(Colour.Purple);
-        Debug.Log(activeBrush.Colour);
+        colourActive = Brush[6];
     }
 
 
