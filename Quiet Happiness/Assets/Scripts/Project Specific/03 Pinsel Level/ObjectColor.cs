@@ -6,6 +6,7 @@ public class ObjectColor : MonoBehaviour
 {
     ActiveColor activeColor;
     public string colors;
+    public bool rightColor;
 
     [SerializeField] [DropDown(nameof(_colorTypes))] private int _colorObject;
     private List<string> _colorTypes = new List<string>
@@ -36,10 +37,12 @@ public class ObjectColor : MonoBehaviour
         if(activeColor.colourActive == _colorTypes[_colorObject])
         {
             Debug.Log("Correct Color!");
+            rightColor = true;
         }
         else
         {
             Debug.Log("Wrong Color!");
+            rightColor = false;
         }
     }
 }

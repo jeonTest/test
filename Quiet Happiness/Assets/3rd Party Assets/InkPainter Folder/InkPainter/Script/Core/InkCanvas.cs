@@ -212,6 +212,7 @@ namespace Es.InkPainter
 		private int brushHeightTexturePropertyID;
 		private int brushHeightBlendPropertyID;
 		private int brushHeightColorPropertyID;
+		ObjectColor objectColor;
 
 		#endregion ShaderPropertyID
 
@@ -266,6 +267,7 @@ namespace Es.InkPainter
 			SetMaterial();
 			SetTexture();
 			MeshDataCache();
+			objectColor = gameObject.GetComponent<ObjectColor>();
 		}
 
 		private void Start()
@@ -780,8 +782,8 @@ namespace Es.InkPainter
 		/// <param name="hitInfo">Raycast hit info.</param>
 		/// <returns>The success or failure of the paint.</returns>
 		public bool Paint(Brush brush, RaycastHit hitInfo, Func<PaintSet, bool> materialSelector = null)
-		{
-			if(hitInfo.collider != null)
+		{			
+			if(hitInfo.collider != null && objectColor.rightColor == true)
 			{
 				if(hitInfo.collider is MeshCollider)
 					return PaintUVDirect(brush, hitInfo.textureCoord, materialSelector);
