@@ -255,7 +255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5dde60dd1f295b4c9163985a97dd16e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colors: []
+  colors: 
+  rightColor: 0
   _colorObject: 3
 --- !u!1 &8600356
 GameObject:
@@ -7843,6 +7844,7 @@ GameObject:
   - component: {fileID: 1488997906}
   - component: {fileID: 1488997905}
   - component: {fileID: 1488997904}
+  - component: {fileID: 1488997907}
   m_Layer: 0
   m_Name: Opa Pilz Concept
   m_TagString: Untagged
@@ -7987,6 +7989,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 6.619999, z: 15}
   m_Center: {x: 0, y: -0.00000166893, z: 0}
+--- !u!114 &1488997907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488997901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDescription: 
 --- !u!1 &1506383149
 GameObject:
   m_ObjectHideFlags: 0
