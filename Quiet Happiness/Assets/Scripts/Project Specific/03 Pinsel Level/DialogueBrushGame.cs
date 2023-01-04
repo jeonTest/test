@@ -10,10 +10,15 @@ public class DialogueBrushGame : MonoBehaviour
     public GameObject dialogueBox;
     public string npcName;
     public string[] dialogue;
+    public string[] afterQuestDialogue;
 
     public int dialogueNumber;
 
     public bool playerNear;
+
+    public float talkingDistance = 4;
+
+    Quest quest;
 
 
     public void Start()
@@ -26,16 +31,29 @@ public class DialogueBrushGame : MonoBehaviour
     public void Awake()
     {
         Input = GetComponent<PlayerInput>();
+        quest = GetComponent<Quest>();
     }
 
     public void Update()
     {
-        if (dialogueNumber >= dialogue.Length || playerNear == false)
+        distanceToPlayer();
+        if (quest.questDone == false)
         {
-            dialogueBox.SetActive(false);
-            dialogueNumber = 0;
+            if (dialogueNumber >= dialogue.Length || playerNear == false)
+            {
+                dialogueBox.SetActive(false);
+                dialogueNumber = 0;
+            }
         }
-        SetDialogue(dialogueNumber);
+        else if (quest.questDone == true)
+        {
+            if (dialogueNumber >= afterQuestDialogue.Length || playerNear == false)
+            {
+                dialogueBox.SetActive(false);
+                dialogueNumber = 0;
+            }
+        }
+            SetDialogue(dialogueNumber);
     }
 
     private void OnStartDialogue()
@@ -43,20 +61,24 @@ public class DialogueBrushGame : MonoBehaviour
         if (playerNear == true)
         {
             dialogueBox.SetActive(true);
-            Debug.Log("Dialogue!");
-
-        }
-        else
-        {
-            Debug.Log("No Friend near :(");
         }
     }
 
     private void OnSkipDialogue()
-    {        
-        if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
+    {
+        if (quest.questDone == false)
         {
-            dialogueNumber += 1;
+            if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
+            {
+                dialogueNumber += 1;
+            }
+        }
+        else if (quest.questDone == true)
+        {
+            if (dialogueBox.activeSelf == true && dialogueNumber < afterQuestDialogue.Length)
+            {
+                dialogueNumber += 1;
+            }
         }
     }
 
@@ -69,23 +91,28 @@ public class DialogueBrushGame : MonoBehaviour
     public void SetDialogue(int i)
     {
         GameObject diaText = dialogueBox.transform.GetChild(1).gameObject;
-        diaText.GetComponent<TextMeshPro>().text = dialogue[i];
+        if (quest.questDone == false)
+        {
+            diaText.GetComponent<TextMeshPro>().text = dialogue[i];
+        }
+        else if(quest.questDone == true)
+        {
+            diaText.GetComponent<TextMeshPro>().text = afterQuestDialogue[i];
+        }
     }
 
-    #region Boxcollider
-    public void OnTriggerEnter(Collider other)
+    public void distanceToPlayer()
     {
-        if(other.tag == "Player")
+        Transform playerObj = GameObject.FindWithTag("Player").transform;
+        float dist = Vector3.Distance(playerObj.position, transform.position);
+
+        if (dist <= talkingDistance)
         {
             playerNear = true;
         }
-    }
-    public void OnTriggerExit(Collider other)
-    {
-        if(other.tag == "Player")
+        else
         {
             playerNear = false;
         }
     }
-    #endregion
 }

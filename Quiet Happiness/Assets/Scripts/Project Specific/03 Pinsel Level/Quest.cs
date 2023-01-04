@@ -14,9 +14,11 @@ public class Quest : MonoBehaviour
     };
 
     public bool isActive;
+    public bool questDone;
     public string questDescription;
     public GameObject reward;
 
+    //reminder: editor script machen damit es übersichtlicher wird
     [Header("Colouring")]
     public string[] colours;
     public GameObject[] objectToColor;
@@ -26,26 +28,37 @@ public class Quest : MonoBehaviour
 
     [Header("Talking")]
     public GameObject personToTalk;
-   
+
+    DialogueBrushGame dialogueBrush;
+
+    void Awake()
+    {
+        dialogueBrush = GetComponent<DialogueBrushGame>();
+    }
 
     void Start()
     {
         isActive = false;
+        questDone = false;
     }
 
     void Update()
     {
-        if (_questType == 1)
+        StartQuest();
+        if (isActive == true)
         {
-            ColouringQuest();
-        }
-        else if (_questType == 2)
-        {
-            SearchingQuest();
-        }
-        else if (_questType == 3)
-        {
-            TalkingQuest();
+            if (_questType == 1)
+            {
+                ColouringQuest();
+            }
+            else if (_questType == 2)
+            {
+                SearchingQuest();
+            }
+            else if (_questType == 3)
+            {
+                TalkingQuest();
+            }
         }
     }
 
@@ -61,6 +74,14 @@ public class Quest : MonoBehaviour
 
     void TalkingQuest()
     {
+    
+    }
 
+    void StartQuest()
+    {
+        if(dialogueBrush.dialogueNumber == (dialogueBrush.dialogue.Length - 1) && questDone == false)
+        {
+            isActive = true;
+        }
     }
 }

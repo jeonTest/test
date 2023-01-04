@@ -2487,6 +2487,7 @@ GameObject:
   - component: {fileID: 435579793}
   - component: {fileID: 435579792}
   - component: {fileID: 435579791}
+  - component: {fileID: 435579794}
   m_Layer: 0
   m_Name: Sonnenblume Concept
   m_TagString: Untagged
@@ -2583,8 +2584,10 @@ MonoBehaviour:
   - 'und dann kamen diese garstigen Schnecken und futtern sie alle weg! '
   - "Du musst sie aufhalten, dann kann ich die neuen T\xF6pfe holen! "
   - Meine armen Tomaten!
+  afterQuestDialogue: []
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
 --- !u!114 &435579792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,6 +2631,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8, y: 4.01, z: 8}
   m_Center: {x: 0.000030517578, y: -0.0000009536743, z: 0.000030517578}
+--- !u!114 &435579794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435579788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDone: 0
+  questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1001 &484241234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4954,6 +4978,7 @@ GameObject:
   - component: {fileID: 914542256}
   - component: {fileID: 914542255}
   - component: {fileID: 914542254}
+  - component: {fileID: 914542257}
   m_Layer: 0
   m_Name: pumpkin
   m_TagString: Untagged
@@ -5055,8 +5080,10 @@ MonoBehaviour:
   - "Auf der Seite waren kleine Lavendelbl\xFCten darauf gemalt"
   - "und wenn man ihn ganz schnell dreht, tanzen sie so sch\xF6n wie die liebe Glockenblume."
   - Du hilfst mir beim Suchen? Du bist ein toller Freund.
+  afterQuestDialogue: []
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
 --- !u!114 &914542255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5100,6 +5127,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 4.8596444, z: 10}
   m_Center: {x: 0, y: 0.89542216, z: -0.000061031787}
+--- !u!114 &914542257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914542251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDone: 0
+  questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1001 &921713539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6088,6 +6136,7 @@ GameObject:
   - component: {fileID: 1143113522}
   - component: {fileID: 1143113521}
   - component: {fileID: 1143113520}
+  - component: {fileID: 1143113523}
   m_Layer: 0
   m_Name: Kristall Concept
   m_TagString: Untagged
@@ -6186,8 +6235,10 @@ MonoBehaviour:
   - Mir fehlen so viele Farben und wenn nicht alle da sind, kann ich nicht mehr in
     der Sonne glitzern.
   - "Aber ich denke\u2026 Ja. Du schaffst das."
+  afterQuestDialogue: []
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
 --- !u!114 &1143113521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6231,6 +6282,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6, y: 2.69, z: 6}
   m_Center: {x: 0, y: -0.00000035762787, z: 0}
+--- !u!114 &1143113523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143113517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDone: 0
+  questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1001 &1143666548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7843,8 +7915,8 @@ GameObject:
   - component: {fileID: 1488997902}
   - component: {fileID: 1488997906}
   - component: {fileID: 1488997905}
-  - component: {fileID: 1488997904}
   - component: {fileID: 1488997907}
+  - component: {fileID: 1488997904}
   m_Layer: 0
   m_Name: Opa Pilz Concept
   m_TagString: Untagged
@@ -7974,8 +8046,11 @@ MonoBehaviour:
   - "ich denke es ist weil er nicht Angeln gehen kann, wei\xDFt du er liebt angeln
     aber kein Fisch bei\xDFt an."
   - "Denkst du, du k\xF6nntest nachsehen, was das Problem ist? "
+  afterQuestDialogue:
+  - Danke!
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
 --- !u!65 &1488997906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8003,7 +8078,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _questType: 0
   isActive: 0
+  questDone: 0
   questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1 &1506383149
 GameObject:
   m_ObjectHideFlags: 0
@@ -9414,6 +9495,7 @@ GameObject:
   - component: {fileID: 1816082194}
   - component: {fileID: 1816082193}
   - component: {fileID: 1816082192}
+  - component: {fileID: 1816082195}
   m_Layer: 0
   m_Name: Glockenblume_Konzept version1
   m_TagString: Untagged
@@ -9554,8 +9636,31 @@ MonoBehaviour:
   - "Oh, ich bin so traurig. Du m\xF6chtest mir helfen?"
   - ' Wirklich!? Oh, ich danke dir! Aber wie wollen wir mein Kleid reparieren?'
   - Dein Zauberpinsel? Das ist aber eine tolle Idee, dann brauchen wir nur noch Farbe!
+  afterQuestDialogue: []
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
+--- !u!114 &1816082195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816082189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDone: 0
+  questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1 &1820627556
 GameObject:
   m_ObjectHideFlags: 0
@@ -9569,6 +9674,7 @@ GameObject:
   - component: {fileID: 1820627561}
   - component: {fileID: 1820627560}
   - component: {fileID: 1820627559}
+  - component: {fileID: 1820627562}
   m_Layer: 0
   m_Name: Emo Pilz Concept
   m_TagString: Untagged
@@ -9691,8 +9797,10 @@ MonoBehaviour:
   npcName: Emo Pilz
   dialogue:
   - ...
+  afterQuestDialogue: []
   dialogueNumber: 0
   playerNear: 0
+  talkingDistance: 4
 --- !u!65 &1820627561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9706,6 +9814,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 5.18, z: 15}
   m_Center: {x: 0, y: 0.00000023841858, z: -0.000061035156}
+--- !u!114 &1820627562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820627556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questType: 0
+  isActive: 0
+  questDone: 0
+  questDescription: 
+  reward: {fileID: 0}
+  colours: []
+  objectToColor: []
+  searchObject: {fileID: 0}
+  personToTalk: {fileID: 0}
 --- !u!1001 &1829296038
 PrefabInstance:
   m_ObjectHideFlags: 0
