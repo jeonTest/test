@@ -200,6 +200,7 @@ public class DialogueBrushGame : MonoBehaviour
                 dialogueNumber = dialogue.Length - 1;
                 diaText.GetComponent<TextMeshPro>().text = dialogue[i];
                 Waiting = false;
+                rightAnswer = true;
             }
         }
     }

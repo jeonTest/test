@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Quest : MonoBehaviour
 {
@@ -24,13 +25,18 @@ public class Quest : MonoBehaviour
     [Header("Colouring")]
     public string[] colours;
 
+    [Header("Searching")]
+    public bool objectFound = false;
+
     DialogueBrushGame dialogueBrush;
     DialogueBrushGame talkingAnswer;
+    Ray ray;
+    RaycastHit hit;
 
     void Awake()
     {
         dialogueBrush = GetComponent<DialogueBrushGame>();
-        if (_questType == 3)
+        if (_questTypes[_questType] == _questTypes[3])
         {
             talkingAnswer = questGameObj.GetComponent<DialogueBrushGame>();
         }
@@ -47,15 +53,15 @@ public class Quest : MonoBehaviour
         StartQuest();
         if (isActive == true)
         {
-            if (_questType == 1)
+            if (_questTypes[_questType] == _questTypes[1])
             {
                 ColouringQuest();
             }
-            else if (_questType == 2)
+            else if (_questTypes[_questType] == _questTypes[2])
             {
                 SearchingQuest();
             }
-            else if (_questType == 3)
+            else if (_questTypes[_questType] == _questTypes[3])
             {
                 TalkingQuest();
             }
@@ -69,7 +75,20 @@ public class Quest : MonoBehaviour
 
     void SearchingQuest()
     {
+        questGameObj.SetActive(true);
 
+        ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (Mouse.current.leftButton.isPressed)
+                if (hit.transform.name ==  questGameObj.name)
+                    objectFound = true;
+        }
+
+        if(objectFound == true)
+        {
+            questDone = true;
+        }
     }
 
     void TalkingQuest()

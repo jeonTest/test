@@ -3289,6 +3289,7 @@ MonoBehaviour:
   reward: {fileID: 0}
   questGameObj: {fileID: 1591320909}
   colours: []
+  objectFound: 0
 --- !u!1001 &484241234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5790,6 +5791,7 @@ MonoBehaviour:
   reward: {fileID: 0}
   questGameObj: {fileID: 1591320909}
   colours: []
+  objectFound: 0
 --- !u!1001 &921713539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6950,6 +6952,7 @@ MonoBehaviour:
   reward: {fileID: 0}
   questGameObj: {fileID: 1591320909}
   colours: []
+  objectFound: 0
 --- !u!1001 &1143666548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7294,6 +7297,7 @@ GameObject:
   - component: {fileID: 1213500136}
   - component: {fileID: 1213500139}
   - component: {fileID: 1213500138}
+  - component: {fileID: 1213500140}
   m_Layer: 0
   m_Name: QuestTest
   m_TagString: Untagged
@@ -7430,6 +7434,19 @@ MonoBehaviour:
   Waiting: 0
   nextTry: 0
   textMesh: 
+--- !u!65 &1213500140
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213500135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1220049503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2394622715775745572, guid: 69a8d5abd807bac4f8a3a330e5314f32, type: 3}
@@ -9028,13 +9045,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aec52c40b965564883c7a7b2641c03a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _questType: 0
+  _questType: 3
   isActive: 0
   questDone: 0
   questDescription: 
   reward: {fileID: 0}
   questGameObj: {fileID: 1213500135}
   colours: []
+  objectFound: 0
 --- !u!1 &1506383149
 GameObject:
   m_ObjectHideFlags: 0
@@ -10763,6 +10781,7 @@ MonoBehaviour:
   reward: {fileID: 0}
   questGameObj: {fileID: 1591320909}
   colours: []
+  objectFound: 0
 --- !u!1 &1820627556
 GameObject:
   m_ObjectHideFlags: 0
@@ -10942,6 +10961,7 @@ MonoBehaviour:
   reward: {fileID: 0}
   questGameObj: {fileID: 1591320909}
   colours: []
+  objectFound: 0
 --- !u!1001 &1829296038
 PrefabInstance:
   m_ObjectHideFlags: 0
