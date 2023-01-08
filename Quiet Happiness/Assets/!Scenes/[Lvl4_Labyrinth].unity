@@ -1984,6 +1984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Labyrinth2Position: {x: 0, y: 0, z: 10.02}
+  rotationVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1994467196
 MonoBehaviour:
   m_ObjectHideFlags: 0
