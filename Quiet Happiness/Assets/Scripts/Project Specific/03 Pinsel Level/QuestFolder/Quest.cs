@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Linq;
 
 public class Quest : MonoBehaviour
 {
@@ -23,15 +24,17 @@ public class Quest : MonoBehaviour
 
     //reminder: editor script machen damit es übersichtlicher wird
     [Header("Colouring")]
-    public string[] colours;
+    public GameObject[] coloredObj;
 
     [Header("Searching")]
     public bool objectFound = false;
 
     DialogueBrushGame dialogueBrush;
     DialogueBrushGame talkingAnswer;
+    IsColored[] isColored;
     Ray ray;
     RaycastHit hit;
+
 
     void Awake()
     {
@@ -46,6 +49,7 @@ public class Quest : MonoBehaviour
     {
         isActive = false;
         questDone = false;
+
     }
 
     void Update()
@@ -70,7 +74,18 @@ public class Quest : MonoBehaviour
 
     void ColouringQuest()
     {
+        isColored = new IsColored[coloredObj.Length];
 
+        for (int i = 0; i < coloredObj.Length; i++)
+        {
+            isColored[i] = coloredObj[i].GetComponent<IsColored>();
+            if (isColored[i].finished == false)
+                questDone = false;
+            else
+            {
+                questDone = true;
+            }
+        }
     }
 
     void SearchingQuest()
