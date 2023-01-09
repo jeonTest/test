@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1833032537374575720}
   - component: {fileID: 1833032537374575727}
   - component: {fileID: 7742230893912044440}
-  - component: {fileID: 2872383250884610088}
+  - component: {fileID: 5980869566710739448}
   m_Layer: 0
   m_Name: Baumstamm
   m_TagString: Untagged
@@ -120,7 +120,7 @@ MonoBehaviour:
     useMainPaint: 1
     useNormalPaint: 0
     useHeightPaint: 0
---- !u!114 &2872383250884610088
+--- !u!114 &5980869566710739448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colors: 
   rightColor: 0
-  _colorObject: 0
+  _colorObject: 7
 --- !u!1 &8878961116947363483
 GameObject:
   m_ObjectHideFlags: 0

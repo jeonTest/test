@@ -17,7 +17,8 @@ public class ObjectColor : MonoBehaviour
         "Green",
         "LightBlue",
         "DarkBlue",
-        "Purple"
+        "Purple",
+        "Brown"
     };
 
     void Awake()

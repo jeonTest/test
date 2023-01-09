@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActiveColor : MonoBehaviour
 {
-    public string[] Brush = { "Red", "Orange", "Yellow", "Green", "LightBlue", "DarkBlue", "Purple" };
+    public string[] Brush = { "Red", "Orange", "Yellow", "Green", "LightBlue", "DarkBlue", "Purple", "Brown" };
     public string colourActive;
   
     public void Red()
@@ -40,6 +40,11 @@ public class ActiveColor : MonoBehaviour
     public void Purple()
     {
         colourActive = Brush[6];
+    }
+
+    public void Brown()
+    {
+        colourActive = Brush[7];
     }
 
 
