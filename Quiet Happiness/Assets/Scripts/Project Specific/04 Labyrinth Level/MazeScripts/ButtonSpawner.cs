@@ -14,9 +14,8 @@ public class ButtonSpawner : MonoBehaviour
     public float maxZ;
 
 
-    void Start()
+    void Start()    
     {
-
         for(int i = 0; i < ObjectNumber; i++)
         {
             SpawnObjectRandom();

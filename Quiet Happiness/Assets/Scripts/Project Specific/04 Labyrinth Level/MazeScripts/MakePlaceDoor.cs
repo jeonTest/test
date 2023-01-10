@@ -4,12 +4,53 @@ using UnityEngine;
 
 public class MakePlaceDoor : MonoBehaviour
 {
-    void OnCollisionStay(Collision col)
+    public bool inRange;
+
+    /*
+    void Update()
     {
-        if(col.gameObject.tag=="Wall")
+        if(inRange == true)
         {
-            Destroy(col.gameObject);
-            Debug.Log("Wall destroyed");
+            gameObject.SetActive(false);
+            if (inRange == false)
+            {
+                gameObject.SetActive(true);
+            }
+        }
+    }*/
+
+    void Start()
+    {
+        StartCoroutine(WallGo());
+    }
+
+    IEnumerator WallGo()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        if (inRange == true)
+        {
+            gameObject.SetActive(false);
+            if (inRange == false)
+            {
+                gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void OnCollisionExit(Collision col)
+    {
+        if (col.gameObject.tag == "Door")
+        {
+            inRange = false;
+        }
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if(col.gameObject.tag=="Door")
+        {
+            inRange = true;
         }
     }
 }

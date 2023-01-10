@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6383014032229154549}
   - component: {fileID: -4474739330851287133}
   - component: {fileID: 8162423496204452754}
+  - component: {fileID: -1577212986714593365}
   m_Layer: 0
   m_Name: LS_RockWall_B
   m_TagString: Wall
@@ -114,3 +115,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1168941, y: 1.4927727, z: 0.37351298}
   m_Center: {x: 0.015293062, y: 0.7331682, z: 0.0039985627}
+--- !u!114 &-1577212986714593365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4870072357545680672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1347c55b9123bad4f9b8742597afcc91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

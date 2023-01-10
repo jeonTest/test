@@ -35,7 +35,6 @@ public class Quest : MonoBehaviour
     Ray ray;
     RaycastHit hit;
 
-
     void Awake()
     {
         dialogueBrush = GetComponent<DialogueBrushGame>();
