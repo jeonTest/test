@@ -15,6 +15,8 @@ public class DialogueBrushGame : MonoBehaviour
     public string[] dialogue;
     public string[] afterQuestDialogue;
 
+    [HideInInspector] public bool startQuest = false;
+
     private GameObject diaText;
 
     public int dialogueNumber;
@@ -133,6 +135,11 @@ public class DialogueBrushGame : MonoBehaviour
                     if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
                     {
                         dialogueNumber += 1;
+                    }
+
+                    if(startQuest == false && dialogueNumber == dialogue.Length - 1)
+                    {
+                        startQuest = true;
                     }
                 }
                 else if (quest.questDone == true)

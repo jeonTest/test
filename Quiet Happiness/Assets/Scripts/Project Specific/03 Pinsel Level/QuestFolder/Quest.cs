@@ -19,6 +19,7 @@ public class Quest : MonoBehaviour
     public bool questDone;
     public string questDescription;
     public GameObject reward;
+    public int i;
 
     public GameObject questGameObj;
 
@@ -46,9 +47,9 @@ public class Quest : MonoBehaviour
 
     void Start()
     {
-        isActive = false;
+        questGameObj.SetActive(false);
         questDone = false;
-
+        reward.SetActive(false);
     }
 
     void Update()
@@ -69,22 +70,39 @@ public class Quest : MonoBehaviour
                 TalkingQuest();
             }
         }
+
+        if(dialogueBrush.startQuest == true)
+        {
+            isActive = true;
+            questGameObj.SetActive(true);
+        }
+
+        if(questDone == true)
+        {
+            reward.SetActive(true);
+        }
     }
 
     void ColouringQuest()
     {
         isColored = new IsColored[coloredObj.Length];
+        int colorNum = coloredObj.Length;
 
-        for (int i = 0; i < coloredObj.Length; i++)
+        if (i < colorNum)
         {
             isColored[i] = coloredObj[i].GetComponent<IsColored>();
-            if (isColored[i].finished == false)
-                questDone = false;
-            else
+            if (isColored[i].finished == true)
             {
-                questDone = true;
+                i += 1;
             }
         }
+
+        if (i >= colorNum)
+        {
+            questDone = true;
+        }
+        
+
     }
 
     void SearchingQuest()

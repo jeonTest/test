@@ -37,12 +37,10 @@ public class ObjectColor : MonoBehaviour
     {
         if(activeColor.colourActive == _colorTypes[_colorObject])
         {
-            Debug.Log("Correct Color!");
             rightColor = true;
         }
         else
         {
-            Debug.Log("Wrong Color!");
             rightColor = false;
         }
     }
