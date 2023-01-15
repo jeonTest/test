@@ -15,7 +15,7 @@ public class Quest : MonoBehaviour
         "Talking"
     };
 
-    public bool isActive;
+    public bool isActive = false;
     public bool questDone;
     public string questDescription;
     public GameObject reward;
@@ -76,6 +76,11 @@ public class Quest : MonoBehaviour
             isActive = true;
             questGameObj.SetActive(true);
         }
+        else
+        {
+            isActive = false;
+            questGameObj.SetActive(false);
+        }
 
         if(questDone == true)
         {
@@ -107,8 +112,6 @@ public class Quest : MonoBehaviour
 
     void SearchingQuest()
     {
-        questGameObj.SetActive(true);
-
         ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
         if (Physics.Raycast(ray, out hit))
         {
@@ -136,7 +139,7 @@ public class Quest : MonoBehaviour
         if(dialogueBrush.dialogueNumber == (dialogueBrush.dialogue.Length - 1) && questDone == false)
         {
             questGameObj.SetActive(true);
-            isActive = true;
+            //isActive = true;
         }
     }
 }

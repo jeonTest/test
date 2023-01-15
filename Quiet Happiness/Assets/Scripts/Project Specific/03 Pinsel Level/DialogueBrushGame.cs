@@ -15,7 +15,7 @@ public class DialogueBrushGame : MonoBehaviour
     public string[] dialogue;
     public string[] afterQuestDialogue;
 
-    [HideInInspector] public bool startQuest = false;
+    public bool startQuest = false;
 
     private GameObject diaText;
 
@@ -120,7 +120,7 @@ public class DialogueBrushGame : MonoBehaviour
     {
         if (playerNear == true)
         {
-            dialogueBox.SetActive(true);
+            dialogueBox.SetActive(true);            
         }
     }
 
@@ -135,11 +135,14 @@ public class DialogueBrushGame : MonoBehaviour
                     if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
                     {
                         dialogueNumber += 1;
+                        startQuest = true;
+                        quest.isActive = true;
                     }
 
                     if(startQuest == false && dialogueNumber == dialogue.Length - 1)
                     {
                         startQuest = true;
+                        quest.isActive = true;
                     }
                 }
                 else if (quest.questDone == true)
