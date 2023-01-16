@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: ba798fa39a42a0644a62686cec8c20bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protagonist_Standing_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4432
+        width: 340
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd533b6a40475409f9e1d36c6e2555
+      internalID: 848799863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 4432
+        width: 339
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a6b589a91236d439e6817caad6dbbe
+      internalID: 1877460795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_2
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 4430
+        width: 342
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06162c111b5083e42951135ad21d675c
+      internalID: 368491118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_3
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 4428
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e61b96512649d3469ee28f7f6b4c8d4
+      internalID: -156894864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_4
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 4425
+        width: 340
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f030172e98eb014db10961011eba0e2
+      internalID: 822973438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_5
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 4423
+        width: 339
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304b4cb93b18b6943841a7e40674ccf2
+      internalID: 433206843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3822
+        width: 342
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bd16ef116cf8247b68adaeb2c84093
+      internalID: 657752754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 3822
+        width: 339
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c783d8991d0f3440beee27c4cf097b3
+      internalID: 1520296608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3815
+        width: 339
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0812e661726b847b55f9340a7e2a52
+      internalID: -1160818090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_9
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 3807
+        width: 339
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40823d1db4e8a114b952ce4de1f45e4a
+      internalID: 704659798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_10
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 3800
+        width: 339
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d99fb12a72254bb065b7b8f0f151a
+      internalID: -923576661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_11
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 3795
+        width: 338
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cd262b69153ba42930ba9dad944553
+      internalID: -104310781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3221
+        width: 339
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c076169a5ba87a40ba6657fcb711c39
+      internalID: -600570994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_13
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 3214
+        width: 340
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7348fc8f818db42afa29b4eada4ad4
+      internalID: -1663954329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_14
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 3209
+        width: 338
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e46cbbca3af9a4d8082bd0af8fa2f6
+      internalID: 2011595487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_15
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3202
+        width: 334
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3b318ced0af414099960b67b18f079
+      internalID: -928877259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_16
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 3226
+        width: 337
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f87efdb3433ed4c820b7ac492eee62
+      internalID: -135041469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_17
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 3197
+        width: 336
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2c98adc400b524ea8d73328c02f4a9
+      internalID: -1191435837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2614
+        width: 337
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c262618474bd46b1e90940da515ad
+      internalID: 1076791368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2606
+        width: 340
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a1e799d349bf146ababde09be99896
+      internalID: -1333449585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_20
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2616
+        width: 339
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae09a4b0075d85744a0a316be033d3a3
+      internalID: 937431928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_21
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 2618
+        width: 339
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3f7f2ea89a1a541a560dbe09588202
+      internalID: 721585026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_22
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 2614
+        width: 339
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372fe3ef194e3d749aa6f7b0cdb59c03
+      internalID: 1396757543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_23
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 2599
+        width: 337
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a518d220298f50a4fbb040208f93e78f
+      internalID: 1453829835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2013
+        width: 339
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8c16d78bccc7549927ac5afd13b2bb
+      internalID: 1250960319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_25
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2006
+        width: 339
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a518e781678be55429e3b2d51432b085
+      internalID: 1635950351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_26
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 2001
+        width: 340
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0908d7d962a544d9ec519c94758348
+      internalID: 1410594237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_27
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2006
+        width: 339
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cedfd95507471d40af2f56346bcc49e
+      internalID: 945970528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_28
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 2003
+        width: 339
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52496cecc9028a847b06ed3d73230e0c
+      internalID: 20573217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_29
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 1996
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04656e6ef521df4d8932594374f9f84
+      internalID: -674338824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1393
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b4fd08a7679ee4a9a66c8f5c49a912
+      internalID: 56848184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protagonist_Standing_31
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1390
+        width: 342
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c688c6cf722994b91572f4087b622e
+      internalID: 1425565253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4bf42e8c932cb0449ad5e714c89f9aa5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Protagonist_Standing_2: 368491118
+      Protagonist_Standing_21: 721585026
+      Protagonist_Standing_11: -104310781
+      Protagonist_Standing_13: -1663954329
+      Protagonist_Standing_25: 1635950351
+      Protagonist_Standing_17: -1191435837
+      Protagonist_Standing_19: -1333449585
+      Protagonist_Standing_1: 1877460795
+      Protagonist_Standing_30: 56848184
+      Protagonist_Standing_12: -600570994
+      Protagonist_Standing_23: 1453829835
+      Protagonist_Standing_15: -928877259
+      Protagonist_Standing_29: -674338824
+      Protagonist_Standing_16: -135041469
+      Protagonist_Standing_9: 704659798
+      Protagonist_Standing_6: 657752754
+      Protagonist_Standing_27: 945970528
+      Protagonist_Standing_28: 20573217
+      Protagonist_Standing_0: 848799863
+      Protagonist_Standing_5: 433206843
+      Protagonist_Standing_7: 1520296608
+      Protagonist_Standing_4: 822973438
+      Protagonist_Standing_10: -923576661
+      Protagonist_Standing_18: 1076791368
+      Protagonist_Standing_8: -1160818090
+      Protagonist_Standing_14: 2011595487
+      Protagonist_Standing_3: -156894864
+      Protagonist_Standing_20: 937431928
+      Protagonist_Standing_26: 1410594237
+      Protagonist_Standing_22: 1396757543
+      Protagonist_Standing_31: 1425565253
+      Protagonist_Standing_24: 1250960319
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
