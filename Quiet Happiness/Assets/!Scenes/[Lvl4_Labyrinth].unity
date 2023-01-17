@@ -2468,6 +2468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Controller: {fileID: 758023355}
   Input: {fileID: 758023356}
+  anim: {fileID: 0}
   MoveVector: {x: 0, y: 0, z: 0}
   InputVector: {x: 0, y: 0}
   PlayerSpeed: 3
@@ -4030,6 +4031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Controller: {fileID: 0}
   Input: {fileID: 0}
+  anim: {fileID: 919132149438498465}
   MoveVector: {x: 0, y: 0, z: 0}
   InputVector: {x: 0, y: 0}
   PlayerSpeed: 1

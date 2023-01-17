@@ -8,6 +8,8 @@ public partial class PlayerStateManager
     public CharacterController Controller;
     public PlayerInput Input;
 
+    public Animator anim;
+
     public Vector3 MoveVector;
     public Vector2 InputVector;
     public float PlayerSpeed;

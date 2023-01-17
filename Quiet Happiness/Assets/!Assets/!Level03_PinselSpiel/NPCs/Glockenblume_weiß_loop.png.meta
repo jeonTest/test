@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: 22500e10b187d58489124e2c4eac043f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_0"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 4276
+        width: 569
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fccaf391e0d420469f5ab33380dc0ab
+      internalID: 478176780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_1"
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 4247
+        width: 571
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f8175dd555b1041aa999e99f58ac31
+      internalID: 488148124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_2"
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 4247
+        width: 568
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8435749d1c7b82499b286ade6a4179c
+      internalID: -1112061334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_3"
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 4220
+        width: 568
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74d7fdb5ddb1e1459a35b7b2a299690
+      internalID: -2020923532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_4"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 3500
+        width: 569
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1140cfc9f7123847889b88b5f9eba81
+      internalID: -788329859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_5"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3461
+        width: 569
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d9cbd6f4972ca44a7ed0d1a51304fd
+      internalID: 1803391303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_6"
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 3424
+        width: 570
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b3275b9d27ad549a8e6dbfe1bf0659
+      internalID: 1192917653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_7"
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 3390
+        width: 563
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612ff6848e1e1074ab1f558c18140a20
+      internalID: 541383541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_8"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2706
+        width: 564
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316caac65148edf47b07de1e415cc581
+      internalID: 1643232381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_9"
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 2670
+        width: 569
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d6c1e809b6b5c4290a53be3ed18a12
+      internalID: -532955674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_10"
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2633
+        width: 568
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba1a96c42c15074b87b3be21f088266
+      internalID: 2074030749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_11"
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2633
+        width: 571
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2545bbedf25474f4b9393b5f324704fc
+      internalID: 88305073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_12"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1913
+        width: 568
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589a48d0ebbca544384b847ccec5adf9
+      internalID: 410170332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_13"
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1874
+        width: 570
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ff6bcec38c72a4182d537f2a4fff2d
+      internalID: -1952974532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_14"
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1776
+        width: 571
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b7c18e69dba04982243454099ebe0
+      internalID: -1829753770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Glockenblume_wei\xDF_loop_15"
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1783
+        width: 569
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5683362a008ec24b98ab045316c1592
+      internalID: 157070351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b7b2b26d6c18564bae8e63a7c76c285
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Glockenblume_wei\xDF_loop_5": 1803391303
+      "Glockenblume_wei\xDF_loop_6": 1192917653
+      "Glockenblume_wei\xDF_loop_4": -788329859
+      "Glockenblume_wei\xDF_loop_7": 541383541
+      "Glockenblume_wei\xDF_loop_9": -532955674
+      "Glockenblume_wei\xDF_loop_1": 488148124
+      "Glockenblume_wei\xDF_loop_3": -2020923532
+      "Glockenblume_wei\xDF_loop_8": 1643232381
+      "Glockenblume_wei\xDF_loop_12": 410170332
+      "Glockenblume_wei\xDF_loop_2": -1112061334
+      "Glockenblume_wei\xDF_loop_10": 2074030749
+      "Glockenblume_wei\xDF_loop_0": 478176780
+      "Glockenblume_wei\xDF_loop_14": -1829753770
+      "Glockenblume_wei\xDF_loop_13": -1952974532
+      "Glockenblume_wei\xDF_loop_15": 157070351
+      "Glockenblume_wei\xDF_loop_11": 88305073
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

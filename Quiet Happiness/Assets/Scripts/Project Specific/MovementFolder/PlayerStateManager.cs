@@ -34,6 +34,14 @@ public partial class PlayerStateManager : MonoBehaviour
             Rotate2D();
         }
         ApplyGravity();
+        if (MoveVector.x != 0 || MoveVector.z != 0)
+        {
+            anim.SetFloat("Speed", Mathf.Abs(2));
+        }
+        else if(MoveVector.x == 0 && MoveVector.z == 0)
+        {
+            anim.SetFloat("Speed", Mathf.Abs(0));
+        }
     }
 
     #region Movement

@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: 39a42664857ba184cb9c40062f3ca2ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4481
+        width: 341
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed82fe1f4178c654b9e2d9d077b3b856
+      internalID: -369578742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4486
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60636b8aab822724f8fe95e4091d75b8
+      internalID: 1919248383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_2
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 4479
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dcaef024d3ed846bc4db6a9c74cb91
+      internalID: -1225107430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_3
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 4479
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a9e0f9b2baf847bbcfde607d25de9
+      internalID: -141711246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_4
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 4476
+        width: 344
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e15bb9f5d766d2459680b951d70668d
+      internalID: -1594919434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_5
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 4471
+        width: 344
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02fa5c45d90e734ebb3c1adb049ef08
+      internalID: 924145882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3846
+        width: 345
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4170f788aea2f548a2ed681d5f45400
+      internalID: 1255127420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3842
+        width: 344
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed3804a23e5d2a4f97c84fec146e93e
+      internalID: 458267840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_8
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 3837
+        width: 347
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd194200bd4794b94730d92cd661b3
+      internalID: -1622102015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_9
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3832
+        width: 349
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64ecca2be058941958a3d8d7f70671
+      internalID: 1721585190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_10
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 3827
+        width: 347
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636dbe0d7ea62c34a8f8c84a0ecce6db
+      internalID: -1987115229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_11
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 3822
+        width: 347
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663628d8079b2b14ab25dba063ae8d20
+      internalID: -788903558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 3270
+        width: 346
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b82eae1f13753740a37f0676a4ec542
+      internalID: -1476703883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 3265
+        width: 344
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe85932b7e11cf43a73ecc6e9b0be78
+      internalID: -415676201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_14
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 3261
+        width: 344
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4db487478ee4524ab7991d85add3ac8
+      internalID: 1852070291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_15
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 3256
+        width: 344
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad91f4693a57cf4986f49d10856bf01
+      internalID: 1641569508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_16
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 3251
+        width: 346
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1768888da45fe4dac8b17dab6b42db
+      internalID: 531928424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_17
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 3246
+        width: 345
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94ca572fd536146a9753408ccf8647
+      internalID: 2143325980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2616
+        width: 347
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a809acb9a0834b99ec7f6f4053844
+      internalID: 1116740881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_19
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2614
+        width: 346
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38ae1867f0a68a4bb99fa068b729640
+      internalID: 1395604411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_20
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2609
+        width: 344
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14f525e56f3d7c408b85638a80b0168
+      internalID: 1035572416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_21
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2604
+        width: 345
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9efbf3c5c1ec2840b63365e046bbc94
+      internalID: -2049938246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_22
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 2599
+        width: 344
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396746ec45e4c63419c39cc986637762
+      internalID: 285424182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_23
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2594
+        width: 347
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb72c073215bc44497b330b8af015f5
+      internalID: -57314618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1947
+        width: 349
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7774831658aa3945bf39d7a1f10be11
+      internalID: 372821360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_25
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1940
+        width: 349
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cb1e604efe54a40b3923fef268f764
+      internalID: 501648215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_26
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1935
+        width: 349
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511e4ff21cd9ac944a00f13ee4a9e4a6
+      internalID: -1548424854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_27
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1930
+        width: 344
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf0257736aaa7046847fee81b0cadc3
+      internalID: -437162626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_28
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1928
+        width: 344
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077b28cf523aba04c998fbc6518f7333
+      internalID: 1683350972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_29
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1923
+        width: 345
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55ee10e5595d3e4cbad97311d82d5df
+      internalID: -233187436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1200
+        width: 344
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a01ba86867bdb46bb5a676e5eb0d1e
+      internalID: -1370077663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_31
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1198
+        width: 340
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dadfc572728b24a96c400630aaa306
+      internalID: -512111259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_32
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1195
+        width: 340
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003f42c18211374a99a6231394fec12
+      internalID: 729499146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Walk_Ccycle_33
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1193
+        width: 339
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100af5794d4a9d640a5a5b0916f5ed4f
+      internalID: 1737149056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a06a9287a64c32f428566f03711705a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Protag_Walk_Ccycle_15: 1641569508
+      Protag_Walk_Ccycle_0: -369578742
+      Protag_Walk_Ccycle_17: 2143325980
+      Protag_Walk_Ccycle_2: -1225107430
+      Protag_Walk_Ccycle_11: -788903558
+      Protag_Walk_Ccycle_12: -1476703883
+      Protag_Walk_Ccycle_5: 924145882
+      Protag_Walk_Ccycle_16: 531928424
+      Protag_Walk_Ccycle_33: 1737149056
+      Protag_Walk_Ccycle_8: -1622102015
+      Protag_Walk_Ccycle_25: 501648215
+      Protag_Walk_Ccycle_32: 729499146
+      Protag_Walk_Ccycle_14: 1852070291
+      Protag_Walk_Ccycle_31: -512111259
+      Protag_Walk_Ccycle_4: -1594919434
+      Protag_Walk_Ccycle_22: 285424182
+      Protag_Walk_Ccycle_10: -1987115229
+      Protag_Walk_Ccycle_21: -2049938246
+      Protag_Walk_Ccycle_20: 1035572416
+      Protag_Walk_Ccycle_9: 1721585190
+      Protag_Walk_Ccycle_6: 1255127420
+      Protag_Walk_Ccycle_29: -233187436
+      Protag_Walk_Ccycle_23: -57314618
+      Protag_Walk_Ccycle_18: 1116740881
+      Protag_Walk_Ccycle_19: 1395604411
+      Protag_Walk_Ccycle_27: -437162626
+      Protag_Walk_Ccycle_3: -141711246
+      Protag_Walk_Ccycle_13: -415676201
+      Protag_Walk_Ccycle_30: -1370077663
+      Protag_Walk_Ccycle_26: -1548424854
+      Protag_Walk_Ccycle_28: 1683350972
+      Protag_Walk_Ccycle_24: 372821360
+      Protag_Walk_Ccycle_1: 1919248383
+      Protag_Walk_Ccycle_7: 458267840
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
