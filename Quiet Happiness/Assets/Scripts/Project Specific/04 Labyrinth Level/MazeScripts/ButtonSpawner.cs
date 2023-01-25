@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ButtonSpawner : MonoBehaviour
 {
-    public GameObject ItemPrefab;
-
     public float minX;
     public float maxX;
     public float minZ;
