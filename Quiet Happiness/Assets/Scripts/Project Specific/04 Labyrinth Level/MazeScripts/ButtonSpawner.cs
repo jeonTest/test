@@ -6,26 +6,47 @@ public class ButtonSpawner : MonoBehaviour
 {
     public GameObject ItemPrefab;
 
-    public int ObjectNumber = 1;
-
     public float minX;
     public float maxX;
     public float minZ;
     public float maxZ;
 
+    public int collisions = 0;
+    public Vector3 randomSpawnPosition;
+
 
     void Start()    
+    {       
+        randomSpawnPosition = new Vector3(Random.Range(minX, maxX), 0.04f, Random.Range(minZ, maxZ));
+        transform.position = randomSpawnPosition;
+    }
+
+    void Update()
     {
-        for(int i = 0; i < ObjectNumber; i++)
+        ButtonPosition();
+    }
+
+    void ButtonPosition()
+    {
+        if(collisions != 0)
         {
-            SpawnObjectRandom();
+            randomSpawnPosition = new Vector3(Random.Range(minX, maxX), 0.04f, Random.Range(minZ, maxZ));
+            transform.position = randomSpawnPosition;
         }
     }
 
-    void SpawnObjectRandom()
+    void OnTriggerEnter(Collider col)
     {
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(minX, maxX), 0, Random.Range(minZ,maxZ));
+        collisions++;
 
-        Instantiate(ItemPrefab, randomSpawnPosition, Quaternion.identity);
+        if(col.tag == "Player")
+        {
+            collisions--;
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        collisions--;
     }
 }
