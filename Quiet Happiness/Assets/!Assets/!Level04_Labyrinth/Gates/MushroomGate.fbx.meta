@@ -1,77 +1,11 @@
 fileFormatVersion: 2
-guid: 7c8cbe515bbda6e4ba1cd453ea93fb19
+guid: fadfa595ab666174e96d955f552c0c83
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: 2264077025236624520
-    second: Armature.001|Armature.001Action
-  - first:
-      74: -3526533753359285795
-    second: Armature.001|GAte.008Action
-  - first:
-      74: 2073308433257878560
-    second: Armature.001|TreeAction
-  - first:
-      74: -1946384341665413646
-    second: Armature.001|Wurzel1.001Action
-  - first:
-      74: -1886025491730820744
-    second: Armature.001|Wurzel1.001Action.001
-  - first:
-      74: 3300780528851960585
-    second: Armature.001|Wurzel1.001Action.002
-  - first:
-      74: -6898610453486809443
-    second: Armature.001|Wurzel1.001Action.003
-  - first:
-      74: 1833298206788819569
-    second: Armature.001|Wurzel1.001Action.004
-  - first:
-      74: -6059229261181603670
-    second: Armature.001|Wurzel1.001Action.005
-  - first:
-      74: -3367356606135664099
-    second: Armature.001|Wurzel1.001Action.006
-  - first:
-      74: -6208415670059359809
-    second: Armature.001|Wurzel1.001Action.007
-  - first:
-      74: -4682978502408422520
-    second: Armature.001|Wurzel2.001Action
-  - first:
-      74: 5128511209473775771
-    second: Armature.001|Wurzel2.001Action.001
-  - first:
-      74: -3549380135047576941
-    second: Armature.001|Wurzel2.001Action.002
-  - first:
-      74: 6796406128067342843
-    second: Armature.001|Wurzel2.001Action.003
-  - first:
-      74: 2046240791486673875
-    second: Armature.001|Wurzel3.001Action
-  - first:
-      74: 6531232658422034030
-    second: Armature.001|Wurzel3.001Action.001
-  - first:
-      74: 2232158141258114756
-    second: Armature.001|Wurzel3.001Action.002
-  - first:
-      74: 5678336048204883696
-    second: Armature.001|Wurzel3.001Action.003
-  - first:
-      74: -1197551257477815575
-    second: Armature.001|Wurzel4.001Action.001
-  - first:
-      74: -2772727513234933659
-    second: Armature.001|Wurzel4.001Action.002
-  - first:
-      74: -6230073557531888184
-    second: Armature.001|Wurzel4.001Action.003
-  - first:
-      74: 7617578671172826339
-    second: Armature.001|Wurzel4.001Action.004
+      74: -4386357291700952360
+    second: Armature.001Action
   externalObjects:
   - first:
       type: UnityEngine:Material
