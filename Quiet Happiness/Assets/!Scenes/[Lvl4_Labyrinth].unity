@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa3800a3d593f540899c129458d784d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Labyrinth2Position: {x: 10.15, y: 0, z: 5.1}
+  Labyrinth2Position: {x: 10, y: 0, z: 5}
   rotationVector: {x: 0, y: 90, z: 0}
 --- !u!114 &134818716
 MonoBehaviour:
@@ -1237,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff67f3ddbe712bd4b9b639b125bbee5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.827025
+      value: 11.274
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff67f3ddbe712bd4b9b639b125bbee5a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2862,7 +2862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe2b79b631d567d43b2b001ca8e17894, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.736969
+      value: 13.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe2b79b631d567d43b2b001ca8e17894, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2870,7 +2870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe2b79b631d567d43b2b001ca8e17894, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.882462
+      value: 11.04
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fe2b79b631d567d43b2b001ca8e17894, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3311,6 +3311,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   nearPlayer: 0
   doorOpen: 0
+  BlendShapes: 0
 --- !u!114 &1207934119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3564,6 +3565,7 @@ MonoBehaviour:
   Door: {fileID: 0}
   nearPlayer: 0
   doorOpen: 0
+  BlendShapes: 0
 --- !u!114 &1298552456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4237,7 +4239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f0e8c41144fb4e4a95bf6238440ba0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.750386
+      value: 13.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f0e8c41144fb4e4a95bf6238440ba0c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4735,6 +4737,7 @@ MonoBehaviour:
   Door: {fileID: 6842058225328626535}
   nearPlayer: 0
   doorOpen: 0
+  BlendShapes: 1
 --- !u!65 &1926675965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4988,7 +4991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa3800a3d593f540899c129458d784d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Labyrinth2Position: {x: 0, y: 0, z: 8.09}
+  Labyrinth2Position: {x: 0, y: 0, z: 8}
   rotationVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1994467196
 MonoBehaviour:

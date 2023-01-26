@@ -11,8 +11,10 @@ public class ButtonScript : MonoBehaviour
     public bool doorOpen;
     private bool start = false;
 
+    public bool BlendShapes = false;
     float blendOne = 0f;
     float blendSpeed = 10f;
+
 
     SkinnedMeshRenderer skinnedMeshRenderer01;
     Mesh skinnedMesh01;
@@ -23,8 +25,11 @@ public class ButtonScript : MonoBehaviour
     {
         Input = GetComponent<PlayerInput>();
 
-        skinnedMeshRenderer01 = Door.GetComponent<SkinnedMeshRenderer>();
-        skinnedMesh01 = Door.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+        if (BlendShapes == true)
+        {
+            skinnedMeshRenderer01 = Door.GetComponent<SkinnedMeshRenderer>();
+            skinnedMesh01 = Door.GetComponent<SkinnedMeshRenderer>().sharedMesh;
+        }
 
         boxCollider01 = Door.GetComponent<BoxCollider>();
     }
@@ -39,20 +44,34 @@ public class ButtonScript : MonoBehaviour
     {
         if (doorOpen == false && start == true)
         {
-            while (blendOne >= 0)
+            if (BlendShapes == true)
             {
-                skinnedMeshRenderer01.SetBlendShapeWeight(0, blendOne);
-                blendOne -= blendSpeed;
+                while (blendOne >= 0)
+                {
+                    skinnedMeshRenderer01.SetBlendShapeWeight(0, blendOne);
+                    blendOne -= blendSpeed;
+                    boxCollider01.isTrigger = false;
+                }
+            }
+            else if(BlendShapes == false)
+            {
                 boxCollider01.isTrigger = false;
             }
 
         }
         else if (doorOpen == true)
         {
-            while (blendOne <= 100)
+            if (BlendShapes == true)
             {
-                skinnedMeshRenderer01.SetBlendShapeWeight(0, blendOne);
-                blendOne += blendSpeed;
+                while (blendOne <= 100)
+                {
+                    skinnedMeshRenderer01.SetBlendShapeWeight(0, blendOne);
+                    blendOne += blendSpeed;
+                    boxCollider01.isTrigger = true;
+                }
+            }
+            else if (BlendShapes == false)
+            {
                 boxCollider01.isTrigger = true;
             }
         }
