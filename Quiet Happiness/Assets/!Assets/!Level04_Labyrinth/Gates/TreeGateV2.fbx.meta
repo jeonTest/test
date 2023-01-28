@@ -1,20 +1,11 @@
 fileFormatVersion: 2
-guid: 6ceea74281f9180479bbcef25e623596
+guid: 87d5df86c4a04134baaa489758c3267e
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -8117921540029045694
-    second: Root 1.002|Root 1Action.001
-  - first:
-      74: -1274935738795697091
-    second: Root 1.002|Root 1Action.002
-  - first:
-      74: -1442311688127082075
-    second: Root 1.002|Root 1Action.003
-  - first:
-      74: 2212208321661504374
-    second: Root 1.002|TreeAction
+      74: -623603649343465320
+    second: Scene
   externalObjects:
   - first:
       type: UnityEngine:Material
