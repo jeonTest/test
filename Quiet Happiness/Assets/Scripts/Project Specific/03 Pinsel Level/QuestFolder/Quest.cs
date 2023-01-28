@@ -19,7 +19,7 @@ public class Quest : MonoBehaviour
     public bool questDone;
     public string questDescription;
     public GameObject reward;
-    public int i;
+    private int i;
 
     public GameObject questGameObj;
 
@@ -48,7 +48,6 @@ public class Quest : MonoBehaviour
     void Start()
     {
         questGameObj.SetActive(false);
-        questDone = false;
         reward.SetActive(false);
     }
 

@@ -8,6 +8,7 @@ public class SearchedObject : MonoBehaviour
     Quest ownQuest;
     public Vector3 newPosition;
     public GameObject questGiver;
+    
 
     void Awake()
     {
