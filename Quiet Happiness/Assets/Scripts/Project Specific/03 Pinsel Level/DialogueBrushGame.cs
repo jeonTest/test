@@ -120,7 +120,8 @@ public class DialogueBrushGame : MonoBehaviour
     {
         if (playerNear == true)
         {
-            dialogueBox.SetActive(true);            
+            dialogueBox.SetActive(true);
+            startQuest = true;
         }
     }
 
@@ -135,13 +136,13 @@ public class DialogueBrushGame : MonoBehaviour
                     if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
                     {
                         dialogueNumber += 1;
-                        startQuest = true;
+                        //startQuest = true;
                         quest.isActive = true;
                     }
 
                     if(startQuest == false && dialogueNumber == dialogue.Length - 1)
                     {
-                        startQuest = true;
+                        //startQuest = true;
                         quest.isActive = true;
                     }
                 }
