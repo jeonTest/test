@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class ButtonScript : MonoBehaviour
 {
     public PlayerInput Input;
@@ -15,6 +16,7 @@ public class ButtonScript : MonoBehaviour
     float blendOne = 0f;
     float blendSpeed = 10f;
 
+    public Animator anim;
 
     SkinnedMeshRenderer skinnedMeshRenderer01;
     Mesh skinnedMesh01;
@@ -55,6 +57,7 @@ public class ButtonScript : MonoBehaviour
             }
             else if(BlendShapes == false)
             {
+                anim.SetFloat("Movement",1f);
                 boxCollider01.isTrigger = false;
             }
 
@@ -72,6 +75,7 @@ public class ButtonScript : MonoBehaviour
             }
             else if (BlendShapes == false)
             {
+                anim.SetFloat("Movement", 0);
                 boxCollider01.isTrigger = true;
             }
         }
