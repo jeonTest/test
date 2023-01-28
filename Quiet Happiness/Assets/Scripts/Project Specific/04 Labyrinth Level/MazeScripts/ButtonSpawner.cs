@@ -35,16 +35,17 @@ public class ButtonSpawner : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        collisions++;
-
-        if(col.tag == "Player")
+        if (col.tag == "Wall")
         {
-            collisions--;
+            collisions++;
         }
     }
 
     void OnTriggerExit(Collider col)
     {
-        collisions--;
+        if (col.tag == "Wall")
+        {
+            collisions--;
+        }
     }
 }
