@@ -1,27 +1,14 @@
 fileFormatVersion: 2
-guid: 87d5df86c4a04134baaa489758c3267e
+guid: ea25b0c2c25f33e4c8039789c8f417fd
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable:
-  - first:
-      74: -623603649343465320
-    second: Scene
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Breech
-    second: {fileID: 2100000, guid: e0ef9bbfacc9ae44f90e82d6cb48e0b7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves
-    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.010
-    second: {fileID: 2100000, guid: 992338a76879dcd4fa1a2f46aba55d92, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 8665b4a4246f67a46b39023731a5c39c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
