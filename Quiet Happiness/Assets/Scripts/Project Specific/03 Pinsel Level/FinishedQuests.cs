@@ -39,7 +39,7 @@ public class FinishedQuests : MonoBehaviour
 
     IEnumerator FinishTime()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(20f);
         finishedScreen.SetActive(true);
         Time.timeScale = 0f;
     }

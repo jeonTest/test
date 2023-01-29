@@ -5040,9 +5040,10 @@ MonoBehaviour:
   questStarter: 1
   npcName: Emo Pilz
   dialogue:
-  - Pre Quest
+  - ...
   afterQuestDialogue:
-  - After Quest
+  - '... Das Wasser ist wieder da '
+  - "\u2026 Danke. Oh, eine Bachforelle! Bis sp\xE4ter!"
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -8187,7 +8188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358279325}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.024998754, y: 0, z: -0.009994507}
+  m_LocalPosition: {x: -0.024998754, y: 0, z: -0.03}
   m_LocalScale: {x: 0.77, y: 0.80893546, z: 0.80893546}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -11272,11 +11273,24 @@ MonoBehaviour:
   Input: {fileID: 563037534}
   dialogueBox: {fileID: 771024198}
   questStarter: 1
-  npcName: 
+  npcName: "K\xFCrbis"
   dialogue:
-  - Pre
+  - "-Wo k\xF6nnte er blo\xDF sein? Pinselmeister! Hast du vielleicht meinen besonderen
+    Stift gesehen?"
+  - Ich habe mich schon so darauf gefreut, damit zu schreiben.
+  - "Ich wollte eine Geschichte schreiben, in der ein mutiger K\xFCrbis Abenteuer
+    besteht."
+  - Ohne meinen Stift kann ich nicht schreiben.
+  - "Auf der Seite waren kleine Lavendelbl\xFCten darauf gemalt"
+  - "und wenn man ihn ganz schnell dreht, tanzen sie so sch\xF6n wie die liebe Glockenblume."
+  - Du hilfst mir beim Suchen? Du bist ein toller Freund.
   afterQuestDialogue:
-  - After
+  - "Mein Stift! Du bist der beste Finder weit und breit, du findest bestimmt alles!
+    Ich wei\xDF!"
+  - "Als Dankesch\xF6n bekommt mein mutiger K\xFCrbis einen tollen Freund,"
+  - der ihm hilft, die fruchtigste Frucht im ganzen magischen Wald zu finden!
+  - "Das wird eine tolle Geschichte, ich kann kaum warten, weiter zu schreiben. Wir
+    sehen uns sp\xE4ter!"
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -19590,7 +19604,12 @@ MonoBehaviour:
   dialogue:
   - None
   afterQuestDialogue:
-  - After
+  - "So ein h\xFCbsches Lila! Das hast du toll gemacht."
+  - "Ich freue mich schon darauf, dass mein Kleid wieder eine wundersch\xF6ne Farbe
+    haben wird,"
+  - deine selbstgemachte Farbe!
+  - 'Jetzt kann ich wieder mit der kleinen Blaubeere tanzen und fangen spielen und
+    singen! '
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -21816,7 +21835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076305173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113, y: 0.47, z: 97.3}
+  m_LocalPosition: {x: 125.19, y: 0.47, z: 64.51}
   m_LocalScale: {x: 0.148575, y: 0.148575, z: 0.148575}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -21875,9 +21894,15 @@ MonoBehaviour:
   questStarter: 1
   npcName: Junior
   dialogue:
-  - Pre Quest
+  - "Oh! Du bist hier! Auf der Br\xFCcke waren diese bl\xF6den Pflanzen "
+  - "und ich konnte nicht zu meinen Br\xFCdern, wir wollten fangen spielen"
+  - "aber dann sa\xDF ich hier fest. Vielen vielen Dank!"
+  - "Hey, wenn du sp\xE4ter Zeit hast, kannst du ja mitspielen!"
   afterQuestDialogue:
-  - After Quest
+  - ...
+  - ...
+  - ...
+  - Danke!
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -22155,7 +22180,12 @@ MonoBehaviour:
   questStarter: 1
   npcName: 'Glockenblume '
   dialogue:
-  - Pre
+  - '*seufz* Mein Lieblingskleid hat nicht mehr die richtige Farbe.'
+  - "Ich kann einfach nicht tanzen und h\xFCpfen und spielen, solange es nicht richtig
+    ist!"
+  - "Oh, ich bin so traurig. Du m\xF6chtest mir helfen? Wirklich!?"
+  - Oh, ich danke dir! Aber wie wollen wir mein Kleid reparieren?
+  - Dein Zauberpinsel? Das ist aber eine tolle Idee, dann brauchen wir nur noch Farbe!
   afterQuestDialogue:
   - None
   startQuest: 0
@@ -22451,9 +22481,19 @@ MonoBehaviour:
   questStarter: 1
   npcName: Billy
   dialogue:
-  - Pre Quest
+  - ...
+  - ...
+  - "Wir haben schon \xFCberall gesucht und nirgendwo ist er! Weder im Haus-"
+  - ...
+  - "Au\xDFer auf der anderen Seite der Br\xFCcke, aber Ranken versperren uns den
+    Weg."
+  - "Denkst du, du k\xF6nntest den Weg frei machen und den Kleinen finden?"
   afterQuestDialogue:
-  - After Quest
+  - "Du bist zur\xFCck! Das war so cool, wie du das Gr\xFCnzeug weg gemacht hast."
+  - "Mit deinem Pinsel so \u201Cwoosch\u201D und die Farbe so \u201CPLATSCH!\u201D
+    und weg waren sie!"
+  - ...
+  - ...
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -25450,9 +25490,17 @@ MonoBehaviour:
   questStarter: 1
   npcName: Boe
   dialogue:
-  - Pre Quest
+  - "Hey! K\xF6nntest du uns helfen?"
+  - "Wir suchen den Kleinen aber k\xF6nnen ihn nicht finden."
+  - ...
+  - "Noch an seinem Lieblingsbaum. Wir waren \xFCberall \u2026"
+  - ...
+  - ...
   afterQuestDialogue:
-  - After Quest
+  - ...
+  - ...
+  - "\xC4h ja \u2026 woosch. Auf jeden Fall vielen Dank, dass du uns geholfen hast."
+  - ...
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -30911,7 +30959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571451869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 162.21, y: 0.32, z: 86.24}
+  m_LocalPosition: {x: 161.62, y: 0.32, z: 85.32}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -30934,11 +30982,12 @@ MonoBehaviour:
   Input: {fileID: 1571451872}
   dialogueBox: {fileID: 2013624263}
   questStarter: 0
-  npcName: Schnecke
+  npcName: Gemeine Schnecke
   dialogue:
   - Hallo
-  - Hier die Frage
-  - Gut gemacht!
+  - "Hier entsteht eine R\xE4tsel Frage"
+  - Bitte haben Sie noch etwas Geduld
+  - Gut geraten!
   afterQuestDialogue:
   - None
   startQuest: 0
@@ -31004,7 +31053,7 @@ Animator:
   m_GameObject: {fileID: 1571451869}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d60365f2c5e43eb4bb28912eb590232d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1a54a2fda1eb1024586552780cf6177d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -31520,7 +31569,14 @@ MonoBehaviour:
   dialogue:
   - None
   afterQuestDialogue:
-  - After
+  - "Oh vielen vielen Dank, ich danke dir! So sch\xF6n war ich noch nie! "
+  - "Du bist wirklich der gr\xF6\xDFte Pinselmeister, den unser Dorf je hatte. "
+  - "Wie gl\xFCcklich alle sind, nachdem du geholfen hast. Oh ich wei\xDF, das Picknick! "
+  - Da kommt auch schon Junior Pilz mit einem ganzen Korb voll frischer Fische
+  - 'und Glockenblume bringt ganz viele Gurken und Tomaten und- ach herrje, '
+  - "ich kann die Blaubeer Br\xFCder unter den vielen Spielen ja gar nicht sehen"
+  - "Los, lass uns zusammen gehen, ich wette wir werden an diesem bunten Tag sehr
+    viel Spa\xDF haben."
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -31584,7 +31640,7 @@ Animator:
   m_GameObject: {fileID: 1593739824}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f18eb9dea05ff144aa1db8ca30a44ad1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4e9f4525379518a488dab3e5e2f5e1b1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -31983,8 +32039,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611645777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 75.14, y: 1.17, z: -174.99}
-  m_LocalScale: {x: 2.88, y: 1.5238097, z: 1.5238097}
+  m_LocalPosition: {x: 59.99, y: 2.33, z: -176.65}
+  m_LocalScale: {x: 4.3, y: 2.2751324, z: 2.2751324}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 358279326}
@@ -33214,9 +33270,16 @@ MonoBehaviour:
   questStarter: 1
   npcName: Pilz Opa
   dialogue:
-  - Pre
+  - "Oh, ein freundliches Gesicht, wie sch\xF6n. Du hast die Br\xFCcke frei gemacht?"
+  - 'Wie lieb von dir, aber leider hilft das meinem Problemchen nicht. '
+  - " Oh, was los ist? Gute G\xFCte. Nun, Junior sieht schon den ganzen Tag so traurig
+    aus,"
+  - "ich denke es ist weil er nicht Angeln gehen kann, wei\xDFt du er liebt angeln
+    aber kein Fisch bei\xDFt an."
+  - "Denkst du, du k\xF6nntest nachsehen, was das Problem ist? "
   afterQuestDialogue:
-  - After
+  - "Oh, jetzt sieht er schon viel gl\xFCcklicher aus!"
+  - Danke dir!
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -33280,7 +33343,7 @@ Animator:
   m_GameObject: {fileID: 1713345058}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ab131c9d913e75844a804f76147dae33, type: 2}
+  m_Controller: {fileID: 9100000, guid: aabbc819e2a617f4bbe3e752ab9468e7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -33664,7 +33727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745438121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 156.64, y: 0.86, z: 93.670006}
+  m_LocalPosition: {x: 155.11, y: 0.86, z: 93.670006}
   m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -33729,9 +33792,15 @@ MonoBehaviour:
   questStarter: 1
   npcName: Sonnenblume
   dialogue:
-  - Pre
+  - 'Bitte, du musst mir helfen! '
+  - Ich wollte meine Pflanzen umtopfen und habe sie nur ganz kurz auf die Seite gestellt
+  - 'und dann kamen diese garstigen Schnecken und futtern sie alle weg! '
+  - "Du musst sie aufhalten, dann kann ich die neuen T\xF6pfe holen! "
+  - Meine armen Tomaten!
   afterQuestDialogue:
-  - After
+  - Du hast meine Pflanzen gerettet! Ich danke dir.
+  - "Jetzt haben sie ger\xE4umige Bettchen und ganz viel Sonne. "
+  - Glaubst du, die Gurken schmecken so gut, wie sie aussehen? *Kicher
   startQuest: 0
   dialogueNumber: 0
   playerNear: 0
@@ -33795,7 +33864,7 @@ Animator:
   m_GameObject: {fileID: 1745438121}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d16581167f1d77e4c861e8cf41acb15b, type: 2}
+  m_Controller: {fileID: 9100000, guid: db537c2e52810b142b9212982558682c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -34568,7 +34637,13 @@ MonoBehaviour:
   questStarter: 1
   npcName: Kristall
   dialogue:
-  - Pre
+  - Was mit mir ist? Oh, ich habe alle meine Farben verloren
+  - So farblos bin ich doch kein Kristall mehr, sondern nur noch ein grauer Stein
+  - "Bitte? Du kannst mir helfen??? Das w\xE4re ja super!"
+  - "\u2026. Aber denkst du wirklich, dass du das schaffst?"
+  - Mir fehlen so viele Farben und wenn nicht alle da sind, kann ich nicht mehr in
+    der Sonne glitzern.
+  - "Aber ich denke\u2026 Ja. Du schaffst das."
   afterQuestDialogue:
   - None
   startQuest: 0
@@ -34634,7 +34709,7 @@ Animator:
   m_GameObject: {fileID: 1762416874}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 465d645541ee775438c154bfaacea520, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e8625b8e0a366c4f98fbea4c2a42cb1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -39640,7 +39715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5686129
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39648,7 +39723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4829993
+      value: 8.28
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40736,15 +40811,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.72
+      value: 0.88000005
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5979812
+      value: 3.1753104
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2703829
+      value: 0.330468
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40752,7 +40827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.66
+      value: 5.08
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.z
