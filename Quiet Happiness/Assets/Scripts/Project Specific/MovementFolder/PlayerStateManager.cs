@@ -59,14 +59,24 @@ public partial class PlayerStateManager : MonoBehaviour
         }
         if (cameraFollowRotation == true)
         {
-            if (MoveVector.x != 0 || MoveVector.z != 0)
+            Vector3 camDirection = Camera.main.transform.forward;
+
+            if (MoveVector.z > 0)
+            {
+                Controller.Move(PlayerSpeed * camDirection * Time.deltaTime);
+            }
+            if(MoveVector.z < 0)
+            {
+                Vector3 backward = transform.forward * -1;
+                Controller.Move(PlayerSpeed * backward * Time.deltaTime);
+            }
+            /*if(MoveVector.x != 0)
             {
                 Vector3 forward = transform.forward;
                 Controller.Move(PlayerSpeed * forward * Time.deltaTime);
-            }
+            }*/
         }
     }
-
 
     public void Rotate3D()
     {
@@ -82,19 +92,25 @@ public partial class PlayerStateManager : MonoBehaviour
 
         if (cameraFollowRotation == true)
         {
-            float rotation = transform.localEulerAngles.y;
-
+            /*float rotation = transform.eulerAngles.y;
             if (MoveVector.x < 0) // A Rotation ins Negative
             {
-                rotation -= (PlayerRotateSpeed * 1);
+                rotation -= PlayerRotateSpeed;
             }
 
             if (MoveVector.x > 0) // D Rotation ins Positive
             {
-                rotation += (PlayerRotateSpeed * 1);
+                rotation += PlayerRotateSpeed;
             }
 
+            if(MoveVector.x == 0)
+            {
+                rotation = (Camera.main.transform.eulerAngles.y);
+            }*/
+            float rotation = Camera.main.transform.eulerAngles.y;
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, rotation, transform.eulerAngles.z);
+
+            //transform.rotation = Quaternion.Euler(0, rotation, 0);
         }
     }
 
