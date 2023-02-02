@@ -2654,7 +2654,7 @@ MonoBehaviour:
   MoveVector: {x: 0, y: 0, z: 0}
   InputVector: {x: 0, y: 0}
   PlayerSpeed: 1
-  PlayerRotateSpeed: 0.5
+  PlayerRotateSpeed: 0.8
   cameraFollowRotation: 1
   rotation3D: 1
   rotation2D: 0
