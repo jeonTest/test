@@ -18,7 +18,6 @@ public class FinishedScene : MonoBehaviour
         if(col.gameObject.tag == "Player")
         {
             finishedScreen.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
 

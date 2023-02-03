@@ -19,7 +19,6 @@ public class FinishScript : MonoBehaviour
         if (levelProgressBar.progress >= 99)
         {
             Debug.Log("Player has finished!");
-            Time.timeScale = 0f;
         }
     }
 }

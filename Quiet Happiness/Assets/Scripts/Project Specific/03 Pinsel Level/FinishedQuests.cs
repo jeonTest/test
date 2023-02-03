@@ -41,7 +41,6 @@ public class FinishedQuests : MonoBehaviour
     {
         yield return new WaitForSeconds(20f);
         finishedScreen.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     public void Finished()

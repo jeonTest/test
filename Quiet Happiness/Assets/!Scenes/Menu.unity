@@ -19590,6 +19590,7 @@ GameObject:
   - component: {fileID: 1705815991}
   - component: {fileID: 1705815990}
   - component: {fileID: 1705815989}
+  - component: {fileID: 1705815995}
   m_Layer: 0
   m_Name: Completion Stuff
   m_TagString: Untagged
@@ -19618,6 +19619,8 @@ MonoBehaviour:
   - TutorialItemPlacedDialog
   - MoleLevelDone
   - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
   - {fileID: 2226263710750209807, guid: e6a98b341b1f2194e93defee675cf315, type: 3}
@@ -19641,6 +19644,8 @@ MonoBehaviour:
   - TutorialItemPlacedDialog
   - MoleLevelDone
   - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
   - {fileID: 7052138173217859482, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
@@ -19677,6 +19682,8 @@ MonoBehaviour:
   - TutorialItemPlacedDialog
   - MoleLevelDone
   - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
   _dialogID: TutorialItemPlaced
 --- !u!4 &1705815993
 Transform:
@@ -19713,7 +19720,35 @@ MonoBehaviour:
   - TutorialItemPlacedDialog
   - MoleLevelDone
   - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
   _dialogID: MoleLevelGiveItem
+--- !u!114 &1705815995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705815988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0e249352a54a04b874eb60da7628ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedIDOnCompletion: 6
+  SelectedIDOnItemGiven: 7
+  IDs:
+  - TutorialGiveItems
+  - TutorialDone
+  - TutorialItemPlaced
+  - TutorialItemPlacedDialog
+  - MoleLevelDone
+  - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
+  _inventory: {fileID: 1505541113}
+  _itemsToAdd:
+  - {fileID: -7420248374220116272, guid: 6574386479e7f114eb877ccddb327633, type: 3}
 --- !u!1 &1709857568
 GameObject:
   m_ObjectHideFlags: 0
