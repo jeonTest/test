@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6702704893267643438}
   - component: {fileID: 942994200410429646}
   - component: {fileID: 6853536025888247173}
-  - component: {fileID: 775248683937277164}
   - component: {fileID: 2898217044111654124}
   - component: {fileID: 5727571962071301533}
+  - component: {fileID: 6712901858924227914}
   m_Layer: 0
   m_Name: Schuhhaus
   m_TagString: Untagged
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &775248683937277164
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5411197497127405927}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &2898217044111654124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +121,19 @@ MonoBehaviour:
     useMainPaint: 1
     useNormalPaint: 0
     useHeightPaint: 0
+--- !u!65 &6712901858924227914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411197497127405927}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.8739819, z: 6.1232336e-17}
+  m_Center: {x: 0, y: 0.007479936, z: 0}
 --- !u!1 &7828254853462666164
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +145,6 @@ GameObject:
   - component: {fileID: 2012000353708837532}
   - component: {fileID: 1366644129491505529}
   - component: {fileID: 3124387091297398812}
-  - component: {fileID: 6132741319157674367}
   m_Layer: 0
   m_Name: Schuhhaus (1)
   m_TagString: Untagged
@@ -219,17 +217,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6132741319157674367
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7828254853462666164}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}

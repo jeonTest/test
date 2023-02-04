@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3642160466568603560}
   - component: {fileID: 5806530143829239474}
   - component: {fileID: 2738888564142651500}
-  - component: {fileID: 4502164668719884322}
   m_Layer: 0
   m_Name: "Gro\xDFeBlume Bl\xE4tter (1)"
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4502164668719884322
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7043980431180868108}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &8709058174933101224
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +94,9 @@ GameObject:
   - component: {fileID: 6945207738466094239}
   - component: {fileID: 1189137094694067569}
   - component: {fileID: 6108960751647172956}
-  - component: {fileID: 5323761195142873473}
   - component: {fileID: 6211538958732718870}
   - component: {fileID: 1153458560893747195}
+  - component: {fileID: 6458969523599154622}
   m_Layer: 0
   m_Name: "Gro\xDFeBlume Bl\xE4tter"
   m_TagString: Untagged
@@ -185,20 +170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5323761195142873473
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8709058174933101224}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &6211538958732718870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +204,16 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   _colorObject: 6
+--- !u!65 &6458969523599154622
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8709058174933101224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.97901297, y: 0.84857726, z: 6.1232336e-17}
+  m_Center: {x: 0.010493517, y: -0.07571137, z: 0}

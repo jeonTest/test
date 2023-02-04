@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8689602028627258459}
   - component: {fileID: 3536844780044006635}
   - component: {fileID: 7006981787664040199}
-  - component: {fileID: 3169192111559033367}
   m_Layer: 0
   m_Name: Gras 1 (4)
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3169192111559033367
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493440440974088255}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &3195465711934974671
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +94,9 @@ GameObject:
   - component: {fileID: 1230397330380431488}
   - component: {fileID: 703527035144022201}
   - component: {fileID: 7152182368237741360}
-  - component: {fileID: 4737314918042291007}
   - component: {fileID: 6990082786117782711}
   - component: {fileID: 8792283899386201043}
+  - component: {fileID: 7091107054334674682}
   m_Layer: 0
   m_Name: Gras 1
   m_TagString: Untagged
@@ -185,20 +170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4737314918042291007
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195465711934974671}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &6990082786117782711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +204,16 @@ MonoBehaviour:
     useMainPaint: 1
     useNormalPaint: 0
     useHeightPaint: 0
+--- !u!65 &7091107054334674682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195465711934974671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.85563815, y: 1, z: 6.1232336e-17}
+  m_Center: {x: -0.020121872, y: 0, z: 0}

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1856094982097962739}
   - component: {fileID: 5608458438092007397}
   - component: {fileID: 336297369320143060}
-  - component: {fileID: 1292908646017491780}
   - component: {fileID: 7942748649052546523}
   - component: {fileID: 5565084928074416353}
+  - component: {fileID: 2146218989402751993}
   m_Layer: 0
   m_Name: SteinDunkelblau
   m_TagString: Untagged
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1292908646017491780
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18606243880866274}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &7942748649052546523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +121,19 @@ MonoBehaviour:
     useMainPaint: 1
     useNormalPaint: 0
     useHeightPaint: 0
+--- !u!65 &2146218989402751993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18606243880866274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.418819, z: 6.1232336e-17}
+  m_Center: {x: 0, y: -0.068783134, z: 0}
 --- !u!1 &8518860677766558407
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +145,6 @@ GameObject:
   - component: {fileID: 6432412416247910466}
   - component: {fileID: 2402209907187188809}
   - component: {fileID: 2035884236321320167}
-  - component: {fileID: 3896592601109349268}
   m_Layer: 0
   m_Name: SteinDunkelblau (1)
   m_TagString: Untagged
@@ -219,17 +217,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3896592601109349268
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8518860677766558407}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}

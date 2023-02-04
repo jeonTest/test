@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6891677940534758872}
   - component: {fileID: 4595142832198571496}
   - component: {fileID: 3710548754447042900}
-  - component: {fileID: 6347480399845955252}
   m_Layer: 0
   m_Name: Gras 3 (5)
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6347480399845955252
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4005658804190064560}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7945800805379170929
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +94,9 @@ GameObject:
   - component: {fileID: 7545312508120949649}
   - component: {fileID: 1361211262231688873}
   - component: {fileID: 1104800320474787993}
-  - component: {fileID: 3764650082195955869}
   - component: {fileID: 7191473772464634963}
   - component: {fileID: 180093022039155452}
+  - component: {fileID: 5885095801564049744}
   m_Layer: 0
   m_Name: Gras 3
   m_TagString: Untagged
@@ -185,20 +170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3764650082195955869
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7945800805379170929}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &7191473772464634963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +204,16 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   _colorObject: 3
+--- !u!65 &5885095801564049744
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945800805379170929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.98977137, y: 0.9370942, z: 6.1232336e-17}
+  m_Center: {x: 0.005114317, y: -0.03145288, z: 0}

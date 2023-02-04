@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2616258782289503596}
   - component: {fileID: 5707975728534956410}
   - component: {fileID: 572133726782001856}
-  - component: {fileID: 2701719185607997924}
   m_Layer: 0
   m_Name: ZeltLila (1)
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2701719185607997924
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548284916842936595}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1891195564941731494
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +94,9 @@ GameObject:
   - component: {fileID: 1638593109739311618}
   - component: {fileID: 52640042634007856}
   - component: {fileID: 9220845113284026936}
-  - component: {fileID: 1931450584695939758}
   - component: {fileID: 1556930583223813556}
   - component: {fileID: 2731370286452047885}
+  - component: {fileID: 4769945432738674862}
   m_Layer: 0
   m_Name: ZeltLila
   m_TagString: Untagged
@@ -185,20 +170,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1931450584695939758
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891195564941731494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &1556930583223813556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +204,16 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   _colorObject: 6
+--- !u!65 &4769945432738674862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891195564941731494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.65923524, z: 6.1232336e-17}
+  m_Center: {x: 0, y: -0.0042592287, z: 0}

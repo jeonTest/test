@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7308681503369372017}
   - component: {fileID: 2274137992357613155}
   - component: {fileID: 932030272931480413}
-  - component: {fileID: 4392233299311953921}
   - component: {fileID: 6764259724151991724}
   - component: {fileID: 8368421618550531098}
+  - component: {fileID: 4886427883465236491}
   m_Layer: 0
   m_Name: Blume 1
   m_TagString: Untagged
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4392233299311953921
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 654393154683698961}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &6764259724151991724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +121,19 @@ MonoBehaviour:
     useMainPaint: 1
     useNormalPaint: 0
     useHeightPaint: 0
+--- !u!65 &4886427883465236491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654393154683698961}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.72698134, y: 0.9835941, z: 6.1232336e-17}
+  m_Center: {x: -0.01185748, y: -0.00820294, z: 0}
 --- !u!1 &8524469694943998381
 GameObject:
   m_ObjectHideFlags: 0

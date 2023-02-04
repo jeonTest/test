@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 214363238763344484}
   - component: {fileID: 139798634117990518}
   - component: {fileID: 4077513412158672572}
-  - component: {fileID: 5097833644496156585}
   - component: {fileID: 4126402861186759216}
   - component: {fileID: 1915156301922483014}
+  - component: {fileID: 7298758993694090709}
   m_Layer: 0
   m_Name: ZeltGelb
   m_TagString: Untagged
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5097833644496156585
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6494205884554351936}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &4126402861186759216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +114,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04cc1b9412eea6e4a8798f4b2f88b4ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paintSet: []
+  paintSet:
+  - mainTextureName: _MainTex
+    normalTextureName: _BumpMap
+    heightTextureName: _ParallaxMap
+    useMainPaint: 1
+    useNormalPaint: 0
+    useHeightPaint: 0
+--- !u!65 &7298758993694090709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494205884554351936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.49192768, z: 6.1232336e-17}
+  m_Center: {x: 0, y: -0.0056625903, z: 0}
 --- !u!1 &6915600894209124138
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +145,6 @@ GameObject:
   - component: {fileID: 5305215957940687152}
   - component: {fileID: 2527858634692525431}
   - component: {fileID: 5595487553820828317}
-  - component: {fileID: 3683296628553210389}
   m_Layer: 0
   m_Name: ZeltGelb (1)
   m_TagString: Untagged
@@ -213,17 +217,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3683296628553210389
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6915600894209124138}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}

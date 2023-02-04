@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1086155808537929320}
   - component: {fileID: 1352242850263645132}
   - component: {fileID: 3272609310297888055}
-  - component: {fileID: 1660510588391018595}
   - component: {fileID: 7991103630345429551}
   - component: {fileID: 1141807645553691857}
+  - component: {fileID: 593499531471399342}
   m_Layer: 0
   m_Name: Baumstammhaus
   m_TagString: Untagged
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1660510588391018595
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666589951313482845}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &7991103630345429551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +121,19 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   _colorObject: 7
+--- !u!65 &593499531471399342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666589951313482845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.96883225, y: 0.77931523, z: 6.1232336e-17}
+  m_Center: {x: -0.015583873, y: 0.018784404, z: 0}
 --- !u!1 &6153863823572892050
 GameObject:
   m_ObjectHideFlags: 0

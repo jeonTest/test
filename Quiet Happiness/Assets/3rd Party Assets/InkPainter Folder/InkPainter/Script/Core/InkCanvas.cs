@@ -787,7 +787,7 @@ namespace Es.InkPainter
 			{
 				if(hitInfo.collider is MeshCollider)
 					return PaintUVDirect(brush, hitInfo.textureCoord, materialSelector);
-				Debug.LogWarning("If you want to paint using a RaycastHit, need set MeshCollider for object.");
+				//Debug.LogWarning("If you want to paint using a RaycastHit, need set MeshCollider for object.");
 				return PaintNearestTriangleSurface(brush, hitInfo.point, materialSelector);
 			}
 			return false;
