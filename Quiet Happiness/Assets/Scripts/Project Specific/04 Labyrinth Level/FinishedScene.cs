@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishedScene : MonoBehaviour
+public class FinishedScene : Module
 {
     public GameObject finishedScreen;
 
@@ -24,5 +24,6 @@ public class FinishedScene : MonoBehaviour
     public void Finished()
     {
        SceneManager.LoadScene("Menu");
+       ModuleManager.GetModule<SaveGameManager>().SetCompletionInfo(CompletionIDs.LABYRINTHLEVELDONE, true);
     }
 }

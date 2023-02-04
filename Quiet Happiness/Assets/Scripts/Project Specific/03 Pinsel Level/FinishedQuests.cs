@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class FinishedQuests : MonoBehaviour
+public class FinishedQuests : Module
 {
     public GameObject[] questNPC;
     Quest[] quest;
@@ -46,5 +46,6 @@ public class FinishedQuests : MonoBehaviour
     public void Finished()
     {
         SceneManager.LoadScene("Menu");
+        ModuleManager.GetModule<SaveGameManager>().SetCompletionInfo(CompletionIDs.BRUSHLEVELDONE, true);
     }
 }

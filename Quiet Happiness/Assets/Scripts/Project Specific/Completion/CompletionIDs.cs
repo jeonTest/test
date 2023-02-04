@@ -12,4 +12,6 @@ public static class CompletionIDs
     public const string MOLELEVELGIVEITEM = "MoleLevelGiveItem";
     public const string LABYRINTHLEVELDONE = "LabyrinthLevelDone";
     public const string LABYRINTHLEVELGIVEITEM = "LabyrinthLevelGiveItem";
+    public const string BRUSHLEVELDONE = "BrushLevelDone";
+    public const string BRUSHLEVELGIVEITEM = "BrushLevelGiveItem";
 }
