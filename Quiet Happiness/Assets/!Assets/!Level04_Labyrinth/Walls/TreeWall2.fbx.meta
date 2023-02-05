@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b23aa540fca481c46a65e12bd460d01f
+guid: 8e9be0a8280a98d499c201a8c16fb1ae
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -7,8 +7,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 061274424fbefdc499a348555fc416ba, type: 2}
+      name: Bark
+    second: {fileID: 2100000, guid: 1141165995b429a42a15309c35af7bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEaves
+    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp
+    second: {fileID: 2100000, guid: 093ca57916a271d4ab0253646c13b3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lamp.001
+    second: {fileID: 2100000, guid: 093ca57916a271d4ab0253646c13b3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: e08542717eed16f45859ad92feb036ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeWall
+    second: {fileID: 2100000, guid: 1141165995b429a42a15309c35af7bcd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
