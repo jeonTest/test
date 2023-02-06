@@ -17,6 +17,7 @@ public class ButtonScript : MonoBehaviour
     float blendSpeed = 10f;
 
     public Animator anim;
+    public AudioSource switchSound;
 
     SkinnedMeshRenderer skinnedMeshRenderer01;
     Mesh skinnedMesh01;
@@ -91,6 +92,8 @@ public class ButtonScript : MonoBehaviour
         if (nearPlayer == true)
         {
             Debug.Log("Button pressed!");
+
+            switchSound.Play();
 
             if (doorOpen == false)
             {

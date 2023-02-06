@@ -84,6 +84,7 @@ public class Quest : MonoBehaviour
         if(questDone == true)
         {
             reward.SetActive(true);
+
         }
     }
 

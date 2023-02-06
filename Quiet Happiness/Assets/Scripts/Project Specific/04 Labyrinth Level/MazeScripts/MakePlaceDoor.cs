@@ -6,19 +6,6 @@ public class MakePlaceDoor : MonoBehaviour
 {
     public bool inRange;
 
-    /*
-    void Update()
-    {
-        if(inRange == true)
-        {
-            gameObject.SetActive(false);
-            if (inRange == false)
-            {
-                gameObject.SetActive(true);
-            }
-        }
-    }*/
-
     void Start()
     {
         StartCoroutine(WallGo());
