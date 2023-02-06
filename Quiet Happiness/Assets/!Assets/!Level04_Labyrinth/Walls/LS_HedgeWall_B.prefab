@@ -12,14 +12,14 @@ GameObject:
   - component: {fileID: 1364051429434240074}
   - component: {fileID: 3822116572212385920}
   - component: {fileID: 8335695606997103454}
-  - component: {fileID: 3811664936286946290}
   - component: {fileID: 7753204724899518626}
+  - component: {fileID: 3775564365623547352}
   m_Layer: 0
   m_Name: LS_HedgeWall_B
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2684653459873309679
 Transform:
@@ -102,19 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &3811664936286946290
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3317497840774019413}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 1.9999998, z: 3.3716266}
-  m_Center: {x: 0, y: 0.9740205, z: 0}
 --- !u!114 &7753204724899518626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,3 +115,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inRange: 0
+--- !u!65 &3775564365623547352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317497840774019413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0354345, z: 3.5616648}
+  m_Center: {x: 0, y: 0.991738, z: -0.03087285}
