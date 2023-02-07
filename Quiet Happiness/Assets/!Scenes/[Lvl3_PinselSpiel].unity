@@ -1762,6 +1762,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: LightBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &73903785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4875,6 +4887,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Yellow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &234540485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7535,6 +7559,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Green
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &328542505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9712,6 +9748,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2071131132}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Orange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14308,7 +14356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41cfca84f26ea4488169b60042f42a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSounds: {fileID: 0}
+  _clickSounds: {fileID: 1383121515}
   _menuType: 1
 --- !u!114 &675238942
 MonoBehaviour:
@@ -15914,6 +15962,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Brown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &743818298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16784,6 +16844,10 @@ MonoBehaviour:
   - Purple
   - Brown
   colourActive: 
+  cursorTexture: {fileID: 2800000, guid: 3bf0ee5afd82d1945a2af67ebe1256d8, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 0, y: 0}
+  brushCursor: 0
 --- !u!4 &791856912
 Transform:
   m_ObjectHideFlags: 0
@@ -18697,7 +18761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSounds: {fileID: 0}
+  _clickSounds: {fileID: 1383121515}
   _menu: {fileID: 1058457955}
 --- !u!1001 &875134920
 PrefabInstance:
@@ -23996,6 +24060,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: DarkBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1164864901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28084,6 +28160,168 @@ Transform:
   m_Father: {fileID: 1891012377}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1383121511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383121512}
+  - component: {fileID: 1383121514}
+  - component: {fileID: 1383121513}
+  - component: {fileID: 1383121515}
+  m_Layer: 0
+  m_Name: UI Click Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383121512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383121511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1872778857}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1383121513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383121511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff42938de6aeae14bad33e8a356d1c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: 1
+--- !u!82 &1383121514
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383121511}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0c7594f35bbabc1409098ca8314d7c4b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1383121515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383121511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094ec06e00f7c0540ae34e07b64754dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isPassive: 1
+  _minDelayBetweenSounds: 0
+  _maxDelayBetweenSounds: 0
+  _items:
+  - Source: {fileID: 8300000, guid: 0c7594f35bbabc1409098ca8314d7c4b, type: 3}
+    Probability: 1
+    CountedProbability: 0
 --- !u!1 &1390981437
 GameObject:
   m_ObjectHideFlags: 3
@@ -29133,7 +29371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f41adf822f00514d909034bd21ead6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSounds: {fileID: 0}
+  _clickSounds: {fileID: 1383121515}
   _sceneName: Menu
 --- !u!1001 &1445854981
 PrefabInstance:
@@ -33848,6 +34086,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1383121514}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1712869072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37808,6 +38058,7 @@ Transform:
   - {fileID: 567725833}
   - {fileID: 256496198}
   - {fileID: 2071131130}
+  - {fileID: 1383121512}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42367,6 +42618,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Red
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2107307582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42860,6 +43123,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2071131132}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 791856911}
+        m_TargetAssemblyTypeName: ActiveColor, Assembly-CSharp
+        m_MethodName: Purple
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
