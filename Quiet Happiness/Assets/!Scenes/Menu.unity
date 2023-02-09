@@ -20369,7 +20369,7 @@ MonoBehaviour:
   - BrushLevelGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
-  - {fileID: -5483710919568085865, guid: daa79ef1a4de57b428b9c8df19af08d0, type: 3}
+  - {fileID: -7420248374220116272, guid: 6574386479e7f114eb877ccddb327633, type: 3}
 --- !u!1 &1709857568
 GameObject:
   m_ObjectHideFlags: 0

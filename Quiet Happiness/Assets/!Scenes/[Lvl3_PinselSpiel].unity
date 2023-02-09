@@ -5126,7 +5126,7 @@ MonoBehaviour:
   Input: {fileID: 241990085}
   dialogueBox: {fileID: 1865424357}
   questStarter: 1
-  npcName: Emo Pilz
+  npcName: Sebastian
   dialogue:
   - ...
   afterQuestDialogue:
@@ -11822,7 +11822,7 @@ MonoBehaviour:
   Input: {fileID: 563037534}
   dialogueBox: {fileID: 771024198}
   questStarter: 1
-  npcName: "K\xFCrbis"
+  npcName: Charles
   dialogue:
   - "-Wo k\xF6nnte er blo\xDF sein? Pinselmeister! Hast du vielleicht meinen besonderen
     Stift gesehen?"
@@ -20321,7 +20321,7 @@ MonoBehaviour:
   Input: {fileID: 966212939}
   dialogueBox: {fileID: 549521177}
   questStarter: 1
-  npcName: Glockenblume
+  npcName: Lady Viola
   dialogue:
   - None
   afterQuestDialogue:
@@ -22765,7 +22765,7 @@ MonoBehaviour:
   Input: {fileID: 1084722769}
   dialogueBox: {fileID: 668391452}
   questStarter: 1
-  npcName: 'Glockenblume '
+  npcName: Lady Viola
   dialogue:
   - '*seufz* Mein Lieblingskleid hat nicht mehr die richtige Farbe.'
   - "Ich kann einfach nicht tanzen und h\xFCpfen und spielen, solange es nicht richtig
@@ -26099,7 +26099,7 @@ MonoBehaviour:
   Input: {fileID: 1289476470}
   dialogueBox: {fileID: 567980826}
   questStarter: 1
-  npcName: Boe
+  npcName: Bo
   dialogue:
   - "Hey! K\xF6nntest du uns helfen?"
   - "Wir suchen den Kleinen aber k\xF6nnen ihn nicht finden."
@@ -31912,7 +31912,7 @@ MonoBehaviour:
   Input: {fileID: 1571451872}
   dialogueBox: {fileID: 2013624263}
   questStarter: 0
-  npcName: Gemeine Schnecke
+  npcName: Herr van Schneck
   dialogue:
   - Hallo
   - "Hier entsteht eine R\xE4tsel Frage"
@@ -32495,7 +32495,7 @@ MonoBehaviour:
   Input: {fileID: 1593739827}
   dialogueBox: {fileID: 722484022}
   questStarter: 1
-  npcName: Kristall
+  npcName: Kris
   dialogue:
   - None
   afterQuestDialogue:
@@ -34210,7 +34210,7 @@ MonoBehaviour:
   Input: {fileID: 1713345062}
   dialogueBox: {fileID: 2073474147}
   questStarter: 1
-  npcName: Pilz Opa
+  npcName: Alfred
   dialogue:
   - "Oh, ein freundliches Gesicht, wie sch\xF6n. Du hast die Br\xFCcke frei gemacht?"
   - 'Wie lieb von dir, aber leider hilft das meinem Problemchen nicht. '
@@ -34732,7 +34732,7 @@ MonoBehaviour:
   Input: {fileID: 1745438126}
   dialogueBox: {fileID: 937201881}
   questStarter: 1
-  npcName: Sonnenblume
+  npcName: Sonja
   dialogue:
   - 'Bitte, du musst mir helfen! '
   - Ich wollte meine Pflanzen umtopfen und habe sie nur ganz kurz auf die Seite gestellt
@@ -35577,7 +35577,7 @@ MonoBehaviour:
   Input: {fileID: 1762416879}
   dialogueBox: {fileID: 501564427}
   questStarter: 1
-  npcName: Kristall
+  npcName: Kris
   dialogue:
   - Was mit mir ist? Oh, ich habe alle meine Farben verloren
   - So farblos bin ich doch kein Kristall mehr, sondern nur noch ein grauer Stein
