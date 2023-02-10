@@ -15,11 +15,13 @@ public class DialogueTrigger : MonoBehaviour
     public float dist;
     public bool active = true;
 
+    private bool start;
+
     DialogueManager dialogueManager;
 
     public void Start()
     {
-        dialogueBox = GameObject.Find("UI/PassiveDialogue");
+        dialogueBox = GameObject.Find("UI/DialogueBox");
         dialogueManager = dialogueBox.GetComponent<DialogueManager>();
     }
 
@@ -33,17 +35,42 @@ public class DialogueTrigger : MonoBehaviour
 
     public void StartDialogue()
     {
-        if (playerNear == true && active == true)
-        {
-            dialogueBox.SetActive(true);
-            FindObjectOfType<DialogueManager>().OpenDialogue(messages, npcs);
-        }
-
-        if((playerNear == false && active == false) || playerNear == false)
+        if(start == false)
         {
             dialogueBox.SetActive(false);
         }
-        
+
+        if(playerNear == true)
+        {
+            start = true;
+        }
+
+        if(playerNear == false)
+        {
+            dialogueManager.isActive = false;
+            start = false;
+        }
+
+        if (active == true && playerNear == true)
+        {
+            dialogueBox.SetActive(true);
+            FindObjectOfType<DialogueManager>().OpenDialogue(messages, npcs);
+            dialogueManager.seconds += Time.deltaTime;
+            dialogueManager.NextMessage();        
+        } 
+
+        if (active == false && start == true)
+        {
+            dialogueBox.SetActive(false);
+            dialogueManager.seconds = 0;
+            dialogueManager.activeMessage = 0;
+            dialogueManager.spawning += Time.deltaTime;
+            if (dialogueManager.spawning >= dialogueManager.readTime)
+            {
+                dialogueManager.isActive = true;
+                dialogueManager.spawning = 0;
+            }
+        }
     }
 
     public void distanceToPlayer()

@@ -4,25 +4,24 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager02 : MonoBehaviour
 {
     public TextMeshProUGUI npcName;
     public TextMeshProUGUI messageText;
-    public float readTime = 5;
-    public float respawnTime = 10;
-    public bool isActive = true;
+    public RectTransform backgroundBox;
 
     private Message[] currentMessages;
     private Npc[] currentNpcs;
-    public int activeMessage;
-    public float seconds;
-    public float spawning = 0;
-
+    private int activeMessage = 0;
+    public static bool isActive = false;
 
     public void OpenDialogue(Message[] messages, Npc[] npcs)
     {
         currentMessages = messages;
         currentNpcs = npcs;
+        activeMessage = 0;
+
+        Debug.Log("Yup: " + messages.Length);
         isActive = true;
         DisplayMessage();
     }
@@ -38,30 +37,29 @@ public class DialogueManager : MonoBehaviour
 
     public void NextMessage()
     {
-        if(seconds >= readTime)
-        {
-            activeMessage++;
-            seconds = 0;
-        }
-
-        if (activeMessage == currentMessages.Length-1 && seconds >= (readTime - 0.5f) && gameObject.activeSelf)
-        {
-            isActive = false;
-        }
-        else
+        activeMessage++;
+        if(activeMessage < currentMessages.Length)
         {
             DisplayMessage();
         }
+        else
+        {
+            Debug.Log("Conversation ended!");
+            isActive = false;
+        }
     }
 
-    public void Update()
+    void Update()
     {
-   
+        //if (Input && isActive == true)
+        //NextMessage();
     }
 
-    public void OnEnable()
+    public void ButtonTest()
     {
-        //seconds = 0;
-        //activeMessage = 0;
+        if(isActive == true)
+        {
+            NextMessage();
+        }
     }
 }
