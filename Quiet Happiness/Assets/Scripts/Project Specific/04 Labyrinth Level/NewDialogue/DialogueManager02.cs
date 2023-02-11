@@ -24,6 +24,7 @@ public class DialogueManager02 : MonoBehaviour
         Debug.Log("Yup: " + messages.Length);
         isActive = true;
         DisplayMessage();
+        backgroundBox.LeanScale(Vector3.one, 0.5f);
     }
 
     public void DisplayMessage()
@@ -45,8 +46,14 @@ public class DialogueManager02 : MonoBehaviour
         else
         {
             Debug.Log("Conversation ended!");
+            backgroundBox.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             isActive = false;
         }
+    }
+
+    void Start()
+    {
+        backgroundBox.transform.localScale = Vector3.zero;
     }
 
     void Update()
