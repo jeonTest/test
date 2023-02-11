@@ -24,6 +24,11 @@ public class ButtonScript : MonoBehaviour
 
     BoxCollider boxCollider01;
 
+    MatValueOpen matValueOpen;
+    MatValueClose matValueClose;
+    public GameObject DoorOpen;
+    public GameObject DoorClose;
+
     public void Awake()
     {
         Input = GetComponent<PlayerInput>();
@@ -35,6 +40,10 @@ public class ButtonScript : MonoBehaviour
         }
 
         boxCollider01 = Door.GetComponent<BoxCollider>();
+
+        matValueOpen = DoorOpen.GetComponent<MatValueOpen>();
+        matValueClose = DoorClose.GetComponent<MatValueClose>();
+
     }
 
     void Start()
@@ -98,6 +107,8 @@ public class ButtonScript : MonoBehaviour
             if (doorOpen == false)
             {
                 doorOpen = true;
+                matValueOpen.MatValueOpenChange();
+                matValueClose.MatValueCloseChange();
 
             }
             else if(doorOpen == true)
