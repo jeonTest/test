@@ -15,6 +15,8 @@ public class DialogueManager02 : MonoBehaviour
     private int activeMessage = 0;
     public static bool isActive = false;
 
+    public float seconds;
+
     public void OpenDialogue(Message[] messages, Npc[] npcs)
     {
         currentMessages = messages;
@@ -39,6 +41,7 @@ public class DialogueManager02 : MonoBehaviour
     public void NextMessage()
     {
         activeMessage++;
+
         if(activeMessage < currentMessages.Length)
         {
             DisplayMessage();
@@ -58,15 +61,15 @@ public class DialogueManager02 : MonoBehaviour
 
     void Update()
     {
-        //if (Input && isActive == true)
-        //NextMessage();
-    }
-
-    public void ButtonTest()
-    {
         if(isActive == true)
         {
-            NextMessage();
+            seconds += Time.deltaTime;
+
+            if (seconds >= 5)
+            {
+                seconds = 0;
+                NextMessage();
+            }
         }
     }
 }
