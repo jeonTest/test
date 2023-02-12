@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueNpc : MonoBehaviour
 {
-    public DialogueTrigger02 trigger;
+    public DialogueTrigger trigger;
 
     private void OnTriggerEnter(Collider col)
     {

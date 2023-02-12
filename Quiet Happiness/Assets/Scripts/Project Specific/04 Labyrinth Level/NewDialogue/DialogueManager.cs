@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class DialogueManager02 : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI npcName;
     public TextMeshProUGUI messageText;
@@ -15,7 +15,8 @@ public class DialogueManager02 : MonoBehaviour
     private int activeMessage = 0;
     public static bool isActive = false;
 
-    public float seconds;
+    public float readTime = 5;
+    private float seconds;
 
     public void OpenDialogue(Message[] messages, Npc[] npcs)
     {
@@ -42,7 +43,7 @@ public class DialogueManager02 : MonoBehaviour
     {
         activeMessage++;
 
-        if(activeMessage < currentMessages.Length)
+        if (activeMessage < currentMessages.Length)
         {
             DisplayMessage();
         }
@@ -61,11 +62,11 @@ public class DialogueManager02 : MonoBehaviour
 
     void Update()
     {
-        if(isActive == true)
+        if (isActive == true)
         {
             seconds += Time.deltaTime;
 
-            if (seconds >= 5)
+            if (seconds >= readTime)
             {
                 seconds = 0;
                 NextMessage();
