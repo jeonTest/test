@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6108960751647172956}
   - component: {fileID: 6211538958732718870}
   - component: {fileID: 1153458560893747195}
-  - component: {fileID: 6458969523599154622}
+  - component: {fileID: 2091143465914568659}
   m_Layer: 0
   m_Name: "Gro\xDFeBlume Bl\xE4tter"
   m_TagString: Untagged
@@ -204,7 +204,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   _colorObject: 6
---- !u!65 &6458969523599154622
+--- !u!65 &2091143465914568659
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,5 +215,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.97901297, y: 0.84857726, z: 6.1232336e-17}
-  m_Center: {x: 0.010493517, y: -0.07571137, z: 0}
+  m_Size: {x: 0.9428017, y: 0.8236307, z: 6.1232336e-17}
+  m_Center: {x: 0.007909894, y: -0.088184655, z: 0}
