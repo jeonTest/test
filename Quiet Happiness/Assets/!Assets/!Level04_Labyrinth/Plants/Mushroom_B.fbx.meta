@@ -1,44 +1,9 @@
 fileFormatVersion: 2
-guid: 607acc95e86cb5a4e8c5dff9953d2c97
+guid: d4691cd3397835b4a890ac51937328de
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Breech.001
-    second: {fileID: 2100000, guid: e0ef9bbfacc9ae44f90e82d6cb48e0b7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lamp
-    second: {fileID: 2100000, guid: 093ca57916a271d4ab0253646c13b3ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lamp.001
-    second: {fileID: 2100000, guid: 093ca57916a271d4ab0253646c13b3ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: e08542717eed16f45859ad92feb036ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Tree2
-    second: {fileID: 2100000, guid: 14c967e298fdd0a4eaf5d6545854838f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: branch.001
-    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: leaves
-    second: {fileID: 2100000, guid: 55ba1775cad6ef442b256c5364c583e9, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
