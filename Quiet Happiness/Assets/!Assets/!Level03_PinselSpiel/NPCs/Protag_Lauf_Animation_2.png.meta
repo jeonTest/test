@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: ebb69bc484bf23440bd58e393e6fa377
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3733
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae071efab8d79a4fb06d54e83aa78a2
+      internalID: -1048930973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3731
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb511b35094c7d5449b1d74213ef6f27
+      internalID: -2079955206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3729
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875f1f149b9b32b41b0db5851c31b983
+      internalID: 1360744877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_3
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 3728
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adf9f0a220ffa64d88dc9d7f56f28fe
+      internalID: 86455278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_4
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 3725
+        width: 191
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3149bfc19a20fa542beb8d9904fbc2eb
+      internalID: -924805084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_5
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 3731
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea40e506eb9cf3448cb01efbcc6c932
+      internalID: -1542392694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3411
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7401b0db43d29c4cb54e1044ad4ae12
+      internalID: -158229712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3409
+        width: 189
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218f1de4b56d03c4082bef51f876795a
+      internalID: 447509206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_8
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3407
+        width: 190
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b579bef4c334d49927dcaa9adaeb0f
+      internalID: 378119932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_9
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 3407
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf22bb77c69f74049b07f71809639e56
+      internalID: -1345663706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_10
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 3403
+        width: 188
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28f6279364aad442b3d15c71f715b91
+      internalID: -2117377252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_11
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 3405
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a163762f140f640b6dd4788de747f8
+      internalID: 1247576039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3085
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbda61695970f4044bd4b20a4fabe874
+      internalID: 482587004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_13
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3083
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8fc96cf509e843b2360c74928bd50
+      internalID: -471397999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_14
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 3079
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124551c952112cc4b83bf684f377da3a
+      internalID: -315317704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_15
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 3083
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc96f7d2b2bf7f840bf286580aa3c0d9
+      internalID: -135274504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3075
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07f0d1df53673448d596ab97931968
+      internalID: 1145183037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_17
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 3073
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73badb68c11edf2459ac126ee72ae59e
+      internalID: 206827032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2735
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7c3afbd6230224297a7d87019e9085
+      internalID: 1448273798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2731
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d15bb8f268676245bc459f3207fc54e
+      internalID: -521996643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_20
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2737
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964ed262f94d9da4cbe6f4f29d6f19ed
+      internalID: 93629375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_21
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2728
+        width: 189
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aa4d5c18644314682a5ebed3c8a3cc
+      internalID: -1309653662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_22
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2725
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b9676378a3cb747b9d1cf24c7af893
+      internalID: -1144854132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_23
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 2729
+        width: 190
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8d264e4c142f848835271f7b3821fd
+      internalID: 1966746425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2386
+        width: 189
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff228cf44c77ab42b13745ff4b1f646
+      internalID: -353329241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2384
+        width: 189
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9bcd4aedd08f441b4582b934c56335
+      internalID: 97220323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2380
+        width: 190
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14741454e97012b4ead81679c0a0a9fb
+      internalID: -172769847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_27
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2386
+        width: 189
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd82d7d843329f469c0df816f0885e7
+      internalID: 2030019651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_28
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 2380
+        width: 190
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b052e67802d81df458faecd8c7fc45b4
+      internalID: 128347474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_29
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 2378
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979bffc98ea50194797aca1fd01c996d
+      internalID: -1350664469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2001
+        width: 189
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525a751570291a245a7766f396490ee1
+      internalID: -1632829210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2005
+        width: 188
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3140d15548a91f143b3ac086925dd0cb
+      internalID: 1900411453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_32
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1999
+        width: 187
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417e0606922ae94f99d553c9ae5369a
+      internalID: -104065395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_33
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1995
+        width: 187
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe4a3f01ed925744868b818660a5f93
+      internalID: 1124092962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_34
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1993
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c73a913ab2e44780e26a26f404dcb
+      internalID: -738955306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_35
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1997
+        width: 188
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc64ea7216a24f4a86832417ebacab8
+      internalID: 1525820079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_36
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1634
+        width: 188
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124a3121a988cd941b57033386855672
+      internalID: -1436994470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_37
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1632
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c44b73adb87943b711c4a46f13f49
+      internalID: -1991987440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_38
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1638
+        width: 189
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6d0c2ed9c495746bba0c5cf1b8e6f3
+      internalID: 1668399508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_39
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1632
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eb1d934e45a684295d26aed18ed807
+      internalID: -334380658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Protag_Lauf_Animation_2_40
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1630
+        width: 190
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16cac55d146a544dae76ca3b8f9b91d
+      internalID: 1174528731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 21984970080cd1e45b6a6972b518380d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Protag_Lauf_Animation_2_11: 1247576039
+      Protag_Lauf_Animation_2_38: 1668399508
+      Protag_Lauf_Animation_2_40: 1174528731
+      Protag_Lauf_Animation_2_8: 378119932
+      Protag_Lauf_Animation_2_28: 128347474
+      Protag_Lauf_Animation_2_34: -738955306
+      Protag_Lauf_Animation_2_31: 1900411453
+      Protag_Lauf_Animation_2_27: 2030019651
+      Protag_Lauf_Animation_2_24: -353329241
+      Protag_Lauf_Animation_2_0: -1048930973
+      Protag_Lauf_Animation_2_6: -158229712
+      Protag_Lauf_Animation_2_35: 1525820079
+      Protag_Lauf_Animation_2_2: 1360744877
+      Protag_Lauf_Animation_2_29: -1350664469
+      Protag_Lauf_Animation_2_21: -1309653662
+      Protag_Lauf_Animation_2_33: 1124092962
+      Protag_Lauf_Animation_2_3: 86455278
+      Protag_Lauf_Animation_2_5: -1542392694
+      Protag_Lauf_Animation_2_17: 206827032
+      Protag_Lauf_Animation_2_15: -135274504
+      Protag_Lauf_Animation_2_19: -521996643
+      Protag_Lauf_Animation_2_22: -1144854132
+      Protag_Lauf_Animation_2_18: 1448273798
+      Protag_Lauf_Animation_2_39: -334380658
+      Protag_Lauf_Animation_2_14: -315317704
+      Protag_Lauf_Animation_2_13: -471397999
+      Protag_Lauf_Animation_2_16: 1145183037
+      Protag_Lauf_Animation_2_1: -2079955206
+      Protag_Lauf_Animation_2_37: -1991987440
+      Protag_Lauf_Animation_2_32: -104065395
+      Protag_Lauf_Animation_2_12: 482587004
+      Protag_Lauf_Animation_2_9: -1345663706
+      Protag_Lauf_Animation_2_23: 1966746425
+      Protag_Lauf_Animation_2_26: -172769847
+      Protag_Lauf_Animation_2_36: -1436994470
+      Protag_Lauf_Animation_2_7: 447509206
+      Protag_Lauf_Animation_2_4: -924805084
+      Protag_Lauf_Animation_2_10: -2117377252
+      Protag_Lauf_Animation_2_25: 97220323
+      Protag_Lauf_Animation_2_20: 93629375
+      Protag_Lauf_Animation_2_30: -1632829210
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
