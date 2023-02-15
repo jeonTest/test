@@ -10,7 +10,6 @@ public class DialogueBrushGame : MonoBehaviour
     public GameObject dialogueBox;
     public bool questStarter = true;
 
-
     public string npcName;
     public string[] dialogue;
     public string[] afterQuestDialogue;
@@ -53,6 +52,7 @@ public class DialogueBrushGame : MonoBehaviour
         }
         playerNear = false;
         SetName();
+
     }
     
     public void Awake()
@@ -66,7 +66,6 @@ public class DialogueBrushGame : MonoBehaviour
         answerA = GameObject.Find("AnswerA").GetComponent<Answers>();
         answerB = GameObject.Find("AnswerB").GetComponent<Answers>();
         answerC = GameObject.Find("AnswerC").GetComponent<Answers>();
-
     }
 
     public void QuestAnswers()
@@ -136,13 +135,11 @@ public class DialogueBrushGame : MonoBehaviour
                     if (dialogueBox.activeSelf == true && dialogueNumber < dialogue.Length)
                     {
                         dialogueNumber += 1;
-                        //startQuest = true;
                         quest.isActive = true;
                     }
 
                     if(startQuest == false && dialogueNumber == dialogue.Length - 1)
                     {
-                        //startQuest = true;
                         quest.isActive = true;
                     }
                 }

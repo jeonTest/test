@@ -7,11 +7,18 @@ public class SearchedObject : MonoBehaviour
 {
     Quest quest;
     Quest ownQuest;
-    public Vector3 newPosition;
     public GameObject questGiver;
     public Transform target;
     NavMeshAgent nav;
     public GameObject destination;
+
+    public Vector3 goal;
+
+    public Animator anim;
+    public Animator playerAnim;
+
+    public Vector3 curPos;
+    private Vector3 lastPos;
 
     void Start()
     {
@@ -23,23 +30,31 @@ public class SearchedObject : MonoBehaviour
 
     void Update()
     {
-        /*if(quest.isActive == true && quest.objectFound == true)
-        {
-            transform.position = newPosition;
-            //newPosition = transform.position;
-            ownQuest.questDone = true;
-        }*/
-
         StartFollowing();
     }
 
-
-
     void StartFollowing()
     {
-        if(quest.isActive == true && quest.objectFound == true && ownQuest.questDone == false)
+        if (curPos == lastPos)
+        {
+            anim.SetBool("Following", false);
+        }
+        else
+        {
+            anim.SetBool("Following", true);
+        }
+        lastPos = curPos;
+
+        if (quest.isActive == true && quest.objectFound == true && ownQuest.questDone == false)
         {
             nav.SetDestination(target.position);
+
+            curPos = gameObject.transform.position;            
+        }
+
+        if(ownQuest.questDone == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, goal, 5 * Time.deltaTime);
         }
     }
 }
