@@ -21,6 +21,18 @@ public class FlowerAnimation : MonoBehaviour
         {
             animator.SetBool("playFG2Jiggle", true);
         }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playSingleMushroomJiggle", true);
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playG1MushroomJiggle", true);
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playG2MushroomJiggle", true);
+        }
     }
     private void OnTriggerExit(Collider other)
     {
@@ -35,6 +47,18 @@ public class FlowerAnimation : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             animator.SetBool("playFG2Jiggle", false);
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playSingleMushroomJiggle", false);
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playG1MushroomJiggle", false);
+        }
+        if (other.CompareTag("Player"))
+        {
+            animator.SetBool("playG2MushroomJiggle", false);
         }
     }
 }
