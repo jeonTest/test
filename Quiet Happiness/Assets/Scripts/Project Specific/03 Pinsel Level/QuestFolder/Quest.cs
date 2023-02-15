@@ -12,7 +12,8 @@ public class Quest : MonoBehaviour
         "None",
         "Colouring",
         "Searching",
-        "Talking"
+        "Talking",
+        "BringingHome"
     };
 
     public bool isActive = false;
