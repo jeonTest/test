@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ebb69bc484bf23440bd58e393e6fa377
+guid: 7d88b5057a5a36b4384d8bb5c81e7155
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_0
+      name: NEU_Steh_Animation_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 3733
-        width: 189
-        height: 266
+        x: 48
+        y: 3724
+        width: 185
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae071efab8d79a4fb06d54e83aa78a2
-      internalID: -1048930973
+      spriteID: 924aadf5fbd394245b5f71d0ee801bd2
+      internalID: -601723707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_1
+      name: NEU_Steh_Animation_1
       rect:
         serializedVersion: 2
         x: 337
-        y: 3731
-        width: 189
-        height: 266
+        y: 3722
+        width: 185
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb511b35094c7d5449b1d74213ef6f27
-      internalID: -2079955206
+      spriteID: c6e593b16286ce24e95750c66daebf98
+      internalID: 1428790602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_2
+      name: NEU_Steh_Animation_2
       rect:
         serializedVersion: 2
-        x: 616
-        y: 3729
-        width: 190
-        height: 266
+        x: 624
+        y: 3722
+        width: 186
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 875f1f149b9b32b41b0db5851c31b983
-      internalID: 1360744877
+      spriteID: a0c6190dccf474a42aeb43f5cf9e0ec2
+      internalID: -1746025032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_3
+      name: NEU_Steh_Animation_3
       rect:
         serializedVersion: 2
-        x: 911
-        y: 3728
-        width: 190
-        height: 266
+        x: 925
+        y: 3720
+        width: 187
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2adf9f0a220ffa64d88dc9d7f56f28fe
-      internalID: 86455278
+      spriteID: c8fd54db7740fca48aacd2028ad4d77c
+      internalID: 1942480051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_4
+      name: NEU_Steh_Animation_4
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 3725
-        width: 191
-        height: 266
+        x: 1196
+        y: 3720
+        width: 186
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3149bfc19a20fa542beb8d9904fbc2eb
-      internalID: -924805084
+      spriteID: df540f1e6baa11742b53420771cd5e74
+      internalID: -819402166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_5
+      name: NEU_Steh_Animation_5
       rect:
         serializedVersion: 2
-        x: 1483
-        y: 3731
-        width: 190
-        height: 266
+        x: 1497
+        y: 3718
+        width: 186
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,19 +235,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fea40e506eb9cf3448cb01efbcc6c932
-      internalID: -1542392694
+      spriteID: 48cdf55ae3ae09a4a8eed03eb85276dc
+      internalID: -1458959005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_6
+      name: NEU_Steh_Animation_6
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 3411
-        width: 189
+        width: 185
         height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -256,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7401b0db43d29c4cb54e1044ad4ae12
-      internalID: -158229712
+      spriteID: 7fc0a04234bd4c54a9c948b5eedc16d8
+      internalID: 2042898788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_7
+      name: NEU_Steh_Animation_7
       rect:
         serializedVersion: 2
-        x: 341
-        y: 3409
-        width: 189
-        height: 268
+        x: 349
+        y: 3399
+        width: 187
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,60 +277,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 218f1de4b56d03c4082bef51f876795a
-      internalID: 447509206
+      spriteID: 954e25e25c13c084aaf06ed21957692f
+      internalID: -1009303821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_8
+      name: NEU_Steh_Animation_8
       rect:
         serializedVersion: 2
-        x: 620
+        x: 624
+        y: 3401
+        width: 186
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141f7d4bb39c3004e8f1591d72228e14
+      internalID: -832363497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_9
+      rect:
+        serializedVersion: 2
+        x: 913
         y: 3407
-        width: 190
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3b579bef4c334d49927dcaa9adaeb0f
-      internalID: 378119932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_9
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 3407
-        width: 190
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf22bb77c69f74049b07f71809639e56
-      internalID: -1345663706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_10
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 3403
         width: 188
         height: 266
       alignment: 0
@@ -340,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c28f6279364aad442b3d15c71f715b91
-      internalID: -2117377252
+      spriteID: a50a7082161d7d441b76d555c81c1635
+      internalID: 935347874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_11
+      name: NEU_Steh_Animation_10
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 3405
-        width: 190
-        height: 264
+        x: 1202
+        y: 3396
+        width: 188
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,19 +340,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a163762f140f640b6dd4788de747f8
-      internalID: 1247576039
+      spriteID: 91c86457e95803c4c9f9c78124047b48
+      internalID: -176171419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_12
+      name: NEU_Steh_Animation_11
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 3392
+        width: 186
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11ec250d4f740449867ff6aca87558a
+      internalID: -2022519048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_12
       rect:
         serializedVersion: 2
         x: 56
-        y: 3085
-        width: 189
+        y: 3087
+        width: 185
         height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -382,271 +382,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbda61695970f4044bd4b20a4fabe874
-      internalID: 482587004
+      spriteID: 54d34342c787ea249b413fc2d82c33cb
+      internalID: -1434477715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_13
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 3083
-        width: 189
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62b8fc96cf509e843b2360c74928bd50
-      internalID: -471397999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_14
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 3079
-        width: 189
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 124551c952112cc4b83bf684f377da3a
-      internalID: -315317704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_15
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 3083
-        width: 189
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc96f7d2b2bf7f840bf286580aa3c0d9
-      internalID: -135274504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_16
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 3075
-        width: 190
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e07f0d1df53673448d596ab97931968
-      internalID: 1145183037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_17
-      rect:
-        serializedVersion: 2
-        x: 1489
-        y: 3073
-        width: 190
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73badb68c11edf2459ac126ee72ae59e
-      internalID: 206827032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_18
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2735
-        width: 189
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c7c3afbd6230224297a7d87019e9085
-      internalID: 1448273798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_19
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 2731
-        width: 189
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d15bb8f268676245bc459f3207fc54e
-      internalID: -521996643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_20
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 2737
-        width: 189
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 964ed262f94d9da4cbe6f4f29d6f19ed
-      internalID: 93629375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_21
-      rect:
-        serializedVersion: 2
-        x: 923
-        y: 2728
-        width: 189
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09aa4d5c18644314682a5ebed3c8a3cc
-      internalID: -1309653662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_22
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 2725
-        width: 190
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0b9676378a3cb747b9d1cf24c7af893
-      internalID: -1144854132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_23
-      rect:
-        serializedVersion: 2
-        x: 1495
-        y: 2729
-        width: 190
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac8d264e4c142f848835271f7b3821fd
-      internalID: 1966746425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_24
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 2386
-        width: 189
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eff228cf44c77ab42b13745ff4b1f646
-      internalID: -353329241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_25
+      name: NEU_Steh_Animation_13
       rect:
         serializedVersion: 2
         x: 347
-        y: 2384
-        width: 189
+        y: 3085
+        width: 185
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0420628fd84e3e4092bfe442276bec4
+      internalID: -1484545245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_14
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3077
+        width: 185
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99c0c2db23735e459607400f914ad50
+      internalID: -1900118743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 3087
+        width: 186
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b5f3bbe90c90a409401f6cd2a25285
+      internalID: -1667346697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_16
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 3071
+        width: 183
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de79ee13aae84dc4ebe013f0aca3f189
+      internalID: -218096401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_17
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 3067
+        width: 186
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c007bc7fce37f3341a230f1e2640243a
+      internalID: -1796909505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2724
+        width: 183
         height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -655,19 +508,145 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b9bcd4aedd08f441b4582b934c56335
-      internalID: 97220323
+      spriteID: 457383f5bb1e4b848b134694bea93156
+      internalID: -1383652828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_26
+      name: NEU_Steh_Animation_19
       rect:
         serializedVersion: 2
-        x: 625
+        x: 337
+        y: 2737
+        width: 185
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440af3819c845c945a330dffab17acc0
+      internalID: 428179766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_20
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2728
+        width: 186
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caf58871e8768e48abf1f9cfda0bf9f
+      internalID: -2069902557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_21
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2724
+        width: 185
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb0d3beb618b640b947f151f415149
+      internalID: -451170297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_22
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2720
+        width: 187
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa014c160fd64f7498667e71bc8461df
+      internalID: 1798532876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_23
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2726
+        width: 186
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d968fdf7dda233148b4463c3c1114db2
+      internalID: 1006900192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2374
+        width: 185
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d9230253da93f42940bbb76a2f4e8c
+      internalID: 1714102937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEU_Steh_Animation_25
+      rect:
+        serializedVersion: 2
+        x: 345
         y: 2380
-        width: 190
+        width: 185
         height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -676,61 +655,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14741454e97012b4ead81679c0a0a9fb
-      internalID: -172769847
+      spriteID: 25c7f5df302070443a815cc1313019e5
+      internalID: 2126859437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_27
+      name: NEU_Steh_Animation_26
       rect:
         serializedVersion: 2
-        x: 927
-        y: 2386
-        width: 189
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdd82d7d843329f469c0df816f0885e7
-      internalID: 2030019651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_28
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 2380
-        width: 190
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b052e67802d81df458faecd8c7fc45b4
-      internalID: 128347474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_29
-      rect:
-        serializedVersion: 2
-        x: 1501
-        y: 2378
-        width: 189
+        x: 624
+        y: 2372
+        width: 186
         height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -739,41 +676,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979bffc98ea50194797aca1fd01c996d
-      internalID: -1350664469
+      spriteID: f279ffb061c38b240a13e4050e3ade7e
+      internalID: 2030445437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_30
+      name: NEU_Steh_Animation_27
       rect:
         serializedVersion: 2
-        x: 103
-        y: 2001
-        width: 189
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 525a751570291a245a7766f396490ee1
-      internalID: -1632829210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_31
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 2005
+        x: 938
+        y: 2368
         width: 188
-        height: 265
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -781,39 +697,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3140d15548a91f143b3ac086925dd0cb
-      internalID: 1900411453
+      spriteID: 33254d56be737104bbafe0453b0f7d7f
+      internalID: 907507256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_32
+      name: NEU_Steh_Animation_28
       rect:
         serializedVersion: 2
-        x: 628
-        y: 1999
-        width: 187
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5417e0606922ae94f99d553c9ae5369a
-      internalID: -104065395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_33
-      rect:
-        serializedVersion: 2
-        x: 929
-        y: 1995
+        x: 1220
+        y: 2372
         width: 187
         height: 266
       alignment: 0
@@ -823,20 +718,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe4a3f01ed925744868b818660a5f93
-      internalID: 1124092962
+      spriteID: 356d1c50b051f9b47ba8d22818f8083b
+      internalID: -803832578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_34
+      name: NEU_Steh_Animation_29
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 1993
-        width: 190
-        height: 264
+        x: 1509
+        y: 2366
+        width: 185
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,20 +739,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7c73a913ab2e44780e26a26f404dcb
-      internalID: -738955306
+      spriteID: 9860041d227af534e9c309b664c2ada1
+      internalID: 1397938231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_35
+      name: NEU_Steh_Animation_30
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 1997
-        width: 188
-        height: 264
+        x: 75
+        y: 1987
+        width: 186
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,20 +760,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc64ea7216a24f4a86832417ebacab8
-      internalID: 1525820079
+      spriteID: dce1746eebdd4c549a7cfb4937ed17fa
+      internalID: 1799154473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_36
+      name: NEU_Steh_Animation_31
       rect:
         serializedVersion: 2
-        x: 108
-        y: 1634
-        width: 188
-        height: 265
+        x: 353
+        y: 2009
+        width: 185
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,92 +781,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 124a3121a988cd941b57033386855672
-      internalID: -1436994470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_37
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 1632
-        width: 190
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f4c44b73adb87943b711c4a46f13f49
-      internalID: -1991987440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_38
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 1638
-        width: 189
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f6d0c2ed9c495746bba0c5cf1b8e6f3
-      internalID: 1668399508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_39
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 1632
-        width: 190
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93eb1d934e45a684295d26aed18ed807
-      internalID: -334380658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Protag_Lauf_Animation_2_40
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 1630
-        width: 190
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c16cac55d146a544dae76ca3b8f9b91d
-      internalID: 1174528731
+      spriteID: b7585929399b0084bb61b24d93b80669
+      internalID: 2035568226
       vertices: []
       indices: 
       edges: []
@@ -979,7 +790,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 21984970080cd1e45b6a6972b518380d
+    spriteID: 5187b015a9351394bb99a0c14db156f3
     internalID: 0
     vertices: []
     indices: 
@@ -987,47 +798,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Protag_Lauf_Animation_2_11: 1247576039
-      Protag_Lauf_Animation_2_38: 1668399508
-      Protag_Lauf_Animation_2_10: -2117377252
-      Protag_Lauf_Animation_2_8: 378119932
-      Protag_Lauf_Animation_2_28: 128347474
-      Protag_Lauf_Animation_2_34: -738955306
-      Protag_Lauf_Animation_2_31: 1900411453
-      Protag_Lauf_Animation_2_27: 2030019651
-      Protag_Lauf_Animation_2_24: -353329241
-      Protag_Lauf_Animation_2_0: -1048930973
-      Protag_Lauf_Animation_2_6: -158229712
-      Protag_Lauf_Animation_2_35: 1525820079
-      Protag_Lauf_Animation_2_2: 1360744877
-      Protag_Lauf_Animation_2_29: -1350664469
-      Protag_Lauf_Animation_2_21: -1309653662
-      Protag_Lauf_Animation_2_33: 1124092962
-      Protag_Lauf_Animation_2_3: 86455278
-      Protag_Lauf_Animation_2_5: -1542392694
-      Protag_Lauf_Animation_2_17: 206827032
-      Protag_Lauf_Animation_2_15: -135274504
-      Protag_Lauf_Animation_2_19: -521996643
-      Protag_Lauf_Animation_2_22: -1144854132
-      Protag_Lauf_Animation_2_18: 1448273798
-      Protag_Lauf_Animation_2_39: -334380658
-      Protag_Lauf_Animation_2_14: -315317704
-      Protag_Lauf_Animation_2_13: -471397999
-      Protag_Lauf_Animation_2_16: 1145183037
-      Protag_Lauf_Animation_2_1: -2079955206
-      Protag_Lauf_Animation_2_37: -1991987440
-      Protag_Lauf_Animation_2_32: -104065395
-      Protag_Lauf_Animation_2_12: 482587004
-      Protag_Lauf_Animation_2_9: -1345663706
-      Protag_Lauf_Animation_2_23: 1966746425
-      Protag_Lauf_Animation_2_26: -172769847
-      Protag_Lauf_Animation_2_36: -1436994470
-      Protag_Lauf_Animation_2_7: 447509206
-      Protag_Lauf_Animation_2_4: -924805084
-      Protag_Lauf_Animation_2_40: 1174528731
-      Protag_Lauf_Animation_2_25: 97220323
-      Protag_Lauf_Animation_2_30: -1632829210
-      Protag_Lauf_Animation_2_20: 93629375
+      NEU_Steh_Animation_7: -1009303821
+      NEU_Steh_Animation_14: -1900118743
+      NEU_Steh_Animation_0: -601723707
+      NEU_Steh_Animation_2: -1746025032
+      NEU_Steh_Animation_3: 1942480051
+      NEU_Steh_Animation_1: 1428790602
+      NEU_Steh_Animation_20: -2069902557
+      NEU_Steh_Animation_21: -451170297
+      NEU_Steh_Animation_4: -819402166
+      NEU_Steh_Animation_12: -1434477715
+      NEU_Steh_Animation_31: 2035568226
+      NEU_Steh_Animation_22: 1798532876
+      NEU_Steh_Animation_17: -1796909505
+      NEU_Steh_Animation_13: -1484545245
+      NEU_Steh_Animation_9: 935347874
+      NEU_Steh_Animation_19: 428179766
+      NEU_Steh_Animation_25: 2126859437
+      NEU_Steh_Animation_30: 1799154473
+      NEU_Steh_Animation_8: -832363497
+      NEU_Steh_Animation_10: -176171419
+      NEU_Steh_Animation_5: -1458959005
+      NEU_Steh_Animation_18: -1383652828
+      NEU_Steh_Animation_16: -218096401
+      NEU_Steh_Animation_11: -2022519048
+      NEU_Steh_Animation_23: 1006900192
+      NEU_Steh_Animation_26: 2030445437
+      NEU_Steh_Animation_28: -803832578
+      NEU_Steh_Animation_29: 1397938231
+      NEU_Steh_Animation_15: -1667346697
+      NEU_Steh_Animation_24: 1714102937
+      NEU_Steh_Animation_27: 907507256
+      NEU_Steh_Animation_6: 2042898788
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

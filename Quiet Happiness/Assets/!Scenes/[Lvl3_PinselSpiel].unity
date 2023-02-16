@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22954,7 +22954,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 848799863, guid: ba798fa39a42a0644a62686cec8c20bd, type: 3}
+  m_Sprite: {fileID: -601723707, guid: 7d88b5057a5a36b4384d8bb5c81e7155, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22973,8 +22973,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016867221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.25, y: 1.401, z: -117.4}
-  m_LocalScale: {x: 0.69603246, y: 0.69603246, z: 0.69603246}
+  m_LocalPosition: {x: -39.25, y: 1.91, z: -117.4}
+  m_LocalScale: {x: 1.42, y: 1.42, z: 1.42}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -22991,7 +22991,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.4005535, y: 4.9, z: 0.2}
+  m_Size: {x: 1.99, y: 2.81, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1016867226
 MonoBehaviour:
@@ -23034,11 +23034,11 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 4.9
-  m_Radius: 1.7002767
+  m_Height: 3.05
+  m_Radius: 0.98
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.17
+  m_SkinWidth: 0.098
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1016867228
@@ -31471,7 +31471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413443554}
   m_LocalRotation: {x: 0.06823418, y: 0, z: 0, w: 0.9976694}
-  m_LocalPosition: {x: -39.466713, y: 5.3664203, z: -124.59069}
+  m_LocalPosition: {x: -39.466713, y: 5.8754206, z: -124.59068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41128,7 +41128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852370174}
   m_LocalRotation: {x: 0.06823418, y: -0, z: -0, w: 0.9976694}
-  m_LocalPosition: {x: -39.466713, y: 5.3664203, z: -124.59069}
+  m_LocalPosition: {x: -39.466713, y: 5.8754206, z: -124.59068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
