@@ -11930,7 +11930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -127.0804, y: 79}
+  m_AnchoredPosition: {x: -127.0804, y: 64}
   m_SizeDelta: {x: 178.9139, y: 42.7834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031913370
@@ -20204,6 +20204,14 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
   - {fileID: 2226263710750209807, guid: e6a98b341b1f2194e93defee675cf315, type: 3}
@@ -20231,6 +20239,14 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
   - {fileID: 7052138173217859482, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
@@ -20271,6 +20287,14 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _dialogID: TutorialItemPlaced
 --- !u!4 &1705815993
 Transform:
@@ -20311,6 +20335,14 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _dialogID: MoleLevelGiveItem
 --- !u!114 &1705815995
 MonoBehaviour:
@@ -20337,9 +20369,17 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
-  - {fileID: -5483710919568085865, guid: daa79ef1a4de57b428b9c8df19af08d0, type: 3}
+  - {fileID: 2812902803167186482, guid: 9bdd010f03d74f841afcad100ecff3f3, type: 3}
 --- !u!114 &1705815996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20365,9 +20405,17 @@ MonoBehaviour:
   - LabyrinthLevelGiveItem
   - BrushLevelDone
   - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
-  - {fileID: -7420248374220116272, guid: 6574386479e7f114eb877ccddb327633, type: 3}
+  - {fileID: 1206181893863066755, guid: 6574386479e7f114eb877ccddb327633, type: 3}
 --- !u!1 &1709857568
 GameObject:
   m_ObjectHideFlags: 0
@@ -23004,7 +23052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.567, y: -7.1057}
+  m_AnchoredPosition: {x: -7, y: -7.1057}
   m_SizeDelta: {x: 423.76, y: 92.8651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888891955

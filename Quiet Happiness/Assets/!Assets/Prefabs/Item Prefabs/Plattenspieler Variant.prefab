@@ -106,7 +106,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ea25b0c2c25f33e4c8039789c8f417fd, type: 3}
   m_PrefabInstance: {fileID: 7183821226586757967}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &7071402057485809979
+--- !u!54 &1638567389002976504
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +122,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!65 &2675973676399169326
+--- !u!65 &7404806590612155859
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,9 +133,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.785861, y: 3.3342109, z: 1.7148113}
-  m_Center: {x: -0.008526325, y: -0.16400701, z: -0.009445429}
---- !u!114 &-7420248374220116272
+  m_Size: {x: 2.3208268, y: 18.145641, z: 2.4901211}
+  m_Center: {x: 0, y: 9.056057, z: -0.08464718}
+--- !u!114 &1206181893863066755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,9 +152,9 @@ MonoBehaviour:
   _removeFromSaveOnDelete: 0
   PrefabID: -1
   _itemName: 
-  _icon: {fileID: 21300000, guid: d24d29e848cc4ed42a8113d25f871352, type: 3}
+  _icon: {fileID: 932602861, guid: 390a45429a943ed409b58ecde5d3b674, type: 3}
   Stackable: 0
---- !u!114 &2460137011729111865
+--- !u!114 &203765645641541655
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
