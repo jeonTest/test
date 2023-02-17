@@ -61,7 +61,7 @@ AnimatorController:
   m_Name: SingleMushroom
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: playSingleMushroomJiggle
+  - m_Name: playJiggle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -89,7 +89,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: playSingleMushroomJiggle
+    m_ConditionEvent: playJiggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4149389191644968033}
@@ -141,7 +141,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: playSingleMushroomJiggle
+    m_ConditionEvent: playJiggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8033206949774021337}

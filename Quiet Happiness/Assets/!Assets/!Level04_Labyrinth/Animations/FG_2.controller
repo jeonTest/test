@@ -9,7 +9,7 @@ AnimatorController:
   m_Name: FG_2
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: playFG2Jiggle
+  - m_Name: playJiggle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -42,7 +42,7 @@ AnimatorStateMachine:
     m_Position: {x: 30, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5823641555182489050}
-    m_Position: {x: 40, y: 260, z: 0}
+    m_Position: {x: 30, y: 260, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -62,7 +62,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: playFG2Jiggle
+    m_ConditionEvent: playJiggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2481897279502041061}
@@ -114,7 +114,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: playFG2Jiggle
+    m_ConditionEvent: playJiggle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5823641555182489050}

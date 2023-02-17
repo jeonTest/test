@@ -6,32 +6,13 @@ public class FlowerAnimation : MonoBehaviour
 {
     public Animator animator;
 
+    //Note: Animator Parameter die dieses Script benutzen, müssen alle den Namen "playJiggle" haben, da es sonst eine Warning gibt
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-               animator.SetBool("playJiggle", true);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playFGjiggle", true);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playFG2Jiggle", true);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playSingleMushroomJiggle", true);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playG1MushroomJiggle", true);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playG2MushroomJiggle", true);
+            animator.SetBool("playJiggle", true); 
         }
     }
     private void OnTriggerExit(Collider other)
@@ -39,26 +20,6 @@ public class FlowerAnimation : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             animator.SetBool("playJiggle", false);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playFGjiggle", false);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playFG2Jiggle", false);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playSingleMushroomJiggle", false);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playG1MushroomJiggle", false);
-        }
-        if (other.CompareTag("Player"))
-        {
-            animator.SetBool("playG2MushroomJiggle", false);
         }
     }
 }
