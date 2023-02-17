@@ -203,6 +203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colors: 
   rightColor: 0
+  looksToCam: 1
+  outlineColor: {r: 1, g: 0, b: 0, a: 1}
   _colorObject: 0
 --- !u!65 &5361678646834823483
 BoxCollider:

@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colors: 
   rightColor: 0
+  looksToCam: 1
+  outlineColor: {r: 0.62352943, g: 0.2509804, b: 1, a: 1}
   _colorObject: 6
 --- !u!114 &1284699922571741026
 MonoBehaviour:

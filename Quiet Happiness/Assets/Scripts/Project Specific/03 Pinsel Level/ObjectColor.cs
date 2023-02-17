@@ -10,6 +10,7 @@ public class ObjectColor : MonoBehaviour
     private Material material;
     private float ogThickness;
     public bool looksToCam = true;
+    public Color outlineColor;
 
     [SerializeField] [DropDown(nameof(_colorTypes))] private int _colorObject;
     private List<string> _colorTypes = new List<string>
@@ -29,7 +30,11 @@ public class ObjectColor : MonoBehaviour
         activeColor = GameObject.Find("Manager").GetComponent<ActiveColor>();
         material = GetComponent<Renderer>().material;
         if (looksToCam == true)
+        {
             ogThickness = material.GetFloat("_Thickness");
+            material.SetFloat("_Thickness", 0);
+            material.SetColor("_Color", outlineColor);
+        }
     }
 
     
