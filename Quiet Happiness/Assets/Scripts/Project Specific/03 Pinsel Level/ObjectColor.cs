@@ -7,6 +7,9 @@ public class ObjectColor : MonoBehaviour
     ActiveColor activeColor;
     public string colors;
     public bool rightColor;
+    private Material material;
+    private float ogThickness;
+    public bool looksToCam = true;
 
     [SerializeField] [DropDown(nameof(_colorTypes))] private int _colorObject;
     private List<string> _colorTypes = new List<string>
@@ -24,6 +27,9 @@ public class ObjectColor : MonoBehaviour
     void Awake()
     {
         activeColor = GameObject.Find("Manager").GetComponent<ActiveColor>();
+        material = GetComponent<Renderer>().material;
+        if (looksToCam == true)
+            ogThickness = material.GetFloat("_Thickness");
     }
 
     
@@ -38,10 +44,15 @@ public class ObjectColor : MonoBehaviour
         if(activeColor.colourActive == _colorTypes[_colorObject])
         {
             rightColor = true;
+            if (looksToCam == true)
+                material.SetFloat("_Thickness", ogThickness);
+
         }
         else
         {
             rightColor = false;
+            if (looksToCam == true)
+                material.SetFloat("_Thickness", 0);
         }
     }
 }

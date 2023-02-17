@@ -31,6 +31,7 @@ public class SearchedObject : MonoBehaviour
     void Update()
     {
         StartFollowing();
+        curPos = gameObject.transform.position;
     }
 
     void StartFollowing()
@@ -47,9 +48,7 @@ public class SearchedObject : MonoBehaviour
 
         if (quest.isActive == true && quest.objectFound == true && ownQuest.questDone == false)
         {
-            nav.SetDestination(target.position);
-
-            curPos = gameObject.transform.position;            
+            nav.SetDestination(target.position);            
         }
 
         if(ownQuest.questDone == true)
