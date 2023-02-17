@@ -29,9 +29,15 @@ public class Answers : MonoBehaviour
                     answerClicked = true;
         }
 
-        if(rightAnswer == true && answerClicked == true)
+        if (rightAnswer == true && answerClicked == true)
         {
             finished = true;
+
+            GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Answer");
+            foreach (GameObject go in gameObjectArray)
+            {
+                go.SetActive(false);
+            }
         }
     }
 }

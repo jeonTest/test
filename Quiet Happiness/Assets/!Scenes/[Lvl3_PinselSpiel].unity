@@ -4842,7 +4842,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer A
+  m_text: Fliegenpilz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5351,7 +5351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer C
+  m_text: Steinpilz
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6237,6 +6237,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 1
 --- !u!114 &248647563
 MonoBehaviour:
@@ -8778,7 +8779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer B
+  m_text: "Gl\xFCckspilz"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10178,6 +10179,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 5
 --- !u!114 &358279328
 MonoBehaviour:
@@ -14830,6 +14832,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 2
 --- !u!64 &587995794
 MeshCollider:
@@ -18843,6 +18846,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 3
 --- !u!114 &758157758
 MonoBehaviour:
@@ -20555,7 +20559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8873688182779233276, guid: a627af4dee7fbc540b2ca2781bfad0d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.744003
+      value: 22.55
       objectReference: {fileID: 0}
     - target: {fileID: 8873688182779233276, guid: a627af4dee7fbc540b2ca2781bfad0d8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20997,6 +21001,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 5
 --- !u!114 &861581638
 MonoBehaviour:
@@ -31309,6 +31314,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 0
 --- !u!114 &1310310341
 MonoBehaviour:
@@ -32924,6 +32930,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 6
 --- !u!114 &1378924714
 MonoBehaviour:
@@ -37349,6 +37356,7 @@ GameObject:
   - component: {fileID: 1571451873}
   - component: {fileID: 1571451872}
   - component: {fileID: 1571451871}
+  - component: {fileID: 1571451876}
   m_Layer: 0
   m_Name: Schnecke Frames_0
   m_TagString: Untagged
@@ -37364,7 +37372,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571451869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 161.62, y: 0.32, z: 85.32}
+  m_LocalPosition: {x: 164.8, y: 0.32, z: 86.77}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -37389,10 +37397,10 @@ MonoBehaviour:
   questStarter: 0
   npcName: Herr van Schneck
   dialogue:
-  - Hallo
-  - "Hier entsteht eine R\xE4tsel Frage"
-  - Bitte haben Sie noch etwas Geduld
-  - Gut geraten!
+  - Was? Du willst, dass ich weg gehe? Pah, nur unter einer Bedingung.
+  - "Beantworte mir dieses R\xE4tsel!"
+  - Welcher Pilz hat gut lachen?
+  - "Das stimmt. Nagut, dann erf\xFClle ich deinen Wunsch."
   afterQuestDialogue:
   - None
   startQuest: 0
@@ -37401,7 +37409,7 @@ MonoBehaviour:
   talkingDistance: 8
   rightAnswer: 0
   answerButtons: {fileID: 1408247268}
-  wrongText: Leider falsch
+  wrongText: Nein, das ist nicht ganz richtig.
   Waiting: 0
   nextTry: 0
   textMesh: 
@@ -37520,6 +37528,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1571451876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571451869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18668e197056a404a94aa2fc6c754c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {x: 92.29808, y: 0.7, z: -158.94144}
+  questGiver: {fileID: 1745438121}
+  afterQuestDialogue:
+  - Ich muss zugeben, du bist schlauer als ich dachte.
 --- !u!4 &1572131877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
@@ -44104,6 +44128,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 4
 --- !u!114 &1844911659
 MonoBehaviour:
@@ -46748,6 +46773,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 5
 --- !u!114 &1933584406
 MonoBehaviour:
@@ -47755,6 +47781,7 @@ MonoBehaviour:
   colors: 
   rightColor: 0
   looksToCam: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 0}
   _colorObject: 0
 --- !u!64 &1971298825
 MeshCollider:
@@ -48230,7 +48257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6099998
+      value: 1.6099997
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalScale.y
@@ -48242,11 +48269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4133351
+      value: -0.4133097
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.28
+      value: 8.279999
       objectReference: {fileID: 0}
     - target: {fileID: 930708906735616581, guid: 531f78c39dd3dd94da403fdde71614cf, type: 3}
       propertyPath: m_LocalPosition.z
