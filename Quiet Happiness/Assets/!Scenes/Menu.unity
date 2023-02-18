@@ -20172,6 +20172,8 @@ GameObject:
   - component: {fileID: 1705815989}
   - component: {fileID: 1705815995}
   - component: {fileID: 1705815996}
+  - component: {fileID: 1705815997}
+  - component: {fileID: 1705815998}
   m_Layer: 0
   m_Name: Completion Stuff
   m_TagString: Untagged
@@ -20416,6 +20418,78 @@ MonoBehaviour:
   _inventory: {fileID: 1505541113}
   _itemsToAdd:
   - {fileID: 1206181893863066755, guid: 6574386479e7f114eb877ccddb327633, type: 3}
+--- !u!114 &1705815997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705815988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0e249352a54a04b874eb60da7628ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedIDOnCompletion: 14
+  SelectedIDOnItemGiven: 15
+  IDs:
+  - TutorialGiveItems
+  - TutorialDone
+  - TutorialItemPlaced
+  - TutorialItemPlacedDialog
+  - MoleLevelDone
+  - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
+  - BrushLevelDone
+  - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
+  _inventory: {fileID: 1505541113}
+  _itemsToAdd:
+  - {fileID: 1370719084395216003, guid: 44e7a73603a6d0142808037d5497417e, type: 3}
+--- !u!114 &1705815998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705815988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0e249352a54a04b874eb60da7628ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedIDOnCompletion: 16
+  SelectedIDOnItemGiven: 17
+  IDs:
+  - TutorialGiveItems
+  - TutorialDone
+  - TutorialItemPlaced
+  - TutorialItemPlacedDialog
+  - MoleLevelDone
+  - MoleLevelGiveItem
+  - LabyrinthLevelDone
+  - LabyrinthLevelGiveItem
+  - BrushLevelDone
+  - BrushLevelGiveItem
+  - LabyrinthOneDone
+  - LabyrinthOneGiveItem
+  - LabyrinthTwoDone
+  - LabyrinthTwoGiveItem
+  - BrushOneDone
+  - BrushOneGiveItem
+  - BrushTwoDone
+  - BrushTwoGiveItem
+  _inventory: {fileID: 1505541113}
+  _itemsToAdd:
+  - {fileID: 5174254924666958938, guid: a4f4de4c13d496143bd25f724e95d22e, type: 3}
 --- !u!1 &1709857568
 GameObject:
   m_ObjectHideFlags: 0
