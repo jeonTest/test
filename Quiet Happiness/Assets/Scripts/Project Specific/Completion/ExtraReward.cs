@@ -14,6 +14,9 @@ public class ExtraReward : MonoBehaviour
     [DropDown(nameof(IDs))] [SerializeField] public int SelectedIDOnCompletion;
     [HideInInspector] public List<string> IDs;
 
+    public GameObject rewardScreen;
+    public GameObject itemIcon;
+
     public void Update()
     {
         distanceToPlayer();        
@@ -40,6 +43,8 @@ public class ExtraReward : MonoBehaviour
         {
             ModuleManager.GetModule<SaveGameManager>().SetCompletionInfo(IDs[SelectedIDOnCompletion], true);
             Destroy(glitter);
+            rewardScreen.SetActive(true);
+            itemIcon.SetActive(true);
         }
     }
 
