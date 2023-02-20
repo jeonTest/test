@@ -16281,37 +16281,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _facts:
-  - "Durch die sogenannte Meta-Akzeptanz, die Akzeptanz dessen, dass sich etwas nicht
-    ver\xE4ndern l\xE4sst, l\xE4sst sich Stress l\xF6sen"
-  - "Zweitbeste L\xF6sungen zu akzeptieren, l\xF6st Stress und hilft f\xFCr mehr
-    Zufriedenheit mit den eigenen Entscheidungen."
-  - "Jeder Mensch hat \xC4ngste. Keiner mag sie. Heute darfst du endlich zur\xFCckschlagen."
-  - "Resiliente Menschen glauben an sich. Statt in die Opferrolle zu schl\xFCpfen,
-    werden sie lieber aktiv."
-  - Bereits im Alter von drei Monaten sind Babys dazu in der Lage, in Gesichtern
-    Angst zu erkennen.
-  - "Was macht dir grade Sorgen? \xDCberlege einmal, ist das Problem auch noch in
-    10 Tagen wichtig? In 10 Monaten? In 10 Jahren?"
-  - "Sich Sorgen zu machen, ist menschlich. Tats\xE4chlich sind wir darauf programmiert,
-    um vorauszusehen, was passieren k\xF6nnte, und dann \xFCber alternative Pl\xE4ne
-    nachzudenken."
-  - "Wusstest du, dass man seinen K\xF6rper austricksen kann, um bessere Laune zu
-    haben? Wenn man lange genug in den Spiegel guckt und l\xE4chelt, bekommt das
-    Gehirn Signale, Gl\xFCckshormone freizusetzen"
-  - "Die K\xF6rperhaltung hat einen gro\xDFen Einfluss auf unser Selbstbewusstsein.
-    Eine Power-Pose kann Sportler im Wettkampfmodus zu H\xF6chstleistungen motivieren.
-    Probiere es doch mal selber aus: stell dich gerade hin, st\xFCtze die Arme in
-    die Seite und hebe dein Kinn hoch."
-  - "\"Me at my best\u201C Wann bist du \xFCber Dich hinaus gewachsenen. Erinnere
-    Dich daran und genie\xDFe es noch einmal. H\xF6re Dein Lieblingslied dazu."
-  - "Der Tagesr\xFCckblick-Drei gute Dinge. Was war heute sch\xF6n und warum. Gebe
-    diesem gedankenspiel einen Raum, am besten jeden Tag. Es wird Dich ver\xE4ndern."
-  - "Unangenehme Gef\xFChle nehmen wir schneller wahr als positive Gef\xFChle. Das
-    war f\xFCr die Menschheit sinnvoll, es k\xF6nnen Warnsignale sein. Sie haben
-    ihre Berechtigung."
-  - Hilfsbereitschaft. Anderen Gutes zu tun bereitet Freude!
-  - " Dankbarkeit ist ein Antidepressivum, es sch\xFCtzt vor Traurigkeit. Wann bist
-    du zuletzt dankbar gewesen?"
+  - "Eine positive Umgebung f\xF6rdert positives Denken, bereits 5 Minuten in der
+    Sonne oder eine hei\xDFe Tasse Kakao und eine warme Decke k\xF6nnen bei tr\xFCben
+    Gedanken helfen."
+  - "Wenn du dich einmal nicht gut f\xFChlst, dann versuche einmal deine Gedanken
+    und Gef\xFChle aufzuschreiben oder mit jemandem, dem du vertraust, dar\xFCber
+    zu reden. "
+  - "Ist dein Tag einmal schlecht gelaufen oder du f\xFChlst dich schwer und tr\xE4ge,
+    dann nehme dir dein Lieblingsbuch oder einen Film/Serie zur Hand. Wohlbekannte
+    Dinge wirken beruhigend und famili\xE4r und helfen beim Entspannen. "
   _textDisplay: {fileID: 1426529288}
 --- !u!222 &1426529290
 CanvasRenderer:
@@ -17761,37 +17739,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _facts:
-  - "Durch die sogenannte Meta-Akzeptanz, die Akzeptanz dessen, dass sich etwas nicht
-    ver\xE4ndern l\xE4sst, l\xE4sst sich Stress l\xF6sen"
-  - "Zweitbeste L\xF6sungen zu akzeptieren, l\xF6st Stress und hilft f\xFCr mehr
-    Zufriedenheit mit den eigenen Entscheidungen."
-  - "Jeder Mensch hat \xC4ngste. Keiner mag sie. Heute darfst du endlich zur\xFCckschlagen."
-  - "Resiliente Menschen glauben an sich. Statt in die Opferrolle zu schl\xFCpfen,
-    werden sie lieber aktiv."
-  - Bereits im Alter von drei Monaten sind Babys dazu in der Lage, in Gesichtern
-    Angst zu erkennen.
-  - "Was macht dir grade Sorgen? \xDCberlege einmal, ist das Problem auch noch in
-    10 Tagen wichtig? In 10 Monaten? In 10 Jahren?"
-  - "Sich Sorgen zu machen, ist menschlich. Tats\xE4chlich sind wir darauf programmiert,
-    um vorauszusehen, was passieren k\xF6nnte, und dann \xFCber alternative Pl\xE4ne
-    nachzudenken."
-  - "Wusstest du, dass man seinen K\xF6rper austricksen kann, um bessere Laune zu
-    haben? Wenn man lange genug in den Spiegel guckt und l\xE4chelt, bekommt das
-    Gehirn Signale, Gl\xFCckshormone freizusetzen"
-  - "Die K\xF6rperhaltung hat einen gro\xDFen Einfluss auf unser Selbstbewusstsein.
-    Eine Power-Pose kann Sportler im Wettkampfmodus zu H\xF6chstleistungen motivieren.
-    Probiere es doch mal selber aus: stell dich gerade hin, st\xFCtze die Arme in
-    die Seite und hebe dein Kinn hoch."
-  - "\"Me at my best\u201C Wann bist du \xFCber Dich hinaus gewachsenen. Erinnere
-    Dich daran und genie\xDFe es noch einmal. H\xF6re Dein Lieblingslied dazu."
-  - "Der Tagesr\xFCckblick-Drei gute Dinge. Was war heute sch\xF6n und warum. Gebe
-    diesem gedankenspiel einen Raum, am besten jeden Tag. Es wird Dich ver\xE4ndern."
-  - "Unangenehme Gef\xFChle nehmen wir schneller wahr als positive Gef\xFChle. Das
-    war f\xFCr die Menschheit sinnvoll, es k\xF6nnen Warnsignale sein. Sie haben
-    ihre Berechtigung."
-  - Hilfsbereitschaft. Anderen Gutes zu tun bereitet Freude!
-  - " Dankbarkeit ist ein Antidepressivum, es sch\xFCtzt vor Traurigkeit. Wann bist
-    du zuletzt dankbar gewesen?"
+  - "Analytisches Denken hei\xDFt, Probleme zu erkennen und zu l\xF6sen. Du musst
+    also nicht gut in Mathe sein, um gut durch den Tag zu kommen. "
+  - "Einige Probleme brauchen kreative L\xF6sungen anstelle von logischen. Versuche
+    ruhig viele verschiedene L\xF6sungsm\xF6glichkeiten."
+  - "Wei\xDFt du einmal nicht weiter, dann kann es helfen, andere nach ihrer Meinung
+    zu fragen. "
   _textDisplay: {fileID: 1523758938}
 --- !u!222 &1523758940
 CanvasRenderer:
