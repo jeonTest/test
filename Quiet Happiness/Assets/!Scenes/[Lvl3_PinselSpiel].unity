@@ -8254,6 +8254,83 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85335662}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &85660313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85660314}
+  - component: {fileID: 85660316}
+  - component: {fileID: 85660315}
+  m_Layer: 5
+  m_Name: Interactable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &85660314
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85660313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.13, z: 0.09}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 633741212}
+  m_Father: {fileID: 323422082}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0, y: 118.62656}
+  m_SizeDelta: {x: 1024, y: 481}
+  m_Pivot: {x: 0.5, y: 0.7466248}
+--- !u!114 &85660315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85660313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cd3944f3ba392ca438cba0e34c1302f4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &85660316
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85660313}
+  m_CullTransparentMesh: 1
 --- !u!4 &88196927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2439139060147452008, guid: 18323c421e99a824b9a72db66a0b754a, type: 3}
@@ -10917,6 +10994,7 @@ GameObject:
   - component: {fileID: 241990086}
   - component: {fileID: 241990085}
   - component: {fileID: 241990084}
+  - component: {fileID: 241990088}
   m_Layer: 0
   m_Name: Pilz Enkel Sprites_0
   m_TagString: Untagged
@@ -11045,7 +11123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -11060,7 +11138,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &241990086
@@ -11107,6 +11185,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.8000007, y: 6.2400007, z: 0.20000003}
   m_Center: {x: 0.000030517578, y: -0.00000011920929, z: 0}
+--- !u!114 &241990088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241990080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 241990085}
+  playerNear: 0
 --- !u!1 &245096300
 GameObject:
   m_ObjectHideFlags: 0
@@ -13541,6 +13635,7 @@ RectTransform:
   - {fileID: 40143921}
   - {fileID: 1409376348}
   - {fileID: 1273672673}
+  - {fileID: 85660314}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18906,6 +19001,7 @@ GameObject:
   - component: {fileID: 563037534}
   - component: {fileID: 563037533}
   - component: {fileID: 563037532}
+  - component: {fileID: 563037536}
   m_Layer: 0
   m_Name: "K\xFCrbis_loop_0"
   m_TagString: Untagged
@@ -19076,7 +19172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -19091,7 +19187,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &563037535
@@ -19107,6 +19203,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.9006343, y: 4.5499997, z: 0.19999999}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &563037536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563037528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 563037534}
+  playerNear: 0
 --- !u!1001 &563194910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21266,6 +21378,141 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2117481230763204306, guid: edc1730012341ca4899465331c496191, type: 3}
   m_PrefabInstance: {fileID: 1870325567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &633741211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633741212}
+  - component: {fileID: 633741214}
+  - component: {fileID: 633741213}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &633741212
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633741211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 85660314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -10.302002, y: 0.00018310547}
+  m_SizeDelta: {x: 857.446, y: 481}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &633741213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633741211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '[F] zum Interagieren'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 140
+  m_fontSizeBase: 140
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 150
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 50
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -338.65192, y: 0, z: -334.57556, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &633741214
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633741211}
+  m_CullTransparentMesh: 1
 --- !u!1001 &633772173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29965,6 +30212,22 @@ MonoBehaviour:
   - BrushTwoGiveItem
   rewardScreen: {fileID: 40143920}
   itemIcon: {fileID: 1741486759}
+--- !u!114 &808471713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808471700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 808471706}
+  playerNear: 0
 --- !u!1001 &815734578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33460,6 +33723,7 @@ GameObject:
   - component: {fileID: 966212939}
   - component: {fileID: 966212938}
   - component: {fileID: 966212937}
+  - component: {fileID: 966212941}
   m_Layer: 0
   m_Name: Glockenblume_farbig_loop_0
   m_TagString: Untagged
@@ -33622,7 +33886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -33637,7 +33901,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &966212940
@@ -33653,6 +33917,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.690926, y: 6.98, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &966212941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966212933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 966212939}
+  playerNear: 0
 --- !u!4 &976564004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2439139060147452008, guid: 18323c421e99a824b9a72db66a0b754a, type: 3}
@@ -35913,6 +36193,7 @@ GameObject:
   - component: {fileID: 1076305177}
   - component: {fileID: 1076305182}
   - component: {fileID: 1076305183}
+  - component: {fileID: 1076305184}
   m_Layer: 0
   m_Name: Junior_0
   m_TagString: Untagged
@@ -36095,7 +36376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -36110,7 +36391,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1076305181
@@ -36164,6 +36445,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1076305184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076305173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1076305180}
+  playerNear: 0
 --- !u!1001 &1078138400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36262,6 +36559,7 @@ GameObject:
   - component: {fileID: 1084722768}
   - component: {fileID: 1084722767}
   - component: {fileID: 1084722771}
+  - component: {fileID: 1084722772}
   m_Layer: 0
   m_Name: "Glockenblume_wei\xDF_loop_0"
   m_TagString: Untagged
@@ -36426,7 +36724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -36441,7 +36739,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1084722770
@@ -36472,6 +36770,22 @@ MonoBehaviour:
   coloured: 0
   white: {fileID: 1084722763}
   colouredObj: {fileID: 966212933}
+--- !u!114 &1084722772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084722763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1084722769}
+  playerNear: 0
 --- !u!1 &1086670656
 GameObject:
   m_ObjectHideFlags: 0
@@ -36698,6 +37012,7 @@ GameObject:
   - component: {fileID: 1096301014}
   - component: {fileID: 1096301013}
   - component: {fileID: 1096301012}
+  - component: {fileID: 1096301016}
   m_Layer: 0
   m_Name: Billy_0
   m_TagString: Untagged
@@ -36865,7 +37180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -36880,7 +37195,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1096301015
@@ -36896,6 +37211,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 11.941942, y: 18.709997, z: 0.19999999}
   m_Center: {x: -0.00002670288, y: 0, z: 0}
+--- !u!114 &1096301016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096301008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 12
+  input: {fileID: 1096301014}
+  playerNear: 0
 --- !u!1001 &1112572685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41355,6 +41686,7 @@ GameObject:
   - component: {fileID: 1289476470}
   - component: {fileID: 1289476469}
   - component: {fileID: 1289476468}
+  - component: {fileID: 1289476472}
   m_Layer: 0
   m_Name: Bo_0
   m_TagString: Untagged
@@ -41520,7 +41852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -41535,7 +41867,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1289476471
@@ -41551,6 +41883,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.131973, y: 15.109999, z: 0.19999999}
   m_Center: {x: 0.000011444092, y: 0, z: 0}
+--- !u!114 &1289476472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289476464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1289476470}
+  playerNear: 0
 --- !u!1 &1292176286
 GameObject:
   m_ObjectHideFlags: 0
@@ -48265,6 +48613,7 @@ GameObject:
   - component: {fileID: 1571451872}
   - component: {fileID: 1571451871}
   - component: {fileID: 1571451876}
+  - component: {fileID: 1571451877}
   m_Layer: 0
   m_Name: Schnecke Frames_0
   m_TagString: Untagged
@@ -48333,7 +48682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -48348,7 +48697,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1571451873
@@ -48452,6 +48801,22 @@ MonoBehaviour:
   questGiver: {fileID: 1745438121}
   afterQuestDialogue:
   - Ich muss zugeben, du bist schlauer als ich dachte.
+--- !u!114 &1571451877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571451869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1571451872}
+  playerNear: 0
 --- !u!4 &1572131877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
@@ -48907,6 +49272,7 @@ GameObject:
   - component: {fileID: 1593739827}
   - component: {fileID: 1593739826}
   - component: {fileID: 1593739831}
+  - component: {fileID: 1593739832}
   m_Layer: 0
   m_Name: Kristall Frames 1_0
   m_TagString: Untagged
@@ -48979,7 +49345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -48994,7 +49360,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1593739828
@@ -49102,6 +49468,22 @@ MonoBehaviour:
   questGameObj: {fileID: 1591320909}
   coloredObj: []
   objectFound: 0
+--- !u!114 &1593739832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593739824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1593739827}
+  playerNear: 0
 --- !u!1001 &1606248898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51434,6 +51816,7 @@ GameObject:
   - component: {fileID: 1713345062}
   - component: {fileID: 1713345061}
   - component: {fileID: 1713345060}
+  - component: {fileID: 1713345066}
   m_Layer: 0
   m_Name: Pilz Opa Frames_0
   m_TagString: Untagged
@@ -51527,7 +51910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -51542,7 +51925,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1713345063
@@ -51630,6 +52013,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1713345066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713345058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1713345062}
+  playerNear: 0
 --- !u!1 &1714644485
 GameObject:
   m_ObjectHideFlags: 0
@@ -52165,6 +52564,7 @@ GameObject:
   - component: {fileID: 1745438125}
   - component: {fileID: 1745438124}
   - component: {fileID: 1745438123}
+  - component: {fileID: 1745438130}
   m_Layer: 0
   m_Name: Sonnenblume Frames_0
   m_TagString: Untagged
@@ -52276,7 +52676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -52291,7 +52691,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1745438127
@@ -52379,6 +52779,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1745438130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745438121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1745438126}
+  playerNear: 0
 --- !u!1001 &1749095711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53059,6 +53475,7 @@ GameObject:
   - component: {fileID: 1762416877}
   - component: {fileID: 1762416876}
   - component: {fileID: 1762416883}
+  - component: {fileID: 1762416884}
   m_Layer: 0
   m_Name: "Kristall Wei\xDF Frames 1_0"
   m_TagString: Untagged
@@ -53177,7 +53594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 23a6d1bb5f6b1374fb8ea29a21e565fc, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -53192,7 +53609,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1762416880
@@ -53295,6 +53712,22 @@ MonoBehaviour:
   coloured: 0
   white: {fileID: 1762416874}
   colouredObj: {fileID: 1593739824}
+--- !u!114 &1762416884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762416874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 8
+  input: {fileID: 1762416879}
+  playerNear: 0
 --- !u!1 &1770105316
 GameObject:
   m_ObjectHideFlags: 0
@@ -63287,6 +63720,22 @@ MonoBehaviour:
   - BrushTwoGiveItem
   rewardScreen: {fileID: 40143920}
   itemIcon: {fileID: 1635525127}
+--- !u!114 &3834589325574859532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3834589325574859524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bcdd00502610d4480c10f09c3db53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiImage: {fileID: 85660313}
+  activateDistance: 5
+  input: {fileID: 3834589325574859525}
+  playerNear: 0
 --- !u!23 &4545030417506086484
 MeshRenderer:
   m_ObjectHideFlags: 0

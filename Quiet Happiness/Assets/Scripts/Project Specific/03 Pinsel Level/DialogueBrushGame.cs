@@ -115,7 +115,7 @@ public class DialogueBrushGame : MonoBehaviour
         SetDialogue(dialogueNumber);
     }
 
-    private void OnStartDialogue()
+    private void OnInteract()
     {
         if (playerNear == true)
         {
@@ -124,7 +124,7 @@ public class DialogueBrushGame : MonoBehaviour
         }
     }
 
-    private void OnSkipDialogue()
+    private void OnSkip()
     {
         if (Waiting == false)
         {
