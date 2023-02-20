@@ -91,7 +91,7 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    private void OnButtonPress()
+    private void OnInteract()
     {
         if(start == false)
         {
@@ -114,6 +114,8 @@ public class ButtonScript : MonoBehaviour
             else if(doorOpen == true)
             {
                 doorOpen = false;
+                matValueOpen.MatValueCloseChange();
+                matValueClose.MatValueOpenChange();
             }
         }
 
