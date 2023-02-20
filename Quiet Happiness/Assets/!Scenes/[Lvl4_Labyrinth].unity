@@ -789,7 +789,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64982033}
-  m_LocalRotation: {x: 0.36831823, y: 0.02866484, z: -0.011362371, w: 0.9291883}
+  m_LocalRotation: {x: 0.36831823, y: 0.028664922, z: -0.011362405, w: 0.9291883}
   m_LocalPosition: {x: 4.9020796, y: 3.482, z: -6.1512957}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6945,7 +6945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92b9b72a797bef4491b28d7f864e494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Input: {fileID: 0}
+  Input: {fileID: 180493599}
   Door: {fileID: 506135135}
   nearPlayer: 0
   doorOpen: 0
@@ -6984,7 +6984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 3f495c1cf871ac148a86c6b1f7cb2d7b, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -6999,7 +6999,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Character
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &180493600
@@ -7436,7 +7436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13842,7 +13842,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345580580}
-  m_LocalRotation: {x: 0.36831823, y: 0.028664853, z: -0.0113623785, w: 0.9291883}
+  m_LocalRotation: {x: 0.36831823, y: 0.028664894, z: -0.011362393, w: 0.9291883}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21067,7 +21067,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566769359}
-  m_LocalRotation: {x: 0.3762537, y: 0.028566653, z: -0.0116072, w: 0.9260035}
+  m_LocalRotation: {x: 0.37625366, y: 0.028566621, z: -0.011607186, w: 0.9260035}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21840,7 +21840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.076
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29536,7 +29536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 83772101805569787, guid: 7678628b7f0f330448ddbccfea0d8aef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.079
       objectReference: {fileID: 0}
     - target: {fileID: 83772101805569787, guid: 7678628b7f0f330448ddbccfea0d8aef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30039,7 +30039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.062
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38219,7 +38219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.067
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38403,6 +38403,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8dd8614eceefeb640add4b6f68c9fe17, type: 2}
+    - target: {fileID: 6247410767396722336, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.058
+      objectReference: {fileID: 0}
     - target: {fileID: 6711907139200838123, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -43784,7 +43788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.083
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54329,7 +54333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.071
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54939,7 +54943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 3f495c1cf871ac148a86c6b1f7cb2d7b, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -54954,7 +54958,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Character
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &1521736756
@@ -54969,7 +54973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92b9b72a797bef4491b28d7f864e494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Input: {fileID: 0}
+  Input: {fileID: 1521736755}
   Door: {fileID: 735285084}
   nearPlayer: 0
   doorOpen: 0
@@ -55112,6 +55116,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 16f3a91b994e8c14f8d1c613dca06fe4, type: 2}
+    - target: {fileID: 1529854432944841202, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.819
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529854432944841202, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.095
+      objectReference: {fileID: 0}
     - target: {fileID: 2710336313839808800, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -55146,7 +55158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.246
+      value: -0.247
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.z
@@ -55926,7 +55938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.069
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67193,7 +67205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 83772101805569787, guid: 7678628b7f0f330448ddbccfea0d8aef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.079
       objectReference: {fileID: 0}
     - target: {fileID: 83772101805569787, guid: 7678628b7f0f330448ddbccfea0d8aef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67965,7 +67977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b92b9b72a797bef4491b28d7f864e494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Input: {fileID: 0}
+  Input: {fileID: 1867311578}
   Door: {fileID: 6842058225328626535}
   nearPlayer: 0
   doorOpen: 0
@@ -67986,7 +67998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 3f495c1cf871ac148a86c6b1f7cb2d7b, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -68001,7 +68013,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Character
+  m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!65 &1867311579
@@ -73535,7 +73547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.043
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.z
@@ -74431,7 +74443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.447
+      value: -0.282
       objectReference: {fileID: 0}
     - target: {fileID: 6006486604315471231, guid: 4b420d48a1fd8254ba9a738f5f81b099, type: 3}
       propertyPath: m_LocalPosition.z
@@ -74676,7 +74688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.053
       objectReference: {fileID: 0}
     - target: {fileID: 937678949345635194, guid: 1f7707f964fe63d49bd991f3130e1482, type: 3}
       propertyPath: m_LocalPosition.z

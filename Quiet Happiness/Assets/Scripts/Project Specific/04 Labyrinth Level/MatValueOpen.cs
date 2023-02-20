@@ -16,4 +16,10 @@ public class MatValueOpen : MonoBehaviour
         MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
         meshRenderer.material.EnableKeyword("_EMISSION");
     }
+
+    public void MatValueCloseChange()
+    {
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.material.DisableKeyword("_EMISSION");
+    }
 }
