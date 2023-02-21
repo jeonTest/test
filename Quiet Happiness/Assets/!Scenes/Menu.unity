@@ -10669,7 +10669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hoverSounds: {fileID: 0}
-  _spriteSwapOnHover: {fileID: 21300000, guid: 1cb87dd818e9c8c4eb4a15c389bb4fab, type: 3}
+  _spriteSwapOnHover: {fileID: 21300000, guid: a7d47099bc48f104891b1f9036b578b3, type: 3}
 --- !u!114 &899392988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10690,7 +10690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cf136beac5eeecd48b7d6bdb6a219ed5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bebfc8520d77b7f4db0e60c7421171dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16397,7 +16397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hoverSounds: {fileID: 0}
-  _spriteSwapOnHover: {fileID: 21300000, guid: 1cb87dd818e9c8c4eb4a15c389bb4fab, type: 3}
+  _spriteSwapOnHover: {fileID: 21300000, guid: d282457efa2a98e46b8d302825075c84, type: 3}
 --- !u!114 &1394755132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16418,7 +16418,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cf136beac5eeecd48b7d6bdb6a219ed5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 983e0b9c5f2079748916b2c935155aee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
