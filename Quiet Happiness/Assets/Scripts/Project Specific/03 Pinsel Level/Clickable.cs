@@ -12,6 +12,7 @@ public class Clickable : MonoBehaviour
     public GameObject questGiver;
     public string hintText;
     public TextMeshProUGUI uiText;
+    private bool textShown = false;
 
     Quest quest;
 
@@ -29,15 +30,9 @@ public class Clickable : MonoBehaviour
 
     public void ShowNote()
     {
-        if(quest.isActive == true && playerNear == true && quest.questDone == false)
+        if(playerNear == true && quest.questDone == false && textShown == false)
         {
-            uiText.text = hintText;
-            uiNote.LeanScale(Vector3.one, 0.5f);
-        }
-
-        if(quest.questDone == true)
-        {
-            uiNote.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
+            StartCoroutine(PopUpTimer());
         }
     }
 
@@ -55,6 +50,16 @@ public class Clickable : MonoBehaviour
         {
             playerNear = false;
         }
+    }
+
+    IEnumerator PopUpTimer()
+    {
+        uiText.text = hintText;
+        uiNote.LeanScale(Vector3.one, 0.5f);
+        yield return new WaitForSeconds(5);
+        uiNote.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
+        textShown = true;
+
     }
 
 }
