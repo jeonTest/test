@@ -9,7 +9,13 @@ public class FinishedQuests : Module
     Quest[] quest;
     public bool allFinished = false;
     public GameObject finishedScreen;
+    public GameObject outro;
+    VideoTimer videoTimer;
 
+    void Start()
+    {
+        videoTimer = outro.GetComponent<VideoTimer>();
+    }
 
     void Update()
     {
@@ -40,6 +46,10 @@ public class FinishedQuests : Module
     IEnumerator FinishTime()
     {
         yield return new WaitForSeconds(20f);
+        if (videoTimer.videoActive == true)
+        {
+            outro.SetActive(true);
+        }
         finishedScreen.SetActive(true);
     }
 
