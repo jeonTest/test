@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 
 public class ButtonScript : MonoBehaviour
@@ -18,6 +20,9 @@ public class ButtonScript : MonoBehaviour
 
     public Animator anim;
     public AudioSource switchSound;
+
+    public GameObject uiNote;
+    public TextMeshProUGUI uiText;
 
     SkinnedMeshRenderer skinnedMeshRenderer01;
     Mesh skinnedMesh01;
@@ -43,6 +48,7 @@ public class ButtonScript : MonoBehaviour
 
         matValueOpen = DoorOpen.GetComponent<MatValueOpen>();
         matValueClose = DoorClose.GetComponent<MatValueClose>();
+        uiNote.transform.localScale = Vector3.zero;
 
     }
 
@@ -110,12 +116,20 @@ public class ButtonScript : MonoBehaviour
                 matValueOpen.MatValueOpenChange();
                 matValueClose.MatValueCloseChange();
 
+                uiText.text = "Etwas öffnet sich...";
+                uiNote.LeanScale(Vector3.one, 0.5f);
+                StartCoroutine(NoteTime());
+
             }
             else if(doorOpen == true)
             {
                 doorOpen = false;
                 matValueOpen.MatValueCloseChange();
                 matValueClose.MatValueOpenChange();
+
+                uiText.text = "Etwas schließt sich...";
+                uiNote.LeanScale(Vector3.one, 0.5f);
+                StartCoroutine(NoteTime());
             }
         }
 
@@ -139,5 +153,11 @@ public class ButtonScript : MonoBehaviour
         {
             nearPlayer = false;
         }
+    }
+
+    IEnumerator NoteTime()
+    {
+        yield return new WaitForSeconds(2);
+        uiNote.LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
     }
 }
