@@ -5460,7 +5460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.09
+      value: -102.67
       objectReference: {fileID: 0}
     - target: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5468,7 +5468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.75
+      value: -2.01
       objectReference: {fileID: 0}
     - target: {fileID: 8217192355816769084, guid: f3263cb3e5f9cd04b9006ba92f1cb5c4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36213,7 +36213,7 @@ MonoBehaviour:
   questGiver: {fileID: 1289476464}
   target: {fileID: 1016867224}
   destination: {fileID: 1995504526}
-  goal: {x: 8.5, y: 0.9412292, z: -98}
+  goal: {x: 8, y: 0.9412292, z: -98}
   anim: {fileID: 1076305174}
   playerAnim: {fileID: 1016867222}
   curPos: {x: 0, y: 0, z: 0}
