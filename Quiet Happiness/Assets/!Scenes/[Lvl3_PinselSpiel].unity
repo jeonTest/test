@@ -34853,10 +34853,10 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 3.05
+  m_Height: 2.65
   m_Radius: 0.98
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_SlopeLimit: 90
+  m_StepOffset: 0.1
   m_SkinWidth: 0.098
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
