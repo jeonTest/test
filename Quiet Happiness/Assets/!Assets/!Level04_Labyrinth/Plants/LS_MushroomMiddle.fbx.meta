@@ -3,7 +3,22 @@ guid: fe2b79b631d567d43b2b001ca8e17894
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: f906db1a35b71aa4480d8c19a9525658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mushroom_M_Glow
+    second: {fileID: 2100000, guid: 8dd8614eceefeb640add4b6f68c9fe17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mushroom_M_Stem
+    second: {fileID: 2100000, guid: f906db1a35b71aa4480d8c19a9525658, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
