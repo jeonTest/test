@@ -46,11 +46,12 @@ public class FinishedQuests : Module
 
     IEnumerator FinishTime()
     {
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(17f);
         if (videoTimer.videoActive == true)
         {
             outro.SetActive(true);
         }
+        yield return new WaitForSeconds(1f);
         finishedScreen.SetActive(true);
     }
 
