@@ -16617,7 +16617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6f54e54a7adad4ca4a68e86d76d0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoTime: 17
+  videoTime: 16
   videoActive: 1
 --- !u!328 &427591025
 VideoPlayer:

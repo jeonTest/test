@@ -26,7 +26,6 @@ public class GotoSceneButton : MonoBehaviour, IPointerDownHandler
             {
                 _clickSounds.PlayRandomSource();
             }
-
             SceneManager.LoadScene(_sceneName);
         }
     }
