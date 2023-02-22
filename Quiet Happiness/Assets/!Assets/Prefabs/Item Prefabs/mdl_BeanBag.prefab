@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3460961699856009114}
   - component: {fileID: 1370719084395216003}
   - component: {fileID: 8594805735506349635}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mdl_BeanBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
   _id: 
   _inEditor: 0
   _removeFromSaveOnDelete: 0
-  PrefabID: -1
+  PrefabID: 6
   _itemName: 
   _icon: {fileID: 21300000, guid: f33d3bef45a87354fbb531cf013d3ea4, type: 3}
   Stackable: 0

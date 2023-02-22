@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3418400071425421718}
   - component: {fileID: 5174254924666958938}
   - component: {fileID: 5780516282873701125}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Staffelei
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
   _id: 
   _inEditor: 0
   _removeFromSaveOnDelete: 0
-  PrefabID: -1
+  PrefabID: 2
   _itemName: 
   _icon: {fileID: 21300000, guid: 191839ea54d095d4786752b20d071f95, type: 3}
   Stackable: 0

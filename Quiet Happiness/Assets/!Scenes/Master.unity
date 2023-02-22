@@ -292,11 +292,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefabToAdd: {fileID: 0}
   _prefabToRemove: {fileID: 0}
-  _status: Added mdl_Bett
-  _nextID: 2
+  _status: Added Lamp_G_002
+  _nextID: 8
   _prefabs:
   - {fileID: 4500827208291141973, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
   - {fileID: 6681745791410603346, guid: e6a98b341b1f2194e93defee675cf315, type: 3}
+  - {fileID: 2991328634429545158, guid: a4f4de4c13d496143bd25f724e95d22e, type: 3}
+  - {fileID: 3242720974612184218, guid: 9bdd010f03d74f841afcad100ecff3f3, type: 3}
+  - {fileID: 8030875303164274206, guid: 6574386479e7f114eb877ccddb327633, type: 3}
+  - {fileID: 186774839648313146, guid: 08ca189f0a53fbe409f7d7cad4c6a178, type: 3}
+  - {fileID: 3285246839070601950, guid: 44e7a73603a6d0142808037d5497417e, type: 3}
+  - {fileID: 2885685882659013387, guid: cc4623b2cb48f464780fd49a1e69b12f, type: 3}
   ToSerialize: []
 --- !u!114 &272776207
 MonoBehaviour:

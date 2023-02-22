@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8230104862045734757}
   - component: {fileID: 7036573565453544063}
   - component: {fileID: 4422492470237527360}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Lamp_G_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   _id: 
   _inEditor: 0
   _removeFromSaveOnDelete: 0
-  PrefabID: -1
+  PrefabID: 7
   _itemName: 
   _icon: {fileID: 21300000, guid: 75e6d7d163fdf43429b124a1657f01ed, type: 3}
   Stackable: 0
