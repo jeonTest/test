@@ -10,6 +10,9 @@ public class DialogueBrushGame : MonoBehaviour
     public GameObject dialogueBox;
     public bool questStarter = true;
 
+    public bool multipleSpeakers = false;
+    public GameObject mainSpeaker;
+
     public string npcName;
     public string[] dialogue;
     public string[] afterQuestDialogue;
@@ -30,6 +33,7 @@ public class DialogueBrushGame : MonoBehaviour
     public GameObject answerButtons;
     public string wrongText = "Leider falsch";
 
+    DialogueBrushGame mainDia;
     Quest quest;
     Answers answerA;
     Answers answerB;
@@ -63,6 +67,10 @@ public class DialogueBrushGame : MonoBehaviour
         {
             quest = GetComponent<Quest>();
         }
+        if(multipleSpeakers == true)
+        {
+            mainDia = mainSpeaker.GetComponent<DialogueBrushGame>();
+        }
         answerA = GameObject.Find("AnswerA").GetComponent<Answers>();
         answerB = GameObject.Find("AnswerB").GetComponent<Answers>();
         answerC = GameObject.Find("AnswerC").GetComponent<Answers>();
@@ -72,7 +80,6 @@ public class DialogueBrushGame : MonoBehaviour
     {
         if (answerA.finished == true || answerB.finished == true || answerC.finished == true)
             rightAnswer = true;
-
     }
 
     public void Update()
@@ -83,7 +90,19 @@ public class DialogueBrushGame : MonoBehaviour
             nextTry = true;
         }
 
-        distanceToPlayer();
+        if (multipleSpeakers == false)
+        {
+            distanceToPlayer();
+        }
+
+        if (multipleSpeakers == true && mainDia.playerNear == true)
+        {
+            playerNear = true;
+        }
+        else if(multipleSpeakers == true && mainDia.playerNear == false)
+            playerNear = false;
+
+
         if (questStarter == true)
         {
             if (quest.questDone == false)

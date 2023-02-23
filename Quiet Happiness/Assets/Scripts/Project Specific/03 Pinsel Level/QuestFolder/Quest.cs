@@ -23,6 +23,7 @@ public class Quest : MonoBehaviour
     private int i;
 
     public GameObject questGameObj;
+    public bool questObjDestroy = false;
 
     //reminder: editor script machen damit es übersichtlicher wird (keine Zeit mehr TT)
     [Header("Colouring")]
@@ -106,6 +107,10 @@ public class Quest : MonoBehaviour
         if (i >= colorNum)
         {
             questDone = true;
+            if (questObjDestroy == true)
+            {
+                questGameObj.SetActive(false);
+            }
         }
     }
 
@@ -122,6 +127,10 @@ public class Quest : MonoBehaviour
         if(objectFound == true)
         {
             questDone = true;
+            if(questObjDestroy == true)
+            {
+                questGameObj.SetActive(false);
+            }
         }
     }
 
@@ -130,6 +139,10 @@ public class Quest : MonoBehaviour
         if (talkingAnswer.rightAnswer == true)
         {
             questDone = true;
+            if (questObjDestroy == true)
+            {
+                questGameObj.SetActive(false);
+            }
         }
     }
 
