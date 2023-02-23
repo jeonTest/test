@@ -12,5 +12,4 @@ public class Laby2Test : MonoBehaviour
         transform.position = Labyrinth2Position;
         transform.rotation = Quaternion.Euler(rotationVector);
     }
-
 }

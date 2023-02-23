@@ -24,7 +24,7 @@ public class Quest : MonoBehaviour
 
     public GameObject questGameObj;
 
-    //reminder: editor script machen damit es übersichtlicher wird
+    //reminder: editor script machen damit es übersichtlicher wird (keine Zeit mehr TT)
     [Header("Colouring")]
     public GameObject[] coloredObj;
 
@@ -107,8 +107,6 @@ public class Quest : MonoBehaviour
         {
             questDone = true;
         }
-        
-
     }
 
     void SearchingQuest()
@@ -140,7 +138,6 @@ public class Quest : MonoBehaviour
         if(dialogueBrush.dialogueNumber == (dialogueBrush.dialogue.Length - 1) && questDone == false)
         {
             questGameObj.SetActive(true);
-            //isActive = true;
         }
     }
 }

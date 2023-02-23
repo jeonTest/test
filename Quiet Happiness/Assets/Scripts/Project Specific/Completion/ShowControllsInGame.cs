@@ -11,7 +11,6 @@ public class ShowControllsInGame : MonoBehaviour
     [SerializeField] private Text _displayText;
     private SettingsManager _manager;
 
-
     void Start()
     {
         _manager = ModuleManager.GetModule<SettingsManager>();

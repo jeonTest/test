@@ -6,14 +6,12 @@ using System;
 [Flags]
 public enum WallState
 {
-    // 0000 -> NO WALLS
-    // 1111 -> LEFT,RIGHT,UP,DOWN
-    LEFT = 1, // 0001
-    RIGHT = 2, // 0010
-    UP = 4, // 0100
-    DOWN = 8, // 1000
+    LEFT = 1,
+    RIGHT = 2,
+    UP = 4,
+    DOWN = 8,
 
-    VISITED = 128, // 1000 0000
+    VISITED = 128,
 }
 
 public struct Position
@@ -45,12 +43,11 @@ public static class MazeGenerator
 
     private static WallState[,] ApplyRecursiveBacktracker(WallState[,] maze, int width, int height)
     {
-        // here we make changes
-        var rng = new System.Random(/*seed*/);
+        var rng = new System.Random();
         var positionStack = new Stack<Position>();
         var position = new Position { X = rng.Next(0, width), Y = rng.Next(0, height) };
 
-        maze[position.X, position.Y] |= WallState.VISITED;  // 1000 1111
+        maze[position.X, position.Y] |= WallState.VISITED;
         positionStack.Push(position);
 
         while (positionStack.Count > 0)
@@ -81,7 +78,7 @@ public static class MazeGenerator
     {
         var list = new List<Neighbour>();
 
-        if (p.X > 0) // left
+        if (p.X > 0)
         {
             if (!maze[p.X - 1, p.Y].HasFlag(WallState.VISITED))
             {
@@ -97,7 +94,7 @@ public static class MazeGenerator
             }
         }
 
-        if (p.Y > 0) // DOWN
+        if (p.Y > 0)
         {
             if (!maze[p.X, p.Y - 1].HasFlag(WallState.VISITED))
             {
@@ -113,7 +110,7 @@ public static class MazeGenerator
             }
         }
 
-        if (p.Y < height - 1) // UP
+        if (p.Y < height - 1)
         {
             if (!maze[p.X, p.Y + 1].HasFlag(WallState.VISITED))
             {
@@ -129,7 +126,7 @@ public static class MazeGenerator
             }
         }
 
-        if (p.X < width - 1) // RIGHT
+        if (p.X < width - 1)
         {
             if (!maze[p.X + 1, p.Y].HasFlag(WallState.VISITED))
             {
@@ -156,7 +153,7 @@ public static class MazeGenerator
         {
             for (int j = 0; j < height; ++j)
             {
-                maze[i, j] = initial;  // 1111
+                maze[i, j] = initial;
             }
         }
         

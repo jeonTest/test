@@ -70,7 +70,4 @@ public class ActiveColor : MonoBehaviour
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
         }
     }
-
-
-
 }

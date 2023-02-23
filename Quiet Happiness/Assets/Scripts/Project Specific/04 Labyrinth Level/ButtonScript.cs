@@ -49,7 +49,6 @@ public class ButtonScript : MonoBehaviour
         matValueOpen = DoorOpen.GetComponent<MatValueOpen>();
         matValueClose = DoorClose.GetComponent<MatValueClose>();
         uiNote.transform.localScale = Vector3.zero;
-
     }
 
     void Start()
@@ -76,7 +75,6 @@ public class ButtonScript : MonoBehaviour
                 anim.SetFloat("Movement",1f);
                 boxCollider01.isTrigger = false;
             }
-
         }
         else if (doorOpen == true)
         {

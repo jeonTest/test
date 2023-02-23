@@ -10,5 +10,4 @@ public class NewColour : MonoBehaviour
     {
          getColourSound.Play();
     }
-
 }

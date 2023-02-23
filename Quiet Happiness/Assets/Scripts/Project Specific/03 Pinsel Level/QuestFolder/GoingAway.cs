@@ -38,6 +38,4 @@ public class GoingAway : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, destination, 1f * Time.deltaTime);
     }
-
-
 }

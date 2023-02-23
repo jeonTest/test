@@ -20,7 +20,7 @@ public class LightOn : MonoBehaviour
     {
         nearPlayer = false;
         lightOn = false;
-}
+    }
 
     private void OnLight()
     {

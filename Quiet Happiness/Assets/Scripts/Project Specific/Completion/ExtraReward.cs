@@ -61,6 +61,4 @@ public class ExtraReward : MonoBehaviour
             IDs.Add(value);
         }
     }
-
-
 }

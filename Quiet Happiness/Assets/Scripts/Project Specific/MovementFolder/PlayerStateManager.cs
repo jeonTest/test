@@ -20,7 +20,6 @@ public partial class PlayerStateManager : MonoBehaviour
             Debug.Log("Nur eine Rotation auswählen!");
         }
     }
-
     
     void Update()
     {
@@ -70,11 +69,6 @@ public partial class PlayerStateManager : MonoBehaviour
                 Vector3 backward = transform.forward * -1;
                 Controller.Move(PlayerSpeed * backward * Time.deltaTime);
             }
-            /*if(MoveVector.x != 0)
-            {
-                Vector3 forward = transform.forward;
-                Controller.Move(PlayerSpeed * forward * Time.deltaTime);
-            }*/
         }
     }
 
@@ -92,25 +86,8 @@ public partial class PlayerStateManager : MonoBehaviour
 
         if (cameraFollowRotation == true)
         {
-            /*float rotation = transform.eulerAngles.y;
-            if (MoveVector.x < 0) // A Rotation ins Negative
-            {
-                rotation -= PlayerRotateSpeed;
-            }
-
-            if (MoveVector.x > 0) // D Rotation ins Positive
-            {
-                rotation += PlayerRotateSpeed;
-            }
-
-            if(MoveVector.x == 0)
-            {
-                rotation = (Camera.main.transform.eulerAngles.y);
-            }*/
             float rotation = Camera.main.transform.eulerAngles.y;
             transform.eulerAngles = new Vector3(transform.eulerAngles.x, rotation, transform.eulerAngles.z);
-
-            //transform.rotation = Quaternion.Euler(0, rotation, 0);
         }
     }
 
@@ -131,6 +108,5 @@ public partial class PlayerStateManager : MonoBehaviour
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
     }
-
     #endregion
 }
